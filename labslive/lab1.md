@@ -46,7 +46,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
  Control hub: [https://admin.webex.com](https://admin.webex.com)
 
-| **Role** | **email id**      | **Extension**                   |
+| **user Role** | **User email**      | **User Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
 | Agent        | AgentpodX_wxcclab\_<your surname or company name\>   | 1000 |
 | Supervisor         | SupervisorpodX_wxcclab\_<your surname or company name\>  | 1001 |
@@ -63,7 +63,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Ensure that the License Type is **_Premium Agent_** and Role is **_Agent_** and click **_Add Users_**
 - In the next page, enter the correct **_Extension_** under **_Assign Numbers_**. You can find this in the information already shared with you.
 - Click **_Finish_**
-- Validate the users by going to www.mailinator.com. Check the email inbox and follow the instructions to validate the email account.
+- Validate the users by going to [www.mailinator.com](www.mailinator.com). Check the email inbox and follow the instructions to validate the email account.
 
 ### 2. Optionally, add the rest of the users
 
@@ -84,14 +84,14 @@ Control hub: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.
 
 | **Role** | **Name**      | 
 | ----------- | ----------------- | 
-| Multimedia Profiles        | MM_Profile_wxcclab_<your surname or company name>   | 
+| Multimedia Profiles        | MM_Profile_wxcclab_\<your surname or company name\>   | 
 | Site         | Site_wxcclab_\<your surname or company name\>  | 
 | Team1         | Team_wxcclab_\<your surname or company name\> | 
 | Team2         | Team2_wxcclab\_<your surname or company name\>  | 
 
 ### 1. Create a new MultiMedia Profile
 
-- Login to Control Hub by accessing https://admin.webex.com
+- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com)
 - Enter the admin email id and the password.
 - Navigate to **_Contact Center_** Card
 - Click on **_Settings_**
@@ -135,7 +135,7 @@ Control hub: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.
 
 ### 1. Synchronize Webex Contact Center Users
 
-- Login to Control Hub by accessing https://admin.webex.com
+- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com)
 - Enter the admin email id and the password.
 - Navigate to **_Contact Center_** Card
 - Click on **_Settings_**
