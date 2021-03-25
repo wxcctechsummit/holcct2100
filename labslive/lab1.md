@@ -44,9 +44,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 **Quick Links**
 
- Control hub: [https://admin.webex.com](https://admin.webex.com)
+- :globe_with_meridians: Control hub: [https://admin.webex.com](https://admin.webex.com)
 
-| **user Role** | **User email**      | **User Extension**                   |
+| **User Role** | **User email**      | **User Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
 | Agent        | AgentpodX_wxcclab\_<your surname or company name\>   | 1000 |
 | Supervisor         | SupervisorpodX_wxcclab\_<your surname or company name\>  | 1001 |
@@ -76,10 +76,10 @@ In this Lab, we will go through the tasks that are required to complete the gene
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c8po-wBO7Iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-**Quick Links**
+:globe_with_meridians: **Quick Links**
 
-Control hub: [https://admin.webex.com](https://admin.webex.com)
-Control hub: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
+:globe_with_meridians: Control hub: [https://admin.webex.com](https://admin.webex.com)
+:globe_with_meridians: Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
 
 
 | **Role** | **Name**      | 
@@ -130,8 +130,8 @@ Control hub: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.
 
 **Quick Links**
 
-Control hub: [https://admin.webex.com](https://admin.webex.com)
-Control hub: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
+- Control hub: [https://admin.webex.com](https://admin.webex.com)
+- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
 
 ### 1. Synchronize Webex Contact Center Users
 
