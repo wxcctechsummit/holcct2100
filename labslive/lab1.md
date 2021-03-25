@@ -9,9 +9,8 @@ In this Lab, we will go through the tasks that are required to complete the gene
 # Table of Contents
 
 - [Part 1: Control Hub User Management Admin Task](#part-3-control-hub-user-management-admin-task)
-  * [1. Add an agent user and configure the calling extension](#2-add-an-agent-user-and-configure-the-calling-extension)
-  * [2. Add a supervisor user and configure the calling extension](#1-add-an-admin-user-and-configure-the-calling-extension)
-  * [3. Optionally, add rest of the users](#4-add-rest-of-the-users)
+  * [1. Add an agent and a supervisor users and configure the calling extension](#2-add-an-agent-user-and-configure-the-calling-extension)
+  * [2. Optionally, add the rest of the users](#4-add-rest-of-the-users)
 - [Part 2: Admin Portal Multimedia Profile, Site and Team Configuration](#part-4-admin-portal-multimedia-profile-site-and-team-configuration)
   * [1. Create a new MultiMedia Profile](#1-create-a-new-multimedia-profile)
   * [2. Create a new Site](#2-create-a-new-site)
