@@ -41,14 +41,15 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_wP9lwZbCE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 **Quick Links**
 
-Control hub: [https://admin.webex.com](https://admin.webex.com)
+ Control hub: [https://admin.webex.com](https://admin.webex.com)
 
 | **Role** | **email id**      | **Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Agent        | AgentpodX_wxcclab_<yourname>   | 1000 |
-| Supervisor         | SupervisorpodX_wxcclab_<yourname>  | 1001 |
+| Agent        | AgentpodX_wxcclab\_<your surname or company name\>   | 1000 |
+| Supervisor         | SupervisorpodX_wxcclab\_<your surname or company name\>  | 1001 |
  
 ### 1. Add an agent and a supervisor users and configure the calling extension
 
@@ -74,19 +75,19 @@ Control hub: [https://admin.webex.com](https://admin.webex.com)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c8po-wBO7Iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 **Quick Links**
 
 Control hub: [https://admin.webex.com](https://admin.webex.com)
-
 Control hub: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
 
 
 | **Role** | **Name**      | 
 | ----------- | ----------------- | 
 | Multimedia Profiles        | MM_Profile_wxcclab_<your surname or company name>   | 
-| Site         | Site_wxcclab_<your surname or company name>  | 
-| Team1         | Team_wxcclab_<your surname or company name> | 
-| Team2         | Team2_wxcclab_<your surname or company name>  | 
+| Site         | Site_wxcclab_\<your surname or company name\>  | 
+| Team1         | Team_wxcclab_\<your surname or company name\> | 
+| Team2         | Team2_wxcclab\_<your surname or company name\>  | 
 
 ### 1. Create a new MultiMedia Profile
 
@@ -126,10 +127,10 @@ Control hub: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MIpJofmfWKc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 **Quick Links**
 
 Control hub: [https://admin.webex.com](https://admin.webex.com)
-
 Control hub: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
 
 ### 1. Synchronize Webex Contact Center Users
