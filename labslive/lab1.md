@@ -76,10 +76,10 @@ In this Lab, we will go through the tasks that are required to complete the gene
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c8po-wBO7Iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-:globe_with_meridians: **Quick Links**
+**Quick Links**
 
-:globe_with_meridians: Control hub: [https://admin.webex.com](https://admin.webex.com)
-:globe_with_meridians: Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
+- :globe_with_meridians: Control hub: [https://admin.webex.com](https://admin.webex.com)
+- :globe_with_meridians: Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
 
 
 | **Role** | **Name**      | 
@@ -130,8 +130,8 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 **Quick Links**
 
-- Control hub: [https://admin.webex.com](https://admin.webex.com)
-- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
+- :globe_with_meridians: Control hub: [https://admin.webex.com](https://admin.webex.com)
+- :globe_with_meridians: Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
 
 ### 1. Synchronize Webex Contact Center Users
 
