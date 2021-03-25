@@ -43,7 +43,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 **Quick Links**
 
-> Control hub: https://admin.webex.com
+Control hub: [https://admin.webex.com](https://admin.webex.com)
 
 | **Role** | **email id**      | **Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
@@ -76,9 +76,10 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 **Quick Links**
 
-> Control hub: https://admin.webex.com
+Control hub: [https://admin.webex.com](https://admin.webex.com)
 
-> Portal: https://portal.wxcc-us1.cisco.com/portal
+Control hub: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
+
 
 | **Role** | **Name**      | 
 | ----------- | ----------------- | 
@@ -127,11 +128,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 **Quick Links**
 
-> Control hub: https://admin.webex.com
+Control hub: [https://admin.webex.com](https://admin.webex.com)
 
-> Portal: https://portal.wxcc-us1.cisco.com/portal
-
-> Desktop: https://desktop.wxcc-us1.cisco.com/
+Control hub: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
 
 ### 1. Synchronize Webex Contact Center Users
 
