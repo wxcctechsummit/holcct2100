@@ -1,5 +1,5 @@
 ---
-title: "Lab 2: Exploring Agent Desktop"
+title: "Lab 2: New Agent Desktop Experience"
 ---
 
 # Custom Desktop Layout
@@ -10,81 +10,90 @@ Video example
 
 # Table of Contents
 
-- [1. Download default desktop Layout](#1-download-default-desktop-layout)
-- [2. Customize default desktop layout with logo and title](#2-customize-default-desktop-layout-with-logo-and-title)
-- [3. Upload the custom desktop layout an verify](#3-upload-the-custom-desktop-layout-an-verify)
-- [4. Assign header widget and nav bar widget](#4-assign-header-widget-and-nav-bar-widget)
-- [5. Upload the modified layout](#5-upload-the-modified-layout)
-- [6. Verify the layout](#6-verify-the-layout)
+- [1. Access to the Agent Desktop](#1-download-default-desktop-layout)
+- [2. Agent Desktop Overview](#2-customize-default-desktop-layout-with-logo-and-title)
+- [3. Configure the User Profile](#3-upload-the-custom-desktop-layout-an-verify)
+- [4. Custom Desktop Layout](#4-assign-header-widget-and-nav-bar-widget)
 
 # Introduction
 
 ## Lab Objective
 
-The object of this lab excercise is to customize the logo and title of the agent desktop and also add widget in the header section and nav bar section.
-## Pre-requisite
+The objective of this lab is to explore the New Agent Desktop, in order to be familiar with the its new structure, learn about recently released features and be able to configure basic options.
 
-1. Administrator/ Supervisor with portal access​.
-2. New user (Agent) is already created​.
-3. Agent is able to login to agent desktop​.
-4. Agent should be part of a team​.
-5. Basic knowledge of JSON format​
-6. Use any online [JSON validator](https://jsonlint.com) to validate the file​
+## Pre-requisites
 
-
-### 1. Download default desktop Layout
-
-  * Login to [WxCC portal](https://portal.cjp.cisco.com/portal/home.html) with admin credentials​
-  * Navigate to Provisioning --> Desktop Layout​
-  * Click on ellipses (...) of Global Layout to edit ​
-  * Now click on edit
-  * Click on download button ​
-  * Download the Default Desktop Layout.json file​
-  * Now cancel out, as you only need to get the JSON file
+For doing this lab, you need first to complete the previous Lab 1: Control Hub and Admin Portal. You labs include the following:
+1. Administrator access to the Tenant Portal
+2. Agent created and configured
+3. Agent is part of 2 Teams
+4. User is assigned to a Webex Calling extension
 
 
-### 2. Customize default desktop layout with logo and title
+### 1. Access to the Agent Desktop
 
- * Open the Default Layout JSON in any text editor e.g. Notepad or Sublime text.​
- * Modify the value of appTitle key to change Agent Desktop title (Refer Pic-1).​
- * Modify the value of logo key as your company logo URL or use this dummy url: https://widget-kad.s3.amazonaws.com/Logos/boscologo5.png
- * “Save As” the JSON file with a distinguishable name.
-
-
-### 3. Upload the custom desktop layout an verify
-
-* Login to [WxCC portal](https://portal.cjp.cisco.com/portal/home.html) with admin credentials​
-* Navigate to Provisioning --> Desktop Layout​
-* Click on New Layout
-* Provide any preferable name and description ​
-* Click on Team textbox to add the team ​
-* Click Upload button to upload the modified JSON file​
-* Click Save button to apply the layout.
-* Login/Reload [WxCC agent desktop](https://desktop.wxcc-us1.cisco.com) to verify the layout 
+1. Navigate to https://desktop.wxcc-us1.cisco.com/ in a new browser tab
+2. Enter the agent’s Username which you created in the previous lab.
+3. Enter the Password for the appropriate Username
+4. In the Station Login pane, select extension and input the configured number for that user. 
+			Note: Please use only Extension for this lab
+5. Select the team1, with default layout. 
+6. Click Submit
+			
+If you are successfully logged in the Agent Desktop you have completed this section and you can continue with the next part!
 
 
-### 4. Assign header widget and nav bar widget
+
+### 2. Agent Desktop Overview
+
+ * The Agent Desktop is divided in 6 sections: Task List, Horizontal Header, Interaction Control, Auxiliary Information, Agent Interaction History and Navigation bar. In Image 1 you can see a general view of the Agent Desktop and where each section is located.
+
+* Watch the following video, where each of the sections and their main options are explained. You will get a better idea of how the Agent Desktop look like and how to use it.
+
+[VIDEO]
+
+* Then, try to spend little time to play and explore the Agent Desktop.
+
+* Finally, in order to make sure that you understand the main idea we ask you to complete the following tasks:
+		 - Verify that Agent can see reports
+   - Display the help guide
+
+
+ 
+
+
+### 3. Configure the User Profile
+
+		ii. Change Notifications setting and volume
+		○ Scroll down to User Settings
+		○ Click on Notification Settings
+		○ Toggle any of the 3 options to enable or disable different notifications
+		○ Move the Sound Volume
+		○ You'll test this in the next lab.
+		○ Check this when you receive a notification
+		
+		iii. Switch to Dark Mode
+		○ Go again under User Settings
+		○ Toggle the Switch to Dark Mode button to enable or disable it
+		
+		iv. See the list of the keyboard shortcuts
+		○ Scroll down to Help
+		○ Click on Keyboard Shortcuts or press Ctrl+Alt+F
+		○ See the list of the keyboard shortcuts
+		○ Find the combination to make the Agent status 'Available'
+		
+		V. Download Error Report
+		○ Scroll down to Help
+		○ Click on Keyboard Shortcuts or press Ctrl+Shift+2
+  ○ Find the error reports in your machine
+
+
+### 4. Custom Desktop Layout
 * Open the layout JSON file in any text editor e.g. 
 * Notepad or Sublime text.(be careful copying from PowerPoint  might add unwanted spaces/characters... causing the JSON to * * fail on load) use an online [JSON formatter](https://jsonformatter.org/) to clean up if need be.​
 * Modify the header section as mentioned in video
 * Modify the navigation section as mentioned below​
 * “Save As” the JSON file with a unique preferable nam
-
-### 5. Upload the modified layout
-
-* Login to [WxCC portal](https://portal.cjp.cisco.com/portal/home.html) with admin credentials​
-* Navigate to Provisioning --> Desktop Layout​
-* Search for your layout ​
-* Click on ... to edit the existing layout​
-* Now click on edit
-* Click Upload button to upload the modified JSON file​
-* Finally click Save button to apply the layout.
-
-### 6. Verify the layout 
-
-* Login/Reload [WxCC agent desktop](https://desktop.wxcc-us1.cisco.com) to verify the layout 
-
-
 
 Changelog:
 
