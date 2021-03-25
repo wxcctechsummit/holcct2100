@@ -44,7 +44,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 **Quick Links**
 
-- :globe_with_meridians: Control hub: [https://admin.webex.com](https://admin.webex.com)
+- Control hub: [https://admin.webex.com](https://admin.webex.com)
 
 | **User Role** | **User email**      | **User Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
@@ -53,9 +53,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
  
 ### 1. Add an agent and a supervisor users and configure the calling extension
 
-- Navigate to **_Users_**
-- Click on **_Manage Users_** button
-- Click on **_Manually Add or Modify User_**
+- [x] Navigate to **_Users_**
+- [x] Click on **_Manage Users_** button
+- [ ] Click on **_Manually Add or Modify User_**
 - Select **_Next_** in **_Manage Users_** pane.
 - Input the **_EmailID_** of the agent and supervisor users and click **_Next_**
 - Verify that the **EmailID** is same as the one shared to you and click **_Next_**
@@ -78,8 +78,8 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 **Quick Links**
 
-- :globe_with_meridians: Control hub: [https://admin.webex.com](https://admin.webex.com)
-- :globe_with_meridians: Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
+- Control hub: [https://admin.webex.com](https://admin.webex.com)
+- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
 
 
 | **Role** | **Name**      | 
@@ -130,8 +130,8 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 **Quick Links**
 
-- :globe_with_meridians: Control hub: [https://admin.webex.com](https://admin.webex.com)
-- :globe_with_meridians: Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
+- Control hub: [https://admin.webex.com](https://admin.webex.com)
+- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
 
 ### 1. Synchronize Webex Contact Center Users
 
