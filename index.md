@@ -20,8 +20,8 @@ Labs will be added prior to the last presentation each day. The schedule is belo
 
 | Time | Session | Corresponding Lab |
 | ---- | ------- | ----------------- |
-| 9:00 | Control Hub and Tenant Portal configuration |  [Lab 1: Control Hub and Tenant Portal configuration](labslive/lab1) |
-| 10:00 | Exploring the Agent Desktop | [Lab 2: Exploring the Agent Desktop](labslive/lab2) |
+| 9:00 | Control Hub and Tenant Portal configuration |  [Lab 1: Control Hub and Tenant Portal configuration](labslive/lab1.md) |
+| 10:00 | Exploring the Agent Desktop | [Lab 2: Exploring the Agent Desktop](labslive/lab2.md) |
 | 10:30 | IVR configuration and placing a call |  N/A |
 | 11:30 | Email and Chat | N/A |
 | 12:30 | Supervisor |  N/A |
