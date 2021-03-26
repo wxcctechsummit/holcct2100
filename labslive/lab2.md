@@ -1,8 +1,4 @@
----
-title: "Lab 2: New Agent Desktop Experience"
----
-
-# Custom Desktop Layout
+# Lab 2: New Agent Desktop Experience
 
 Video example
 
@@ -10,93 +6,94 @@ Video example
 
 # Table of Contents
 
-- [1. Access to the Agent Desktop](#1-download-default-desktop-layout)
+- [1. Access to the Agent Desktop](#1. Access to the Agent Desktop)
 - [2. Agent Desktop Overview](#2-customize-default-desktop-layout-with-logo-and-title)
 - [3. Configure the User Profile](#3-upload-the-custom-desktop-layout-an-verify)
 - [4. Custom Desktop Layout](#4-assign-header-widget-and-nav-bar-widget)
 
-# Introduction
 
-## Lab Objective
+# Lab Objective
 
 The objective of this lab is to explore the New Agent Desktop, in order to be familiar with the its new structure, learn about recently released features and be able to configure basic options.
 
-## Pre-requisites
+# Pre-requisites
 
-For doing this lab, you need first to complete the previous Lab 1: Control Hub and Admin Portal. You labs include the following:
-1. Administrator access to the Tenant Portal
-2. Agent created and configured
-3. Agent is part of 2 Teams
-4. User is assigned to a Webex Calling extension
+For doing this lab, you need first to complete the previous Lab 1: Control Hub and Admin Portal, so you need to have already done:
+* Administrator access to the Tenant Portal
+* Agent created and configured
+* Agent is part of 2 Teams
+* User is assigned to a Webex Calling extension
 
 
-### 1. Access to the Agent Desktop
+# 1. Access to the Agent Desktop
 
-1. Navigate to https://desktop.wxcc-us1.cisco.com/ in a new browser tab
-2. Enter the agent’s Username which you created in the previous lab.
-3. Enter the Password for the appropriate Username
-4. In the Station Login pane, select extension and input the configured number for that user. 
-			Note: Please use only Extension for this lab
-5. Select the team1, with default layout. 
-6. Click Submit
+1. Navigate to **https://desktop.wxcc-us1.cisco.com/** in a new browser tab
+2. Enter the agent’s **Username** which you created in the previous lab.
+3. Enter the **Password** for the appropriate Username
+4. In the Station Login pane, select **"Extension"** and input the configured number for that user. 
+**Note** Please use only Extension for this lab
+6. Select the *Team_wxcclab_<**your name or company name>**, with default layout. 
+7. Click **Submit**
 			
 If you are successfully logged in the Agent Desktop you have completed this section and you can continue with the next part!
 
 
 
-### 2. Agent Desktop Overview
+# 2. Agent Desktop Overview
 
- * The Agent Desktop is divided in 6 sections: Task List, Horizontal Header, Interaction Control, Auxiliary Information, Agent Interaction History and Navigation bar. In Image 1 you can see a general view of the Agent Desktop and where each section is located.
+* The Agent Desktop is divided in 6 sections: **Task List, Horizontal Header, Interaction Control, Auxiliary Information, Agent Interaction History and Navigation bar**. In *Image 1* you can see a general view of the Agent Desktop and where each section is located.
 
-* Watch the following video, where each of the sections and their main options are explained. You will get a better idea of how the Agent Desktop look like and how to use it.
+
+
+
+* **Watch the following video**, where each of the sections and their main options are explained. You will get a better idea of how the Agent Desktop look like and how to use it.
 
 [VIDEO]
 
-* Then, try to spend little time to play and explore the Agent Desktop.
 
-* Finally, in order to make sure that you understand the main idea we ask you to complete the following tasks:
-		 - Verify that Agent can see reports
-   - Display the help guide
+* Then, try to spend little time to **play and explore the Agent Desktop**.
+
+
+* Finally, in order to make sure that you have understood the basic concepts, we ask you to **complete the following tasks**:
+   **- Verify that Agent can see reports**
+   **- Download the Agent Dekstop User Guide**
 
 
  
 
 
-### 3. Configure the User Profile
+# 3. Configure the User Profile
 
-		ii. Change Notifications setting and volume
-		○ Scroll down to User Settings
-		○ Click on Notification Settings
-		○ Toggle any of the 3 options to enable or disable different notifications
-		○ Move the Sound Volume
-		○ You'll test this in the next lab.
-		○ Check this when you receive a notification
+## 3.1 Change Notifications setting and volume
+1. Scroll down to User Settings
+2. Click on Notification Settings
+3. Toggle any of the 3 options to enable or disable different notifications
+4. Move the Sound Volume
+5. You'll test this in the next lab.
+6. Check this when you receive a notification
 		
-		iii. Switch to Dark Mode
-		○ Go again under User Settings
-		○ Toggle the Switch to Dark Mode button to enable or disable it
+## 3.2 Switch to Dark Mode
+1. Go again under User Settings
+2. Toggle the Switch to Dark Mode button to enable or disable it
 		
-		iv. See the list of the keyboard shortcuts
-		○ Scroll down to Help
-		○ Click on Keyboard Shortcuts or press Ctrl+Alt+F
-		○ See the list of the keyboard shortcuts
-		○ Find the combination to make the Agent status 'Available'
+## 3.3 See the list of the keyboard shortcuts
+1. Scroll down to Help
+2. Click on Keyboard Shortcuts or press Ctrl+Alt+F
+3. See the list of the keyboard shortcuts
+4. Find the combination to make the Agent status 'Available'
 		
-		V. Download Error Report
-		○ Scroll down to Help
-		○ Click on Keyboard Shortcuts or press Ctrl+Shift+2
-  ○ Find the error reports in your machine
+## 3.4 Download Error Report
+1. Scroll down to Help
+2. Click on Keyboard Shortcuts or press Ctrl+Shift+2
+3. Find the error reports in your machine
 
 
-### 4. Custom Desktop Layout
+
+# 4. Custom Desktop Layout
 * Open the layout JSON file in any text editor e.g. 
 * Notepad or Sublime text.(be careful copying from PowerPoint  might add unwanted spaces/characters... causing the JSON to * * fail on load) use an online [JSON formatter](https://jsonformatter.org/) to clean up if need be.​
 * Modify the header section as mentioned in video
 * Modify the navigation section as mentioned below​
 * “Save As” the JSON file with a unique preferable nam
 
-Changelog:
 
-| **Version** | **Comments** | **Author(s)** | **Date** |
-| --- | --- | --- | --- |
-| 1.0 | Initial Release | Sameer Yadav (sameyada) | 08 Jan 2021 |
