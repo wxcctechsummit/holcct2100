@@ -157,7 +157,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Select **_MM_Profile_wxcclab_pod\<ID\>_** in the **_Multimedia Profile_** drop down and hit **_Save_**
 - Repeat the same for **_all other users_** by selecting the appropriate profile in the **_User Profile_** drop down
 
-Now you are ready to start the next [Lab 2: Exploring the Agent Desktop](labslive/lab2.md)
+Now you are ready to start the next [Lab 2: Exploring the Agent Desktop](lab2.md)
 
 Changelog:
 
