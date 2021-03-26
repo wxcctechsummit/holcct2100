@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/wxcclogo.png">
+  <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
 </p>
 
 If you reached this page please contact your Lab proctor for the right URL to begin your lab or access the [Lab guide Library](LabLibrary)
@@ -8,7 +8,7 @@ If you reached this page please contact your Lab proctor for the right URL to be
 title: "Lab Guide Library"
 ---
 
-![Banner](images/wxccbanner.jpg)
+(images/wxccbanner.jpg)
 
 Welcome to the Lab Guide Library for the 2021 Cisco Live! "Uplift aka Basics" lab. 
 
