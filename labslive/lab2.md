@@ -14,11 +14,11 @@ Video example
 
 # Lab Objective
 
-The objective of this lab is to explore the New Agent Desktop, in order to be familiar with the its new structure, learn about recently released features and be able to configure basic options.
+The objective of this lab is to **explore the New Agent Desktop**, in order to be familiar with the its new structure, learn about recently released features and be able to configure basic options.
 
 # Pre-requisites
 
-For doing this lab, you need first to complete the previous Lab 1: Control Hub and Admin Portal, so you need to have already done:
+For doing this lab, you need first to **complete the previous Lab 1: Control Hub and Admin Portal**, so you need to have already done:
 * Administrator access to the Tenant Portal
 * Agent created and configured
 * Agent is part of 2 Teams
@@ -33,7 +33,7 @@ For doing this lab, you need first to complete the previous Lab 1: Control Hub a
 4. In the Station Login pane, select **"Extension"** and input the configured number for that user. 
 **Note** Please use only Extension for this lab
 6. Select the *Team_wxcclab_<**your name or company name>**, with default layout. 
-7. Click **Submit**
+7. Click **_Submit_**
 			
 If you are successfully logged in the Agent Desktop you have completed this section and you can continue with the next part!
 
@@ -65,35 +65,63 @@ If you are successfully logged in the Agent Desktop you have completed this sect
 # 3. Configure the User Profile
 
 ## 3.1 Change Notifications setting and volume
-1. Scroll down to User Settings
-2. Click on Notification Settings
-3. Toggle any of the 3 options to enable or disable different notifications
-4. Move the Sound Volume
+1. Scroll down to **_User Settings_**
+2. Click on **_Notification Settings_**
+3. **Toggle** any of the 3 options to **enable or disable** different notifications
+4. Move the **Sound Volume** toggle bar
 5. You'll test this in the next lab.
 6. Check this when you receive a notification
 		
 ## 3.2 Switch to Dark Mode
-1. Go again under User Settings
-2. Toggle the Switch to Dark Mode button to enable or disable it
+1. Go again under **_User Settings_**
+2. Toggle the **_Switch to Dark Mode_** button to enable or disable it
 		
 ## 3.3 See the list of the keyboard shortcuts
-1. Scroll down to Help
-2. Click on Keyboard Shortcuts or press Ctrl+Alt+F
+1. Scroll down to **_Help_**
+2. Click on **_Keyboard Shortcuts_** or press **Ctrl+Alt+F**
 3. See the list of the keyboard shortcuts
-4. Find the combination to make the Agent status 'Available'
+4. Find the combination to make the Agent status **_'Available'_**
 		
 ## 3.4 Download Error Report
-1. Scroll down to Help
-2. Click on Keyboard Shortcuts or press Ctrl+Shift+2
-3. Find the error reports in your machine
+1. Scroll down to **_Help_**
+2. Click on **_Keyboard Shortcuts_** or press **Ctrl+Shift+2**
+3. Find the downloaded **error reports** file in your machine
 
 
 
 # 4. Custom Desktop Layout
-* Open the layout JSON file in any text editor e.g. 
-* Notepad or Sublime text.(be careful copying from PowerPoint  might add unwanted spaces/characters... causing the JSON to * * fail on load) use an online [JSON formatter](https://jsonformatter.org/) to clean up if need be.​
-* Modify the header section as mentioned in video
-* Modify the navigation section as mentioned below​
-* “Save As” the JSON file with a unique preferable nam
+
+## 4.1 Download default desktop Layout
+1. Login to https://portal.wxcc-us1.cisco.com/ with admin credentials​
+2. Navigate to Provisioning –> Desktop Layout​
+3. Click on ellipses (…) of Global Layout to edit ​
+4. Now click on edit
+5. Click on download button to download the Default Desktop Layout.json file
+
+## 4.2 Customize default desktop layout with logo and title
+1. Open the Default Layout JSON in any text editor (e.g. Notepad or Sublime text)​
+2. Modify the appTitle key value with your company name in order to change Agent Desktop tittle
+3. Modify the logo key value with your company logo URL or use this CiscoLive logo url: https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg
+4. Save As” the JSON file with a distinguishable name
+
+
+## 4.3 Upload the custom desktop layout 
+1. Go again to Desktop Layout module in Tenant Portal
+2. Click on 'New Layout'
+3. Provide any preferable name and description 
+4. Click on Team textbox the already configured Team2_wxcclab alternative Team		
+5. Click Upload button to upload the modified JSON file​		
+6. Click Save button to apply the layout.
+
+
+## 4.4 Change the agent team and verify the customized desktop layout
+1. Go to the Teams module, modify your team and put the new Desktop Layout
+2. Again in the Agent Desktop, open the User Profile and click on the arrow '>' to change the team of the agent
+3. Save Team Selection
+
+
+## 4.5 Restore Default Desktop Layout
+1. Click on Restore Default Layout
+
 
 
