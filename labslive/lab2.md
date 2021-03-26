@@ -6,10 +6,10 @@ Video example
 
 # Table of Contents
 
-- [1. Access to the Agent Desktop](#1. Access to the Agent Desktop)
-- [2. Agent Desktop Overview](#2-customize-default-desktop-layout-with-logo-and-title)
-- [3. Configure the User Profile](#3-upload-the-custom-desktop-layout-an-verify)
-- [4. Custom Desktop Layout](#4-assign-header-widget-and-nav-bar-widget)
+- [1. Access to the Agent Desktop](#1-access-to-the-agent-desktop)
+- [2. Agent Desktop Overview](#2-agent-desktop-overview)
+- [3. Configure the User Profile](#3-configure-the-user-profile)
+- [4. Custom Desktop Layout](#4-custom-desktop-layout)
 
 
 # Lab Objective
