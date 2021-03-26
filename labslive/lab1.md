@@ -86,7 +86,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 | **Role** | **Name**      | 
 | ----------- | ----------------- | 
-| Multimedia Profiles        | MM_Profile_wxcclab_\<ID\>   | 
+| Multimedia Profiles        | MM_Profile_wxcclab_pod\<ID\>   | 
 | Site         | Site_wxcclab_pod\<ID\>  | 
 | Team1         | Team_wxcclab_pod\<ID\> | 
 | Team2         | Team2_wxcclab_pod\<ID\>  | 
@@ -102,26 +102,26 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Ensure that browser pop up blockers are not blocking the **_Admin Portal_** pop up.
 - Click on **_Provisioning_** and select **_Multimedia Profiles_**
 - Click on **_+ New Multimedia Profile_** to open Multimedia Profile configuration page.
-- Input Name as **_MM_Profile_wxcclab_\<ID\>_** and input **_1_** for **_Voice_**, **_3_** for **_Email_** and **_3_** for **_Chat_** and click **_Save_**
+- Input Name as **_MM_Profile_wxcclab_pod\<ID\>_** and input **_1_** for **_Voice_**, **_3_** for **_Email_** and **_3_** for **_Chat_** and click **_Save_**
 
 ### 2. Create a new Site
 
 - Navigate to **_Provisioning_** and select **_Site_**
-- Click on **_+ New Site_** button and provide the Name as **_Site_wxcclab_\<ID\>_**
-- Select **_MM_Profile_wxcclab_\<ID\>_** in the **_Multimedia Profile_** drop down and hit **_Save_**
+- Click on **_+ New Site_** button and provide the Name as **_Site_wxcclab_pod\<ID\>_**
+- Select **_MM_Profile_wxcclab_pod\<ID\> _** in the **_Multimedia Profile_** drop down and hit **_Save_**
 
 ### 3. Create a new Team 1 
 
 - Navigate to **_Provisioning_** and select **_Team_**
 - Click on **_+ New Team_**
-- Select **_Site_wxcclab_\<ID\>_** from the Site drop down
-- Input Name as **_Team1_wxcclab_\<ID\>_**
-- Select **_MM_Profile_wxcclab_\<ID\>_** in the **_Multimedia Profile_** drop down
+- Select **_Site_wxcclab_pod\<ID\>_** from the Site drop down
+- Input Name as **_Team1_wxcclab_pod\<ID\>_**
+- Select **_MM_Profile_wxcclab_pod\<ID\>_** in the **_Multimedia Profile_** drop down
 - Select **_Global Layout_** in the **_Desktop Layout_** drop down and hit **_Save_**
 
 ### 4. Create a new Team 2
 
-- Please follow the same steps as above to add an extra Team as **_Team2_wxcclab_\<ID\>_**. Later we will use this team to assign a custom Desktop Layout.
+- Please follow the same steps as above to add an extra Team as **_Team2_wxcclab_pod\<ID\>_**. Later we will use this team to assign a custom Desktop Layout.
 
 ## Part 3: Admin Portal User Configuration
 
@@ -152,9 +152,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Click on **_..._** for the first user, to launch the **_Edit_** view for a particular User configuration
 - Ensure that **_Administrator Profile_** is selected in the **_User Profile_** drop down.
 - Click on **_Contact Center Enabled_** Toggle to move it to **_On_**
-- In the **_Agent Settings_** section, select **_Site_wxcclab_\<ID\>_** in the Site drop down
-- Click in the **_Teams_** area and select **_Team1_wxcclab_\<ID\>_** and **_Team2_wxcclab_\<ID\>_**
-- Select **_MM_Profile_wxcclab_\<ID\>_** in the **_Multimedia Profile_** drop down and hit **_Save_**
+- In the **_Agent Settings_** section, select **_Site_wxcclab_pod\<ID\>_** in the Site drop down
+- Click in the **_Teams_** area and select **_Team1_wxcclab_pod\<ID\>_** and **_Team2_wxcclab_pod\<ID\>_**
+- Select **_MM_Profile_wxcclab_pod\<ID\>_** in the **_Multimedia Profile_** drop down and hit **_Save_**
 - Repeat the same for **_all other users_** by selecting the appropriate profile in the **_User Profile_** drop down
 
 Now you are ready to start the next [Lab 2: Exploring the Agent Desktop](labslive/lab2.md)
