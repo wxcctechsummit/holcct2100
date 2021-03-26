@@ -75,7 +75,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 >The following video outlines how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to each different Contact Center Users. We will also see how to navigate to Admin Portal from Control Hub UI
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c8po-wBO7Iw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Bdt7WV8DCg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 **Quick Links**
@@ -88,7 +88,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 | ----------- | ----------------- | 
 | Multimedia Profiles        | MM_Profile_wxcclab_pod\<ID\>   | 
 | Site         | Site_wxcclab_pod\<ID\>  | 
-| Team1         | Team_wxcclab_pod\<ID\> | 
+| Team1         | Team1_wxcclab_pod\<ID\> | 
 | Team2         | Team2_wxcclab_pod\<ID\>  | 
 
 ### 1. Create a new MultiMedia Profile
