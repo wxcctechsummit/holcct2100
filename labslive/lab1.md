@@ -38,9 +38,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ## Part 1: Control Hub User Management Admin Task
 
->The following video outlines the process to manage different types of users to the Customer tenant. Following the steps, you will add a new agent's user and set the extension. While adding the user, we will see how to select user roles. Also, we will see how to change the user to an administrator for the customer tenant.
+>The following video outlines the process to manage different types of users to the Customer tenant. Following the steps, you will add new users and set the extension. While adding the user, we will see how to select user roles. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-_wP9lwZbCE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/LRadvKFIPjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 **Quick Links**
