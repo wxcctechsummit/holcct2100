@@ -49,8 +49,8 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 | **User Role** | **User email**      | **User Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Agent        | AgentpodX_wxcclab\_<your surname or company name\>   | 1000 |
-| Supervisor         | SupervisorpodX_wxcclab\_<your surname or company name\>  | 1001 |
+| Agent        | Agent_wxcclab_pod\<ID\>   | 1000 |
+| Supervisor         | Supervisor_wxcclab_pod\<ID\>  | 1001 |
  
 ### 1. Add an agent and a supervisor users and configure the calling extension
 
@@ -61,10 +61,11 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Input the **_EmailID_** of the agent and supervisor users and click **_Next_**
 - Verify that the **EmailID** is same as the one shared to you and click **_Next_**
 - Check **_Webex Teams_** , **_Webex Calling (Enterprise)_** & **_Contact Center_**
-- Ensure that the License Type is **_Premium Agent_** and Role is **_Agent_** and click **_Add Users_**
+- Ensure that the License Type is **_Premium Agent_** and Role is **_Agent_** and click **_Add Users_**. 
 - In the next page, enter the correct **_Extension_** under **_Assign Numbers_**. You can find this in the information already shared with you.
 - Click **_Finish_**
-- Validate the users by going to [www.mailinator.com](www.mailinator.com). Check the email inbox and follow the instructions to validate the email account.
+- Select the supervisor user and modify his role to **_Supervisor_** by clicking on **_Edit_** button.
+- Validate the users by going to [www.mailinator.com](www.mailinator.com). Check the emails inbox and follow the email instructions to activate the user account.
 
 ### 2. Optionally, add the rest of the users
 
@@ -85,10 +86,10 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 | **Role** | **Name**      | 
 | ----------- | ----------------- | 
-| Multimedia Profiles        | MM_Profile_wxcclab_\<your surname or company name\>   | 
-| Site         | Site_wxcclab_\<your surname or company name\>  | 
-| Team1         | Team_wxcclab_\<your surname or company name\> | 
-| Team2         | Team2_wxcclab\_<your surname or company name\>  | 
+| Multimedia Profiles        | MM_Profile_wxcclab_\<ID\>   | 
+| Site         | Site_wxcclab_pod\<ID\>  | 
+| Team1         | Team_wxcclab_pod\<ID\> | 
+| Team2         | Team2_wxcclab_pod\<ID\>  | 
 
 ### 1. Create a new MultiMedia Profile
 
@@ -101,26 +102,26 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Ensure that browser pop up blockers are not blocking the **_Admin Portal_** pop up.
 - Click on **_Provisioning_** and select **_Multimedia Profiles_**
 - Click on **_+ New Multimedia Profile_** to open Multimedia Profile configuration page.
-- Input Name as **_MM_Profile_wxcclab_XXXXX_** and input **_1_** for **_Voice_**, **_3_** for **_Email_** and **_3_** for **_Chat_** and click **_Save_**
+- Input Name as **_MM_Profile_wxcclab_\<ID\>_** and input **_1_** for **_Voice_**, **_3_** for **_Email_** and **_3_** for **_Chat_** and click **_Save_**
 
 ### 2. Create a new Site
 
 - Navigate to **_Provisioning_** and select **_Site_**
-- Click on **_+ New Site_** button and provide the Name as **_Site_wxcclab_XXXXX_**
-- Select **_MM_Profile_wxcclab_XXXXX_** in the **_Multimedia Profile_** drop down and hit **_Save_**
+- Click on **_+ New Site_** button and provide the Name as **_Site_wxcclab_\<ID\>_**
+- Select **_MM_Profile_wxcclab_\<ID\>_** in the **_Multimedia Profile_** drop down and hit **_Save_**
 
 ### 3. Create a new Team 1 
 
 - Navigate to **_Provisioning_** and select **_Team_**
 - Click on **_+ New Team_**
-- Select **_Site_wxcclab_XXXXX_** from the Site drop down
-- Input Name as **_Team1_wxcclab_XXXXX_**
-- Select **_MM_Profile_wxcclab_XXXXX_** in the **_Multimedia Profile_** drop down
+- Select **_Site_wxcclab_\<ID\>_** from the Site drop down
+- Input Name as **_Team1_wxcclab_\<ID\>_**
+- Select **_MM_Profile_wxcclab_\<ID\>_** in the **_Multimedia Profile_** drop down
 - Select **_Global Layout_** in the **_Desktop Layout_** drop down and hit **_Save_**
 
 ### 4. Create a new Team 2
 
-- Please follow the same steps as above to add an extra Team as **_Team2_wxcclab_XXXXX_**
+- Please follow the same steps as above to add an extra Team as **_Team2_wxcclab_\<ID\>_**. Later we will use this team to assign a custom Desktop Layout.
 
 ## Part 3: Admin Portal User Configuration
 
@@ -151,9 +152,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Click on **_..._** for the first user, to launch the **_Edit_** view for a particular User configuration
 - Ensure that **_Administrator Profile_** is selected in the **_User Profile_** drop down.
 - Click on **_Contact Center Enabled_** Toggle to move it to **_On_**
-- In the **_Agent Settings_** section, select **_Site_wxcclab_XXXXX_** in the Site drop down
-- Click in the **_Teams_** area and select **_Team1_wxcclab_XXXXX_** and **_Team2_wxcclab_XXXXX_**
-- Select **_MM_Profile_wxcclab_XXXXX_** in the **_Multimedia Profile_** drop down and hit **_Save_**
+- In the **_Agent Settings_** section, select **_Site_wxcclab_\<ID\>_** in the Site drop down
+- Click in the **_Teams_** area and select **_Team1_wxcclab_\<ID\>_** and **_Team2_wxcclab_\<ID\>_**
+- Select **_MM_Profile_wxcclab_\<ID\>_** in the **_Multimedia Profile_** drop down and hit **_Save_**
 - Repeat the same for **_all other users_** by selecting the appropriate profile in the **_User Profile_** drop down
 
 Now you are ready to start the next [Lab 2: Exploring the Agent Desktop](labslive/lab2.md)
@@ -163,4 +164,4 @@ Changelog:
 | **Version** | **Comments**      | **Author(s)**                    | **Date**    |
 | ----------- | ----------------- | -------------------------------- | ----------- |
 | 1.0         | Initial Release   | Raghu Krishnan (rakrish2) | 08 Jan 2021 |
-| 1.1         | Minor Update   | Dmitry Bokatov (dbokatov) | 25 March 2021 |
+| 1.1         | Minor Update   | Dmitry Bokatov (dbokatov) | 26 March 2021 |
