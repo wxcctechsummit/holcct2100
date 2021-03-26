@@ -2,7 +2,7 @@
 
 Video example
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KZgUvCKh284" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="../videos/Lab2_Section1.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Table of Contents
 
