@@ -4,6 +4,10 @@ Video example
 
 <iframe width="560" height="315" src="/videos/Lab2_Section1.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
+![Image of Yaktocat](Lab2_Section1.html) 
+
 # Table of Contents
 
 - [1. Access to the Agent Desktop](#1-access-to-the-agent-desktop)
@@ -44,7 +48,7 @@ If you are successfully logged in the Agent Desktop you have completed this sect
 * The Agent Desktop is divided in 6 sections: **Task List, Horizontal Header, Interaction Control, Auxiliary Information, Agent Interaction History and Navigation bar**. In *Image 1* you can see a general view of the Agent Desktop and where each section is located.
 
 
-![Image of Yaktocat](CiscoLiveLogo.jpg)
+![Image of Yaktocat](AgentDesktopOverview.png)
 Image 1
 
 
