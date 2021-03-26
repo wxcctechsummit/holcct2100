@@ -2,11 +2,8 @@
 
 Video example
 
-<iframe width="560" height="315" src="/videos/Lab2_Section1.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="Lab2_Section1.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
-![Image of Yaktocat](Lab2_Section1.html) 
 
 # Table of Contents
 
