@@ -27,7 +27,7 @@ For doing this lab, you need first to **complete the previous Lab 1: Control Hub
 
 # 1. Access to the Agent Desktop
 
-1. Navigate to **https://desktop.wxcc-us1.cisco.com/** in a new browser tab
+1. Navigate to **[https://desktop.wxcc-us1.cisco.com/]**(https://desktop.wxcc-us1.cisco.com/) in a new browser tab
 2. Enter the agent’s **Username** which you created in the previous lab.
 3. Enter the **Password** for the appropriate Username
 4. In the Station Login pane, select **"Extension"** and input the configured number for that user. 
@@ -55,8 +55,8 @@ If you are successfully logged in the Agent Desktop you have completed this sect
 
 
 * Finally, in order to make sure that you have understood the basic concepts, we ask you to **complete the following tasks**:
-   **- Verify that Agent can see reports**
-   **- Download the Agent Dekstop User Guide**
+   - **Verify that Agent can see reports**
+   - **Download the Agent Dekstop User Guide**
 
 
  
@@ -79,8 +79,8 @@ If you are successfully logged in the Agent Desktop you have completed this sect
 ## 3.3 See the list of the keyboard shortcuts
 1. Scroll down to **_Help_**
 2. Click on **_Keyboard Shortcuts_** or press **Ctrl+Alt+F**
-3. See the list of the keyboard shortcuts
-4. Find the combination to make the Agent status **_'Available'_**
+3. **See the list** of the keyboard shortcuts
+4. Find and test the combination to make the Agent status **_'Available'_**
 		
 ## 3.4 Download Error Report
 1. Scroll down to **_Help_**
@@ -92,36 +92,43 @@ If you are successfully logged in the Agent Desktop you have completed this sect
 # 4. Custom Desktop Layout
 
 ## 4.1 Download default desktop Layout
-1. Login to https://portal.wxcc-us1.cisco.com/ with admin credentials​
-2. Navigate to Provisioning –> Desktop Layout​
-3. Click on ellipses (…) of Global Layout to edit ​
-4. Now click on edit
-5. Click on download button to download the Default Desktop Layout.json file
+1. Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com)** with admin credentials​
+2. Navigate to **_Provisioning_ –> _Desktop Layout_**​
+3. Click on ellipses **(…)** of Global Layout and select **_Edit_** ​
+4. Click on **_Download_** button to download the **Default Desktop Layout.json** file
 
 ## 4.2 Customize default desktop layout with logo and title
-1. Open the Default Layout JSON in any text editor (e.g. Notepad or Sublime text)​
-2. Modify the appTitle key value with your company name in order to change Agent Desktop tittle
-3. Modify the logo key value with your company logo URL or use this CiscoLive logo url: https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg
-4. Save As” the JSON file with a distinguishable name
-
+1. Open the **Default Desktop Layout.json** file with any text editor (e.g. Notepad or Sublime text)​
+2. Modify the **_appTitle_** key value with your company name in order to change Agent Desktop tittle
+3. Modify the **_logo_** key value with your company logo URL or use this CiscoLive logo url: **https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg**
+4. **_Save As_** the JSON file with a distinguishable name
 
 ## 4.3 Upload the custom desktop layout 
-1. Go again to Desktop Layout module in Tenant Portal
-2. Click on 'New Layout'
-3. Provide any preferable name and description 
-4. Click on Team textbox the already configured Team2_wxcclab alternative Team		
-5. Click Upload button to upload the modified JSON file​		
-6. Click Save button to apply the layout.
+1. Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com)**
+2. Click on **_New Layout_**
+3. Provide any preferable **name and description** 
+4. Select *Team2_wxcclab_<**your name or company name>** as Team		
+5. Click **_Upload_** button to upload the modified JSON file​		
+6. Click **_Save_** button to apply the layout.
 
+## 4.4 Associate the custom desktop layou to other team
+1. Go to the **_Team_** module
+2. Click on ellipses **(…)** of *Team2_wxcclab_<**your name or company name>** and select **_Edit_**
+3. Modify the **_Desktop Layout_** field with the new Desktop Layout created before
+4. Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/)**
 
-## 4.4 Change the agent team and verify the customized desktop layout
-1. Go to the Teams module, modify your team and put the new Desktop Layout
-2. Again in the Agent Desktop, open the User Profile and click on the arrow '>' to change the team of the agent
-3. Save Team Selection
+## 4.5 Verify the new custom desktop layout
+1. Open the **_User Profile_** and click on the arrow **'>'** under **_Team_**
+2. Change the team of the agent to *Team2_wxcclab_<**your name or company name>**
+3. Click on **_Save Team Selection_**
+4. **Confirm** the changes
+5. **Wait** some seconds to see the result
 
-
-## 4.5 Restore Default Desktop Layout
-1. Click on Restore Default Layout
+## 4.6 Restore Default Desktop Layout
+1. Open the **_User Profile_**
+2. Scroll down to **_User Settings_**
+3. Click on **_Reset Entire Desktop Layout_**
+4. **Confirm** the reset layout
 
 
 
