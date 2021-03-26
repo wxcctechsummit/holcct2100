@@ -108,7 +108,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 - Navigate to **_Provisioning_** and select **_Site_**
 - Click on **_+ New Site_** button and provide the Name as **_Site_wxcclab_pod\<ID\>_**
-- Select **_MM_Profile_wxcclab_pod\<ID\> _** in the **_Multimedia Profile_** drop down and hit **_Save_**
+- Select **_MM_Profile_wxcclab_pod\<ID\>_** in the **_Multimedia Profile_** drop down and hit **_Save_**
 
 ### 3. Create a new Team 1 
 
