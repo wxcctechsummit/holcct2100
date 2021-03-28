@@ -2,10 +2,6 @@
 title: "Lab 3: IVR and Contact Routing"
 ---
 
-**Overview of the lab**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cyPxPKncOhM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 # Table of Contents
 - [Part 1: Setup a Simple Flow and make a test call](#part-1-setup-a-simple-flow-and-make-a-test-call)
   * [1. Verify that your users are ready to login](#1-verify-that-your-users-are-ready-to-login)
