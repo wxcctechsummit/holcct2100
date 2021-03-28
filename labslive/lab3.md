@@ -28,41 +28,12 @@ title: "Lab 3: IVR and Contact Routing"
 
 - The lab will also contain multiple exercises on flow designer to make you comfortable with the Webex Contact Center Flow Designer and the overall Contact Routing configuration.
 
-**IVR Prompts:** We will be configuring static prompts for you and pre-uploading them in part 1. You may also keep a copy of the zip file if you want to manually upload them. In the bonus lab, we also share how you can convert these prompts to dynamic TTS prompts using the Text to speech connector configuration available within flow control.  
-
-**Lookups, Advanced Scripting, Screen-pops:** We have chosen specific areas of focus for advanced scripting topics. We have more content shared in the bonus sections on how to get other use cases configured.
-
 ## Pre-requisite
 
-Before you begin this lab
->The following video outlines the pre-requisites before beginning the lab.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hO-yCjjLA5o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-1. Setup Webex Contact Center Button is Clicked and Greyed Out.
-2. Users are provisioned on Control hub.
-3. Users configured on Control Hub and assigned Licenses.
-4. Admins have proper Webex Contact Center license.
-5. Synchronize users is clicked.
-6. All users visible on Portal > Users and Contact Center Enabled.
-7. All Users that need to login to agent desktop are assigned `Site_wxcclab` and `Team_wxcclab` - e.g agent1,super1,agent2,super2,etc. Also All agents are properly assigned Agent Profiles and Multimedia profiles.
-8. Control Hub, Portal and Agent Desktop URLs handy.
-9. Admin credentials handy for configuration.
-10. Agent Credentials handy to Handle contacts.
-11. External Number to Route Transfer outs, voice mail within flow : **Cisco Support Helpline -- `+18005536387`**  -- P.S: *This will actually connect you to the live toll free number!*
 
 **Note on Above Prerequisite Configuration**
-> Login to `Control Hub` > Users.
-- Ensure the agents have the contact center license selected and are properly configured as Contact center enabled on Webex Contact center. 
-- Ensure that they have activated the Email and are "Active" on Control Hub. Synchronize users to get any newly activated users.
 
-> Launch Portal to ensure all the users (admins, agents, supervisors) are contact center configured for testing.
-- Create a Site : `Site_wxcclab`, `Team_wxcclab`
-- Activate the agents to be Contact Center Enabled.
-- Associate the Agents to the Site, Team, default Multimedia Profile - `Default_Telephony_Profile`.
-- Verify by Launching the Agent Desktop and logging in.
-
-> Participants can choose to download and install the WebEx Calling App for Agents, Admins or Supervisors and make on-net calls.
+Download and install the WebEx Calling App for Agents, Admins or Supervisors and make on-net calls.
 
 **Download instructions**
 
@@ -95,8 +66,7 @@ Before you begin this lab
 
 ### 2. Verify your inbound numbers are correctly setup on Calling 
 - The inbound Numbers need to be added on Control Hub.
-- The telephony option on the location needs to be set to Intelepeer.
-- Settings page needs to have Intelepeer configured for subsequent locations created.
+
 
 ### 3. Create an inbound Voice Entry Point and Voice Queue
 - Login to Portal and create an inbound voice entry point and voice queue. (Provisioning > Entry Point / Queue). Create `EP_voice_wxcclab` and `Q_voice_wxcclab` respectively.
@@ -141,32 +111,7 @@ Before you begin this lab
 
 > Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**
 
-### 1. Copy out the flow and configure the advanced flow
-- Open the Portal > Routing Strategy > Flow page.
-- Copy the existing flow `flow_wxcclab` and edit the copied flow - name it `advanced_flow1_wxcclab`
-- Edit the flow to go into flow designer. 
-- Ensure that you configure the Menu steps with a 3 option - 2 queue, 1 Blind Transfer step.
-- Ensure you configure all the fields in the menu step including the prompts and the entry timeout (requires you to explore all options on the step).
-- Ensure you configure all the blind transfer location to Cisco Toll Free :  `+18005536387` --Note: *This will actually connect you to the live toll free number!*
 
-### 2. Configure the Queue Treatment loop and Opt Out and Callback steps
-- In Flow Designer - Configure the Queue treatment for the first queue. Use the `queueCounter` variable and configure the Opt out steps including the high volume message and the callback step.
-- Configure the voicemail destination to the same external number above.
-- Validate the flow and publish it.
-
-### 3. Point to the New flow in the Routing Strategy
-- Go to the routing Strategy page > Routing Strategy > `EP_voice_wxcclab`
-- Once the flow is published, configure the Entry Point Routing strategy to point to the new flow `advanced_flow1_wxcclab`.
-
-### 4. Test the end to end flow
-- Login to the agent desktop and go Idle (Not Ready)
-- Test Queue treatment by going not ready on the agent desktop.
-- Call the main number on the entry point and go into the queue. You should hear the queue twice and then have an option to leave a callback.
-- leave the callback and the call should end.
-
-### 5. Execute the Callback
-- Have the agent go ready after you left a callback.
-- They should receive the callback call.
 
 
 
