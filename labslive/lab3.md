@@ -4,7 +4,6 @@ title: "Lab 3: IVR and Contact Routing"
 
 # Table of Contents
 - [Part 1: Setup a Simple Flow and make a test call](#part-1-setup-a-simple-flow-and-make-a-test-call)
-  * [1. Verify that your users are ready to login](#1-verify-that-your-users-are-ready-to-login)
   * [2. Verify your inbound numbers are correctly setup on Calling](#2-verify-your-inbound-numbers-are-correctly-setup-on-calling)
   * [3. Create an inbound Voice Entry Point and Voice Queue](#3-create-an-inbound-voice-entry-point-and-voice-queue)
   * [4. Verify the Audio Prompts, Create the Entry Point flow.](#4-verify-the-audio-prompts-create-the-entry-point-flow)
@@ -13,11 +12,6 @@ title: "Lab 3: IVR and Contact Routing"
   * [7. Configure the Queue Routing Strategy](#7-configure-the-queue-routing-strategy)
   * [8. Make a test call](#8-make-a-test-call)
 - [Part 2: Adding Menu and Queue treatment to the call](#part-2-adding-menu-and-queue-treatment-to-the-call)
-  * [1. Copy out the flow and configure the advanced flow](#1-copy-out-the-flow-and-configure-the-advanced-flow)
-  * [2. Configure the Queue Treatment loop and Opt Out and Callback steps](#2-configure-the-queue-treatment-loop-and-opt-out-and-callback-steps)
-  * [3. Point to the New flow in the Routing Strategy](#3-point-to-the-new-flow-in-the-routing-strategy)
-  * [4. Test the end to end flow](#4-test-the-end-to-end-flow)
-  * [5. Execute the Callback](#5-execute-the-callback)
 
 
 # Introduction
@@ -25,37 +19,27 @@ title: "Lab 3: IVR and Contact Routing"
 ## Lab Objective
 
 - This lab is designed to ensure you are able to configure a voice contact end to end and receive it on the agent desktop.
-
 - The lab will also contain multiple exercises on flow designer to make you comfortable with the Webex Contact Center Flow Designer and the overall Contact Routing configuration.
 
 ## Pre-requisite
 
-
 **Note on Above Prerequisite Configuration**
-
 Download and install the WebEx Calling App for Agents, Admins or Supervisors and make on-net calls.
 
 **Download instructions**
-
 **[https://help.webex.com/en-us/n730ah9/Install-the-Webex-Calling-App](https://help.webex.com/en-us/n730ah9/Install-the-Webex-Calling-App)**
 
 **Links**
-
 > Control hub: **[https://admin.webex.com](https://admin.webex.com)**
-
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**
-
 > Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**
 
 
 ## Part 1: Setup a Simple Flow and make a test call
 
 **Quick Links**
-
 > Control hub: **[https://admin.webex.com](https://admin.webex.com)**
-
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**
-
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**
 
 
@@ -101,9 +85,7 @@ Download and install the WebEx Calling App for Agents, Admins or Supervisors and
 **Quick Links**
 
 > Control hub: **[https://admin.webex.com](https://admin.webex.com)**
-
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**
-
 > Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**
 
 
