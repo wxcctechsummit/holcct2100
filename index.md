@@ -24,7 +24,7 @@ Labs will be added prior to the last presentation each day. The schedule is belo
 | 10:00 | Exploring the Agent Desktop | [Lab 2: Exploring the Agent Desktop](labslive/lab2.md) |
 | 10:30 | IVR configuration and placing a call | [Lab 3: IVR configuration and placing a cal](labslive/lab3.md) |
 | 11:30 | Email and Chat | N/A |
-| 12:30 | Supervisor |  N/A |
+| 12:30 | New Supervisor functionality | [Lab 5: New Supervisor functionality](labslive/lab5.md) |
 | +++ | More Advance features | N/A |
 
 
