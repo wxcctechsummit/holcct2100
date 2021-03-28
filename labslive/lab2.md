@@ -25,23 +25,23 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 ### Pre-requisites
 
-For doing this lab, you need first to **complete the previous Lab 1: Control Hub and Admin Portal**, so you need to have already done:
-* Administrator access to the Tenant Portal
-* Agent created and configured
-* Agent is part of 2 Teams
-* User is assigned to a Webex Calling extension
+- For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin Portal](lab2.md)**;
+- You have the administrator's access to the Tenant Portal;
+- Agent created and configured;
+- Agent is part of 2 Teams;
+- User is assigned to a Webex Calling extension;
 
 # Lab Section
 
 ## Part 1. Access to the Agent Desktop
 
-1. Navigate to **[https://desktop.wxcc-us1.cisco.com/]**(https://desktop.wxcc-us1.cisco.com/){:target="_blank"} in a new browser tab
-2. Enter the agent’s **Username** which you created in the previous lab.
-3. Enter the **Password** for the appropriate Username
-4. In the Station Login pane, select **"Extension"** and input the configured number for that user. 
+- Navigate to **[https://desktop.wxcc-us1.cisco.com/]**(https://desktop.wxcc-us1.cisco.com/){:target="_blank"} in a new browser tab
+- Enter the agent’s **Username** which you created in the previous lab.
+- Enter the **Password** for the appropriate Username
+- In the Station Login pane, select **"Extension"** and input the configured number for that user. 
 **Note** Please use only Extension for this lab
-6. Select the *Team_wxcclab_<**your name or company name>**, with default layout. 
-7. Click **_Submit_**
+- Select the *Team_wxcclab_<**your name or company name>**, with default layout. 
+- Click **_Submit_**
 			
 If you are successfully logged in the Agent Desktop you have completed this section and you can continue with the next part!
 
@@ -75,70 +75,70 @@ Image 1
 ## Part 3. Configure the User Profile
 
 ### 1. Change Notifications setting and volume
-1. Scroll down to **_User Settings_**
-2. Click on **_Notification Settings_**
-3. **Toggle** any of the 3 options to **enable or disable** different notifications
-4. Move the **Sound Volume** toggle bar
-5. You'll test this in the next lab.
-6. Check this when you receive a notification
+- Scroll down to **_User Settings_**
+- Click on **_Notification Settings_**
+- **Toggle** any of the 3 options to **enable or disable** different notifications
+- Move the **Sound Volume** toggle bar
+- You'll test this in the next lab.
+- Check this when you receive a notification
 		
 ### 2. Switch to Dark Mode
-1. Go again under **_User Settings_**
-2. Toggle the **_Switch to Dark Mode_** button to enable or disable it
+- Go again under **_User Settings_**
+- Toggle the **_Switch to Dark Mode_** button to enable or disable it
 		
 ### 3. See the list of the keyboard shortcuts
-1. Scroll down to **_Help_**
-2. Click on **_Keyboard Shortcuts_** or press **Ctrl+Alt+F**
-3. **See the list** of the keyboard shortcuts
-4. Find and test the combination to make the Agent status **_'Available'_**
+- Scroll down to **_Help_**
+- Click on **_Keyboard Shortcuts_** or press **Ctrl+Alt+F**
+- **See the list** of the keyboard shortcuts
+- Find and test the combination to make the Agent status **_'Available'_**
 		
 ### 4. Download Error Report
-1. Scroll down to **_Help_**
-2. Click on **_Keyboard Shortcuts_** or press **Ctrl+Shift+2**
-3. Find the downloaded **error reports** file in your machine
+- Scroll down to **_Help_**
+- Click on **_Keyboard Shortcuts_** or press **Ctrl+Shift+2**
+- Find the downloaded **error reports** file in your machine
 
 
 
 ## Part 4. Custom Desktop Layout
 
 ### 1. Download default desktop Layout
-1. Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials​
-2. Navigate to **_Provisioning_ –> _Desktop Layout_**​
-3. Click on ellipses **(…)** of Global Layout and select **_Edit_** ​
-4. Click on **_Download_** button to download the **Default Desktop Layout.json** file
+- Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials​
+- Navigate to **_Provisioning_ –> _Desktop Layout_**​
+- Click on ellipses **(…)** of Global Layout and select **_Edit_** ​
+- Click on **_Download_** button to download the **Default Desktop Layout.json** file
 
 ### 2. Customize default desktop layout with logo and title
-1. Open the **Default Desktop Layout.json** file with any text editor (e.g. Notepad or Sublime text)​
-2. Modify the **_appTitle_** key value with your company name in order to change Agent Desktop tittle
-3. Modify the **_logo_** key value with your company logo URL or use this CiscoLive logo url: **https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg**
-4. **_Save As_** the JSON file with a distinguishable name
+- Open the **Default Desktop Layout.json** file with any text editor (e.g. Notepad or Sublime text)​
+- Modify the **_appTitle_** key value with your company name in order to change Agent Desktop tittle
+- Modify the **_logo_** key value with your company logo URL or use this CiscoLive logo url: **https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg**
+- **_Save As_** the JSON file with a distinguishable name
 
 ### 3. Upload the custom desktop layout 
-1. Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
-2. Click on **_New Layout_**
-3. Provide any preferable **name and description** 
-4. Select *Team2_wxcclab_<**your name or company name>** as Team		
-5. Click **_Upload_** button to upload the modified JSON file​		
-6. Click **_Save_** button to apply the layout.
+- Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
+- Click on **_New Layout_**
+- Provide any preferable **name and description** 
+- Select *Team2_wxcclab_<**your name or company name>** as Team		
+- Click **_Upload_** button to upload the modified JSON file​		
+- Click **_Save_** button to apply the layout.
 
 ### 4. Associate the custom desktop layou to other team
-1. Go to the **_Team_** module
-2. Click on ellipses **(…)** of *Team2_wxcclab_<**your name or company name>** and select **_Edit_**
-3. Modify the **_Desktop Layout_** field with the new Desktop Layout created before
-4. Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
+- Go to the **_Team_** module
+- Click on ellipses **(…)** of *Team2_wxcclab_<**your name or company name>** and select **_Edit_**
+- Modify the **_Desktop Layout_** field with the new Desktop Layout created before
+- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
 
 ### 5. Verify the new custom desktop layout
-1. Open the **_User Profile_** and click on the arrow **'>'** under **_Team_**
-2. Change the team of the agent to *Team2_wxcclab_<**your name or company name>**
-3. Click on **_Save Team Selection_**
-4. **Confirm** the changes
-5. **Wait** some seconds to see the result
+- Open the **_User Profile_** and click on the arrow **'>'** under **_Team_**
+- Change the team of the agent to *Team2_wxcclab_<**your name or company name>**
+- Click on **_Save Team Selection_**
+- **Confirm** the changes
+- **Wait** some seconds to see the result
 
 ### 6. Restore Default Desktop Layout
-1. Open the **_User Profile_**
-2. Scroll down to **_User Settings_**
-3. Click on **_Reset Entire Desktop Layout_**
-4. **Confirm** the reset layout
+- Open the **_User Profile_**
+- Scroll down to **_User Settings_**
+- Click on **_Reset Entire Desktop Layout_**
+- **Confirm** the reset layout
 
 
 Congratulations, you are now ready to start the next [Lab 3: IVR and Contact Routing](lab3.md)
