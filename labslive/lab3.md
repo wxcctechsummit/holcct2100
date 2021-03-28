@@ -30,7 +30,7 @@ Download and install the WebEx Calling App for Agents, Admins or Supervisors and
 **[https://help.webex.com/en-us/n730ah9/Install-the-Webex-Calling-App](https://help.webex.com/en-us/n730ah9/Install-the-Webex-Calling-App)**
 
 **Links**
-> Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
+> Control hub1: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
 > Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**
 
