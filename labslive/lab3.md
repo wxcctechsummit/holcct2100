@@ -30,27 +30,18 @@ Download and install the WebEx Calling App for Agents, Admins or Supervisors and
 **[https://help.webex.com/en-us/n730ah9/Install-the-Webex-Calling-App](https://help.webex.com/en-us/n730ah9/Install-the-Webex-Calling-App)**
 
 **Links**
-> Control hub: **[https://admin.webex.com](https://admin.webex.com)**
-
-> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**
-
+> Control hub: **[https://admin.webex.com](https://admin.webex.com)**\
+> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**\
 > Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**
 
 
 ## Part 1: Setup a Simple Flow and make a test call
-
-**Quick Links**
-> Control hub: **[https://admin.webex.com](https://admin.webex.com)**\
-> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**\
-> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**\
-
 
 ### 1. Verify that your users are ready to login
 - With the steps outlined in the previous lab and recap above, you should now be able to login to the agent desktop.
 
 ### 2. Verify your inbound numbers are correctly setup on Calling 
 - The inbound Numbers need to be added on Control Hub.
-
 
 ### 3. Create an inbound Voice Entry Point and Voice Queue
 - Login to Portal and create an inbound voice entry point and voice queue. (Provisioning > Entry Point / Queue). Create `EP_voice_wxcclab` and `Q_voice_wxcclab` respectively.
@@ -84,11 +75,6 @@ Download and install the WebEx Calling App for Agents, Admins or Supervisors and
 
 ## Part 2: Adding Menu and Queue treatment to the call
 
-**Quick Links**
-
-> Control hub: **[https://admin.webex.com](https://admin.webex.com)**
-> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**
-> Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**
 
 
 
