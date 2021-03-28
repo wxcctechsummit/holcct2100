@@ -28,7 +28,7 @@ For doing this lab, you need first to **complete the previous Lab 1: Control Hub
 
 # 1. Access to the Agent Desktop
 
-1. Navigate to **[https://desktop.wxcc-us1.cisco.com/]**(https://desktop.wxcc-us1.cisco.com/) in a new browser tab
+1. Navigate to **[https://desktop.wxcc-us1.cisco.com/]**(https://desktop.wxcc-us1.cisco.com/){:target="_blank"} in a new browser tab
 2. Enter the agent’s **Username** which you created in the previous lab.
 3. Enter the **Password** for the appropriate Username
 4. In the Station Login pane, select **"Extension"** and input the configured number for that user. 
@@ -95,7 +95,7 @@ Image 1
 # 4. Custom Desktop Layout
 
 ## 4.1 Download default desktop Layout
-1. Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com)** with admin credentials​
+1. Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials​
 2. Navigate to **_Provisioning_ –> _Desktop Layout_**​
 3. Click on ellipses **(…)** of Global Layout and select **_Edit_** ​
 4. Click on **_Download_** button to download the **Default Desktop Layout.json** file
@@ -107,7 +107,7 @@ Image 1
 4. **_Save As_** the JSON file with a distinguishable name
 
 ## 4.3 Upload the custom desktop layout 
-1. Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com)**
+1. Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
 2. Click on **_New Layout_**
 3. Provide any preferable **name and description** 
 4. Select *Team2_wxcclab_<**your name or company name>** as Team		
@@ -118,7 +118,7 @@ Image 1
 1. Go to the **_Team_** module
 2. Click on ellipses **(…)** of *Team2_wxcclab_<**your name or company name>** and select **_Edit_**
 3. Modify the **_Desktop Layout_** field with the new Desktop Layout created before
-4. Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/)**
+4. Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
 
 ## 4.5 Verify the new custom desktop layout
 1. Open the **_User Profile_** and click on the arrow **'>'** under **_Team_**
