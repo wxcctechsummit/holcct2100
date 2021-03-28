@@ -40,11 +40,9 @@ Download and install the WebEx Calling App for Agents, Admins or Supervisors and
 ## Part 1: Setup a Simple Flow and make a test call
 
 **Quick Links**
-> Control hub: **[https://admin.webex.com](https://admin.webex.com)**
-
-> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**
-
-> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**
+> Control hub: **[https://admin.webex.com](https://admin.webex.com)**\
+> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**\
+> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**\
 
 
 ### 1. Verify that your users are ready to login
