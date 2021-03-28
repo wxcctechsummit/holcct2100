@@ -45,7 +45,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 **Quick Links**
 
-- Control hub: [https://admin.webex.com](https://admin.webex.com)
+- Control hub: [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
 
 | **User Role** | **User email**      | **User Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
@@ -65,7 +65,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - In the next page, enter the correct **_Extension_** under **_Assign Numbers_**. You can find this in the information already shared with you.
 - Click **_Finish_**
 - Select the supervisor user and modify his role to **_Supervisor_** by clicking on **_Edit_** button.
-- Validate the users by going to [www.mailinator.com](www.mailinator.com). Check the emails inbox and follow the email instructions to activate the user account.
+- Validate the users by going to [www.mailinator.com](www.mailinator.com){:target="_blank"}. Check the emails inbox and follow the email instructions to activate the user account.
 
 ### 2. Optionally, add the rest of the users
 
@@ -80,8 +80,8 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 **Quick Links**
 
-- Control hub: [https://admin.webex.com](https://admin.webex.com)
-- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
+- Control hub: [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
+- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}
 
 
 | **Role** | **Name**      | 
@@ -93,7 +93,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ### 1. Create a new MultiMedia Profile
 
-- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com)
+- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
 - Enter the admin email id and the password.
 - Navigate to **_Contact Center_** Card
 - Click on **_Settings_**
@@ -127,17 +127,17 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 >The following video outlines how to configure the users in Admin Portal that were added first in Control Hub. This is a very critical task from the Contact Center perspective. We also would take a look at how to associate customer-created Site, Team, and Multi-Media Profile with those users. Post this we should be able to successfully login as an agent using any of the users and their associated extension.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MIpJofmfWKc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eUDI-5z0VyQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 **Quick Links**
 
-- Control hub: [https://admin.webex.com](https://admin.webex.com)
-- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)
+- Control hub: [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
+- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}
 
 ### 1. Synchronize Webex Contact Center Users
 
-- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com)
+- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
 - Enter the admin email id and the password.
 - Navigate to **_Contact Center_** Card
 - Click on **_Settings_**
@@ -155,13 +155,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - In the **_Agent Settings_** section, select **_Site_wxcclab_pod\<ID\>_** in the Site drop down
 - Click in the **_Teams_** area and select **_Team1_wxcclab_pod\<ID\>_** and **_Team2_wxcclab_pod\<ID\>_**
 - Select **_MM_Profile_wxcclab_pod\<ID\>_** in the **_Multimedia Profile_** drop down and hit **_Save_**
-- Repeat the same for **_all other users_** by selecting the appropriate profile in the **_User Profile_** drop down
+- Repeat the same for **_all other users_** by selecting the appropriate profile in the **_User Profile_** drop down.
+
 
 Now you are ready to start the next [Lab 2: Exploring the Agent Desktop](lab2.md)
 
-Changelog:
 
-| **Version** | **Comments**      | **Author(s)**                    | **Date**    |
-| ----------- | ----------------- | -------------------------------- | ----------- |
-| 1.0         | Initial Release   | Raghu Krishnan (rakrish2) | 08 Jan 2021 |
-| 1.1         | Minor Update   | Dmitry Bokatov (dbokatov) | 26 March 2021 |
