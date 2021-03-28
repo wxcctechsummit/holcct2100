@@ -67,7 +67,7 @@ Image 1
 
 # 3. Configure the User Profile
 
-## 3.1 Change Notifications setting and volume
+## 1 Change Notifications setting and volume
 1. Scroll down to **_User Settings_**
 2. Click on **_Notification Settings_**
 3. **Toggle** any of the 3 options to **enable or disable** different notifications
@@ -75,17 +75,17 @@ Image 1
 5. You'll test this in the next lab.
 6. Check this when you receive a notification
 		
-## 3.2 Switch to Dark Mode
+## 2 Switch to Dark Mode
 1. Go again under **_User Settings_**
 2. Toggle the **_Switch to Dark Mode_** button to enable or disable it
 		
-## 3.3 See the list of the keyboard shortcuts
+## 3 See the list of the keyboard shortcuts
 1. Scroll down to **_Help_**
 2. Click on **_Keyboard Shortcuts_** or press **Ctrl+Alt+F**
 3. **See the list** of the keyboard shortcuts
 4. Find and test the combination to make the Agent status **_'Available'_**
 		
-## 3.4 Download Error Report
+## 4 Download Error Report
 1. Scroll down to **_Help_**
 2. Click on **_Keyboard Shortcuts_** or press **Ctrl+Shift+2**
 3. Find the downloaded **error reports** file in your machine
@@ -94,19 +94,19 @@ Image 1
 
 # 4. Custom Desktop Layout
 
-## 4.1 Download default desktop Layout
+## 1 Download default desktop Layout
 1. Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials​
 2. Navigate to **_Provisioning_ –> _Desktop Layout_**​
 3. Click on ellipses **(…)** of Global Layout and select **_Edit_** ​
 4. Click on **_Download_** button to download the **Default Desktop Layout.json** file
 
-## 4.2 Customize default desktop layout with logo and title
+## 2 Customize default desktop layout with logo and title
 1. Open the **Default Desktop Layout.json** file with any text editor (e.g. Notepad or Sublime text)​
 2. Modify the **_appTitle_** key value with your company name in order to change Agent Desktop tittle
 3. Modify the **_logo_** key value with your company logo URL or use this CiscoLive logo url: **https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg**
 4. **_Save As_** the JSON file with a distinguishable name
 
-## 4.3 Upload the custom desktop layout 
+## 3 Upload the custom desktop layout 
 1. Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
 2. Click on **_New Layout_**
 3. Provide any preferable **name and description** 
@@ -114,20 +114,20 @@ Image 1
 5. Click **_Upload_** button to upload the modified JSON file​		
 6. Click **_Save_** button to apply the layout.
 
-## 4.4 Associate the custom desktop layou to other team
+## 4 Associate the custom desktop layou to other team
 1. Go to the **_Team_** module
 2. Click on ellipses **(…)** of *Team2_wxcclab_<**your name or company name>** and select **_Edit_**
 3. Modify the **_Desktop Layout_** field with the new Desktop Layout created before
 4. Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
 
-## 4.5 Verify the new custom desktop layout
+## 5 Verify the new custom desktop layout
 1. Open the **_User Profile_** and click on the arrow **'>'** under **_Team_**
 2. Change the team of the agent to *Team2_wxcclab_<**your name or company name>**
 3. Click on **_Save Team Selection_**
 4. **Confirm** the changes
 5. **Wait** some seconds to see the result
 
-## 4.6 Restore Default Desktop Layout
+## 6 Restore Default Desktop Layout
 1. Open the **_User Profile_**
 2. Scroll down to **_User Settings_**
 3. Click on **_Reset Entire Desktop Layout_**
