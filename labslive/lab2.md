@@ -1,9 +1,9 @@
 ---
-# Lab 2: New Agent Desktop Experience
+title: "Lab 2: New Agent Desktop Experience"
 ---
 
 ### Overview of the lab:
-XXXXX
+In this Lab, we will explore the different sections and some useful options of the Agent Desktop. You will watch a demo video about Agent Desktop overview and you will configure some options by following the described steps. At the end of the lab, you should be able to know where to find the different features and customize your own desktop layout.
 
 
 Video example
@@ -19,21 +19,23 @@ Video example
 - [4. Custom Desktop Layout](#4-custom-desktop-layout)
 
 
-### Lab Objective
+# Introduction
+
+## Lab Objective
 
 The objective of this lab is to **explore the New Agent Desktop**, in order to be familiar with the its new structure, learn about recently released features and be able to configure basic options.
 
-### Pre-requisites
+## Pre-requisites
 
 - For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin Portal](lab2.md)**;
 - You have the administrator's access to the Tenant Portal;
 - Agent created and configured;
 - Agent is part of 2 Teams;
-- User is assigned to a Webex Calling extension;
+- Webex Calling extensions are assigned to a WxCC user:
 
 # Lab Section
 
-## Part 1. Access to the Agent Desktop
+## Part 1: Access to the Agent Desktop
 
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/]**(https://desktop.wxcc-us1.cisco.com/){:target="_blank"} in a new browser tab
 - Enter the agent’s **Username** which you created in the previous lab.
@@ -47,7 +49,7 @@ If you are successfully logged in the Agent Desktop you have completed this sect
 
 
 
-## Part 2. Agent Desktop Overview
+## Part 2: Agent Desktop Overview
 
 * The Agent Desktop is divided in 6 sections: **Task List, Horizontal Header, Interaction Control, Auxiliary Information, Agent Interaction History and Navigation bar**. In *Image 1* you can see a general view of the Agent Desktop and where each section is located.
 
@@ -72,7 +74,7 @@ Image 1
  
 
 
-## Part 3. Configure the User Profile
+## Part 3: Configure the User Profile
 
 ### 1. Change Notifications setting and volume
 - Scroll down to **_User Settings_**
@@ -99,7 +101,7 @@ Image 1
 
 
 
-## Part 4. Custom Desktop Layout
+## Part 4: Custom Desktop Layout
 
 ### 1. Download default desktop Layout
 - Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials​
