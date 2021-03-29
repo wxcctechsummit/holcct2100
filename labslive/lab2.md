@@ -42,7 +42,7 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 - Enter the **Password** for the appropriate Username
 - In the Station Login pane, select **"Extension"** and input the configured number for that user. 
 **Note** Please use only Extension for this lab
-- Select the **Team_wxcclab_<**your name or company name>**, with default layout. 
+- Select the **Team_wxcclab**_<**your name or company name>**, with default layout. 
 - Click **_Submit_**
 			
 If you are successfully logged in the Agent Desktop you have completed this section and you can continue with the next part!
@@ -105,7 +105,7 @@ Image 1
 
 ### 1. Download default desktop Layout
 - Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com)** with admin credentials​
-- Navigate to **_Provisioning_ –> _Desktop Layout_**​
+- Navigate to **_Provisioning_** –> **_Desktop Layout_**​
 - Click on ellipses **(…)** of Global Layout and select **_Edit_** ​
 - Click on **_Download_** button to download the **Default Desktop Layout.json** file
 
@@ -119,19 +119,19 @@ Image 1
 - Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com)**
 - Click on **_New Layout_**
 - Provide any preferable **name and description** 
-- Select **Team2_wxcclab_<**your name or company name>** as Team		
+- Select **Team2_wxcclab**_<**your name or company name>** as Team		
 - Click **_Upload_** button to upload the modified JSON file​		
 - Click **_Save_** button to apply the layout.
 
 ### 4. Associate the custom desktop layou to other team
 - Go to the **_Team_** module
-- Click on ellipses **(…)** of **Team2_wxcclab_<**your name or company name>** and select **_Edit_**
+- Click on ellipses **(…)** of **Team2_wxcclab**_<**your name or company name>** and select **_Edit_**
 - Modify the **_Desktop Layout_** field with the new Desktop Layout created before
 - Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/)**
 
 ### 5. Verify the new custom desktop layout
 - Open the **_User Profile_** and click on the arrow **'>'** under **_Team_**
-- Change the team of the agent to **Team2_wxcclab_<*your name or company name>**
+- Change the team of the agent to **Team2_wxcclab**_<**your name or company name>**
 - Click on **_Save Team Selection_**
 - **Confirm** the changes
 - **Wait** some seconds to see the result
