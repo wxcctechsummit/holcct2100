@@ -1,16 +1,15 @@
+---
+title: "Lab Guide Library"
+---
 <p align="center">
   <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
 </p>
 
-If you reached this page please contact your Lab proctor for the right URL to begin your lab or access the [Lab guide Library](LabLibrary)
-
----
-title: "Lab Guide Library"
----
-
-(images/wxccbanner.jpg)
+![Banner](images/wxccbanner.jpg)
 
 Welcome to the Lab Guide Library for the 2021 Cisco Live! "Uplift aka Basics" lab. 
+
+If you reached this page please contact your Lab proctor for the right URL to begin your lab or access the [Lab guide Library](LabLibrary)
 
 As labs become available they will appear below. Labs can be started once the lab document link is updated. Please be sure to refresh your browser to see when labs have been added.
 
