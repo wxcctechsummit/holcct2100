@@ -6,11 +6,6 @@ title: "Lab 2: New Agent Desktop Experience"
 In this Lab, we will explore the different sections and some useful options of the Agent Desktop. You will watch a demo video about Agent Desktop overview and you will configure some options by following the described steps. At the end of the lab, you should be able to know where to find the different features and customize your own desktop layout.
 
 
-Video example
-
-<iframe width="560" height="315" src="https://youtu.be/4aKajHZeuLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 # Table of Contents
 
 - [1. Access to the Agent Desktop](#1-access-to-the-agent-desktop)
@@ -37,6 +32,8 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 ## Part 1: Access to the Agent Desktop
 
+<iframe width="560" height="315" src="https://youtu.be/4aKajHZeuLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)** in a new browser tab
 - Enter the agent’s **Username** which you created in the previous lab.
 - Enter the **Password** for the appropriate Username
@@ -60,7 +57,7 @@ Image 1
 
 * **Watch the following video**, where each of the sections and their main options are explained. You will get a better idea of how the Agent Desktop look like and how to use it.
 
-[VIDEO]
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6PhY8Wl_8Rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 * Then, try to spend little time to **play and explore the Agent Desktop**.
