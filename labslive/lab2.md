@@ -105,7 +105,7 @@ Image 1
 
 ### 1. Download default desktop Layout
 - Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com)** with admin credentials​
-- Navigate to **_Provisioning_** –> **_Desktop Layout_**​
+- Navigate to **_Provisioning_** –> _**Desktop Layout**_​
 - Click on ellipses **(…)** of Global Layout and select **_Edit_** ​
 - Click on **_Download_** button to download the **Default Desktop Layout.json** file
 
