@@ -37,12 +37,12 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 ## Part 1: Access to the Agent Desktop
 
-- Navigate to **[https://desktop.wxcc-us1.cisco.com/]**(https://desktop.wxcc-us1.cisco.com/) in a new browser tab
+- Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)** in a new browser tab
 - Enter the agent’s **Username** which you created in the previous lab.
 - Enter the **Password** for the appropriate Username
 - In the Station Login pane, select **"Extension"** and input the configured number for that user. 
 **Note** Please use only Extension for this lab
-- Select the **Team_wxcclab_<*your name or company name>**, with default layout. 
+- Select the **Team_wxcclab_<**your name or company name>**, with default layout. 
 - Click **_Submit_**
 			
 If you are successfully logged in the Agent Desktop you have completed this section and you can continue with the next part!
@@ -119,15 +119,15 @@ Image 1
 - Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com)**
 - Click on **_New Layout_**
 - Provide any preferable **name and description** 
-- Select *Team2_wxcclab_<**your name or company name>** as Team		
+- Select **Team2_wxcclab_<**your name or company name>** as Team		
 - Click **_Upload_** button to upload the modified JSON file​		
 - Click **_Save_** button to apply the layout.
 
 ### 4. Associate the custom desktop layou to other team
 - Go to the **_Team_** module
-- Click on ellipses **(…)** of *Team2_wxcclab_<**your name or company name>** and select **_Edit_**
+- Click on ellipses **(…)** of **Team2_wxcclab_<**your name or company name>** and select **_Edit_**
 - Modify the **_Desktop Layout_** field with the new Desktop Layout created before
-- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
+- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/)**
 
 ### 5. Verify the new custom desktop layout
 - Open the **_User Profile_** and click on the arrow **'>'** under **_Team_**
