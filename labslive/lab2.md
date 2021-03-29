@@ -32,7 +32,7 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 ## Part 1: Access to the Agent Desktop
 
-<iframe width="560" height="315" src="https://youtu.be/4aKajHZeuLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4aKajHZeuLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)** in a new browser tab
 - Enter the agent’s **Username** which you created in the previous lab.
@@ -57,7 +57,7 @@ Image 1
 
 * **Watch the following video**, where each of the sections and their main options are explained. You will get a better idea of how the Agent Desktop look like and how to use it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6PhY8Wl_8Rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6PhY8Wl_8Rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 * Then, try to spend little time to **play and explore the Agent Desktop**.
@@ -72,6 +72,9 @@ Image 1
 
 
 ## Part 3: Configure the User Profile
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3ZrPeIBE-HA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Change Notifications setting and volume
 - Scroll down to **_User Settings_**
@@ -99,6 +102,9 @@ Image 1
 
 
 ## Part 4: Custom Desktop Layout
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Olrifma7Khc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### 1. Download default desktop Layout
 - Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com)** with admin credentials​
