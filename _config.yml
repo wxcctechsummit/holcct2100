@@ -11,5 +11,5 @@ minima:
     twitter: Webex
 
 header_pages:
-  - LabLibrary.md
+  - index.md
 
