@@ -8,7 +8,7 @@ In this Lab, we will explore the different sections and some useful options of t
 
 Video example
 
-<iframe width="560" height="315" src="Lab2_Section1.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/4aKajHZeuLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 # Table of Contents
