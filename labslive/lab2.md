@@ -144,7 +144,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 - Modify the **_logo_** key value with your company logo URL or use this CiscoLive logo url: **https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg**
 - **_Save As_** the JSON file with a distinguishable name
 
-### 3. Upload the custom desktop layout 
+### 3. Upload the custom desktop layout and associate it to a team
 - Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com)**
 - Click on **_New Layout_**
 - Provide any preferable **name and description** 
@@ -152,13 +152,8 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 - Click **_Upload_** button to upload the modified JSON file​		
 - Click **_Save_** button to apply the layout.
 
-### 4. Associate the custom desktop layou to other team
-- Go to the **_Team_** module
-- Click on ellipses **(…)** of **Team2_wxcclab_pod\<ID>** and select **_Edit_**
-- Modify the **_Desktop Layout_** field with the new Desktop Layout created before
 
-
-### 5. Verify the new custom desktop layout
+### 4. Verify the new custom desktop layout
 - Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/)**
 - Open the **_User Profile_** and click on the arrow **'>'** under **_Team_**
 - Change the team of the agent to **Team2_wxcclab_pod\<ID>**
@@ -166,6 +161,16 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 - **Confirm** the changes
 - **Wait** some seconds to see the result
 
+### 5. More advance example
+- Download the JSON file from https://cisco.box.com/s/x18nka82ypk45crwv8vp44dhptlrn5jw
+- Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com)**
+- Click on **_New Layout_**
+- Provide any preferable **name and description** 
+- Select **Team1_wxcclab_pod\<ID>** again as Team	
+- Click **_Upload_** button to upload the modified JSON file​		
+- Click **_Save_** button to apply the layout.
+- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/)** with **Team1_wxcclab_pod\<ID>** team
+- **See** the new desktop layout
 
 
 ## Part 5: Configuring Outdial
