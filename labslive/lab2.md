@@ -1,22 +1,6 @@
 ---
 title: "Lab 2: New Agent Desktop Experience"
 ---
-<iframe src="https://cisco.app.box.com/embed/s/6gyzv6pmg276f2abgm0vgeeoad7j0jr4?sortColumn=date&view=list" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
-
-<iframe src="https://cisco.box.com/v/CiscoLiveLogo" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
-
-[Image](https://cisco.box.com/v/CiscoLiveLogo)
-
-
-
-  <img src="https://cisco.box.com/s/6gyzv6pmg276f2abgm0vgeeoad7j0jr4">
-
-<p align="center">
-  <img src="https://cisco.box.com/s/6gyzv6pmg276f2abgm0vgeeoad7j0jr4">
-</p>
-
-<iframe src="https://cisco.box.com/s/6gyzv6pmg276f2abgm0vgeeoad7j0jr4" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
-
 
 
 ### Overview of the lab:
@@ -49,11 +33,13 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 ## Part 1: Access to the Agent Desktop
 
+>The following video explains the process to access the Agent Desktop. Following the steps, you will login with your credentials and indicate the number where you want to receive the calls. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4aKajHZeuLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 2. Webex Calling
+### 1. Download and login in Webex Calling
 
-### 2. Login
+### 2. Login in the Agent Desktop
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)** in a new browser tab
 - Enter the agent’s **Username** which you created in the previous lab.
 - Enter the **Password** for the appropriate Username
@@ -67,6 +53,8 @@ If you are successfully logged in the Agent Desktop you have completed this sect
 
 
 ## Part 2: Agent Desktop Overview
+> Watch the following video, where each of the sections and their main options are explained. You will get a better idea of how the Agent Desktop look like and how to use it.
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6PhY8Wl_8Rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -99,6 +87,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 ## Part 3: Configure the User Profile
 
+> The following video explains the steps you need to follow in order to configure some basic, but really useful, user profile related options in the Agent Desktop.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3ZrPeIBE-HA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -128,6 +117,8 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 
 ## Part 4: Custom Desktop Layout
+
+> Watch the following video to learn the dekstop layout customization process. After the video, you will be able to customize the Agent Desktop with your company logo and you will see a more advanced and cool layout example.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Olrifma7Khc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -174,16 +165,11 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 
 ## Part 5: Configuring Outdial
+> In the following video, all the required steps to configure and test an outbound call are explained. In order to complet it you will need to login in Webex Calling with the corresponding extension number of the agent.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UMUM3zJUK7c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Quick Links**
 
-> Control hub: **[https://admin.webex.com](https://admin.webex.com)**
-
-> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**
-
-> Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**
 
 
 ### 1. Verify/create the Outdial Entry Point and Queue
@@ -211,3 +197,11 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 Congratulations, you are now ready to start the next [Lab 3: IVR and Contact Routing](lab3.md)
 
+
+**Quick Links**
+
+> Control hub: **[https://admin.webex.com](https://admin.webex.com)**
+
+> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**
+
+> Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**
