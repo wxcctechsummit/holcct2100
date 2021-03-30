@@ -50,7 +50,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 | **User Role** | **User email**      | **User Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
 | Agent        | Agent_wxcclab_pod\<ID\>   | 1000 |
-| Supervisor         | Supervisor_wxcclab_pod\<ID\>  | 1001 |
+| Supervisor         | Supervisor_wxcclab_pod\<ID\>  | 2000 |
  
 ### 1. Add an agent and a supervisor users and configure the calling extension
 
