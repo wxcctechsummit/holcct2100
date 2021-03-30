@@ -28,11 +28,11 @@ In this lab, we will go through the existing dashboards, and after we will get a
 
 # Lab Section
 
-## Part 1: Portal's Dashboard with agent logout
+## Part 1: Portal's Dashboard
 
 >The following video outlines the process to manage different types of users to the Customer tenant. Following the steps, you will add new users and set the extension. While adding the user, we will see how to select user roles. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LRadvKFIPjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0NcgneC1UZo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 **Quick Links**
