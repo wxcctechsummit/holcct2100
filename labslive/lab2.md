@@ -1,6 +1,7 @@
 ---
 title: "Lab 2: New Agent Desktop Experience"
 ---
+<iframe src="https://cisco.app.box.com/embed/s/6gyzv6pmg276f2abgm0vgeeoad7j0jr4?sortColumn=date&view=list" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
 
 ### Overview of the lab:
 In this Lab, we will explore the different sections and some useful options of the Agent Desktop. You will watch a demo video about Agent Desktop overview and you will configure some options by following the described steps. At the end of the lab, you should be able to know where to find the different features and customize your own desktop layout.
