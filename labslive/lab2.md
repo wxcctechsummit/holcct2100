@@ -188,7 +188,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 ## Part 5: Configuring Outdial
 > In the following video, all the required steps to configure and test an outbound call are explained. In order to complet it you will need to login in Webex Calling with the corresponding extension number of the agent.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=47DPXWs7H54" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/47DPXWs7H54" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
