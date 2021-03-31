@@ -38,6 +38,12 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4aKajHZeuLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Download and login in Webex Calling
+- In order to use Webex Calling, you should modify the Calling Behaviour to Webex Calling App
+- Login to **https://settings.webex.com/**
+- Click on **_Webex Calling_** this will cross launch CUP in a new browser tab
+- Go to **_My Apps_**
+- **Download** the Webex Calling Desktop App
+- Open Webex Calling and **login** 
 
 ### 2. Login in the Agent Desktop
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)** in a new browser tab
