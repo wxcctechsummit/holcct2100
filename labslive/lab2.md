@@ -35,10 +35,10 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 >The following video explains the process to access the Agent Desktop. Following the steps, you will login with your credentials and indicate the number where you want to receive the calls. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4aKajHZeuLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dUYcMI0bsuU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Activate Webex Calling
-- Login the **[Control Hub](https://admin.webex.com){:target="_blank"}** with your admin credentials
+- Login the **[Control Hub](https://admin.webex.com/){:target="_blank"}** with your admin credentials
 - Navigate to **_Users_**
 - **Select the Agent user** created in the 1. lab
 - Make sure that you have activated **Webex Teams, Webex Calling (Enterprise) and Contact Center** services
@@ -146,7 +146,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 ### 1. Download default desktop Layout
 - Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials​
-- Navigate to **_Provisioning_** –> _**Desktop Layout**_​
+- Navigate to **_Provisioning_** –> **_Desktop Layout_**​
 - Click on ellipses **(…)** of Global Layout and select **_Edit_** ​
 - Click on **_Download_** button to download the **Default Desktop Layout.json** file
 
