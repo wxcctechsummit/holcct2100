@@ -61,7 +61,7 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 - Login in the app with the **Supervisor user credentials**
 
 ### 2. Login in the Agent Desktop
-- Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)** in a new browser tab
+- Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** in a new browser tab
 - Enter the agent’s **Username** which you created in the previous lab.
 - Enter the **Password** for the appropriate Username
 - In the Station Login pane, select **"Extension"** and input the configured number for that user. 
