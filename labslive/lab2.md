@@ -37,14 +37,28 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4aKajHZeuLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Download and login in Webex Calling
-- In order to use Webex Calling, you should modify the Calling Behaviour to Webex Calling App
+### 1. Activate Webex Calling
+- Login the **[Control Hub](https://admin.webex.com)** with your admin credentials
+- Navigate to **_Users_**
+- **Select the Agent user** created in the 1. lab
+- Make sure that you have activated **Webex Teams, Webex Calling (Enterprise) and Contact Center** services
+- Scroll down to **_Calling Behaviour** and select **Webex Calling App**
+- Repeat the same steps for you **Supervisor user**
+
+### 2. Download and Login in the Webex Calling app for PC
 - Login to **https://settings.webex.com/**
 - Click on **_Webex Calling_** this will cross launch CUP in a new browser tab
 - Go to **_My Apps_**
 - **Download** the Webex Calling Desktop App
 - Open Webex Calling and **login** 
 - Check the **_Sign-in with system browser**_ option
+- Go to **_File >  Edit Server Address**_ and choose **North America**
+
+### 3. Download and Login in the Webex Calling app for mobile (You also can alternatively use your personal US mobile number)
+- Open your app manager (**Play Store or AppStore**) in your mobile
+- Search for **_Webex Calling_**
+- **Download** the app
+- Login in the app with the **Supervisor user credentials**
 
 ### 2. Login in the Agent Desktop
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/)** in a new browser tab
