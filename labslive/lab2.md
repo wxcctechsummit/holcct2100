@@ -46,7 +46,7 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 - Repeat the same steps for you **Supervisor user**
 
 ### 2. Download and Login in the Webex Calling app for PC
-- Login to **https://settings.webex.com/{:target="_blank"}**
+- Login to **[https://settings.webex.com/](https://settings.webex.com/){:target="_blank"}**
 - Click on **_Webex Calling_** this will cross launch CUP in a new browser tab
 - Go to **_My Apps_**
 - **Download** the Webex Calling Desktop App
