@@ -38,7 +38,7 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4aKajHZeuLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Activate Webex Calling
-- Login the **[Control Hub](https://admin.webex.com)** with your admin credentials
+- Login the **[Control Hub](https://admin.webex.com){:target="_blank"}** with your admin credentials
 - Navigate to **_Users_**
 - **Select the Agent user** created in the 1. lab
 - Make sure that you have activated **Webex Teams, Webex Calling (Enterprise) and Contact Center** services
@@ -46,7 +46,7 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 - Repeat the same steps for you **Supervisor user**
 
 ### 2. Download and Login in the Webex Calling app for PC
-- Login to **https://settings.webex.com/**
+- Login to **https://settings.webex.com/{:target="_blank"}**
 - Click on **_Webex Calling_** this will cross launch CUP in a new browser tab
 - Go to **_My Apps_**
 - **Download** the Webex Calling Desktop App
@@ -145,7 +145,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 
 ### 1. Download default desktop Layout
-- Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com)** with admin credentials​
+- Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials​
 - Navigate to **_Provisioning_** –> _**Desktop Layout**_​
 - Click on ellipses **(…)** of Global Layout and select **_Edit_** ​
 - Click on **_Download_** button to download the **Default Desktop Layout.json** file
@@ -157,7 +157,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 - **_Save As_** the JSON file with a distinguishable name
 
 ### 3. Upload the custom desktop layout and associate it to a team
-- Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com)**
+- Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
 - Click on **_New Layout_**
 - Provide any preferable **name and description** 
 - Select **Team2_wxcclab_pod\<ID>** as Team		
@@ -166,7 +166,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 
 ### 4. Verify the new custom desktop layout
-- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/)**
+- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
 - Open the **_User Profile_** and click on the arrow **'>'** under **_Team_**
 - Change the team of the agent to **Team2_wxcclab_pod\<ID>**
 - Click on **_Save Team Selection_**
@@ -175,13 +175,13 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 ### 5. More advance example
 - Download the JSON file from https://cisco.box.com/s/x18nka82ypk45crwv8vp44dhptlrn5jw
-- Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com)**
+- Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
 - Click on **_New Layout_**
 - Provide any preferable **name and description** 
 - Select **Team1_wxcclab_pod\<ID>** again as Team	
 - Click **_Upload_** button to upload the modified JSON file​		
 - Click **_Save_** button to apply the layout.
-- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/)** with **Team1_wxcclab_pod\<ID>** team
+- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** with **Team1_wxcclab_pod\<ID>** team
 - **See** the new desktop layout
 
 
@@ -194,7 +194,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 
 ### 1. Verify/create the Outdial Entry Point and Queue
-- Login in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com/portal)** 
+- Login in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}** 
 - Navigate to **_Provisioning > Outdial Entry Point / Outdial Queue_**
 - Ensure that the system created outdial entry points and queues (**_Outdial Entry Point-1_ and _Outdial Queue_**) are present 
 - Configure the _Outdial Entry Point-1_ with **Service Level Threshold=120** and **Associated Queues=Outdial Queue-1**
@@ -212,7 +212,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 
 ### 3. Test Outdial
-- Login/Relogin in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com)** for the new agent profile settings to take effect
+- Login/Relogin in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"}** for the new agent profile settings to take effect
 - You should now see the **Outdial button enabled**
 - **Select the Outdial ANI** and test making a call to your cellphone number or the provided Cisco Public Tollfree number (**+18005536387**)
 - You should **receive a call notification** in the Agent Desktop and your Webex Calling application ringing 
@@ -223,8 +223,8 @@ Congratulations, you are now ready to start the next [Lab 3: IVR and Contact Rou
 
 **Quick Links**
 
-> Control hub: **[https://admin.webex.com](https://admin.webex.com)**
+> Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**
 
-> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal)**
+> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**
 
-> Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com)**
+> Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**
