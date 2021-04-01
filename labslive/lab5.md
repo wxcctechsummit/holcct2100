@@ -10,7 +10,7 @@ In this lab, we will show you the existing dashboards which are available for su
 # Table of Contents
 
 - [Part 1: Portal's Dashboards](#part-1-Portals-Dashboards) 
-* [1. Management Portal with Supervisor accountp](#management-portal-with-supervisor-account)
+* [1. Management Portal with Supervisor account](#management-portal-with-supervisor-account)
 * [2. Portal's dashboards information](#portals-dashboards-information)
 - [Part 2: Supervisor permissions and remote agent logout](#part-2-Supervisor-permissions-and-remote-agent-logout) 
 
@@ -61,12 +61,22 @@ In this lab, we will show you the existing dashboards which are available for su
 - Make a new call to your EP and wait until the call reach a queue.
 - Check the new data on the Realtime dashboard. Now, this call will be presented in the table **Contact Details in the Queue**. In addition, the value will increase in the **Longest Contact Currently in Queue** chart.
 -  Select the third dashboard **Contact Center Overview - Historical**. You will be able to see the same information but from the historical perspective. By default the informaiton is shown for the last 7 days. Change the **Duration** filter to **This Year** in the upper right corner. 
-
+- Open the help guide by clicking on the supervisor account in the upper right corner and selecting the **Help** option.
 
 ## Part 2: Supervisor permissions and remote agent logout
 
-### 1. Supervisor User Profile 
-### 2. Agent State Data dashboard for the Agent Logout 
+>Here we take a look at the dashboard that was recently added. We will learn how to change the supervisor's access rights and how to manually log agents out with the supervisor account.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0NcgneC1UZo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 1. “Agent State Data – Realtime” dashboard 
+### 2. Remote agent Logout 
+### 3. Supervisor’s User Profiles
+
+
+### 1. Supervisor's User Profile 
+### 2. Agent State Data dashboard with Agent Logout 
+
 
 Congratulations, you have completed all mandatory labs. If you still have time, you can go through the advanced section [Lab 6: Advance features](lab6.md)
 
