@@ -34,7 +34,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ## Part 1: Organization admin: set up Facebook account
 >The following video provides detailed steps of configuration from the Facebook side. It will show you how to create a new Facebook page and how to collect API data for Facebook integration.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dibFEv-xv3g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-i07ntBMQ20" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Quick Links**
 
@@ -58,7 +58,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ## Part 2: Configure Facebook Connector in WxCC Control Hub
 >The following video outlines how to create a new Facebook Connector in the Control Hub.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dibFEv-xv3g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nJI4LrL0sJo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Quick Links**
 
