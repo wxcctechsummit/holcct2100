@@ -175,7 +175,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 - **Wait** some seconds to see the result
 
 ### 5. More advance example
-- Download the JSON file from **https://cisco.box.com/s/x18nka82ypk45crwv8vp44dhptlrn5jw**
+- Download the JSON file from **https://cisco.box.com/s/4hmozg4h9gwaa1x9zhq1w6mehw8guvuy**
 - Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
 - Click on **_New Layout_**
 - Provide any preferable **name and description** 
