@@ -15,7 +15,7 @@ In the table below you can find the agenda of the lab and some referred links, w
 
 | Time | Session | Corresponding Lab |
 | ---- | ------- | ----------------- |
-| 9:00 CET | Control Hub and Tenant Portal configuration |  [Lab 1: Control Hub and Tenant Portal configuration](labslive/lab1.md) |
+| 9:30 CET | Control Hub and Tenant Portal configuration |  [Lab 1: Control Hub and Tenant Portal configuration](labslive/lab1.md) |
 | 10:00 CET | New Agent Desktop Experience | [Lab 2: New Agent Desktop Experience](labslive/lab2.md) |
 | 10:30 CET | IVR configuration and placing a call | [Lab 3: IVR configuration and placing a cal](labslive/lab3.md) |
 | 11:30 CET | Email and Chat | N/A |
