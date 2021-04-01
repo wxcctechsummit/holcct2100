@@ -9,10 +9,11 @@ In this Lab, we will explore the different sections and some useful options of t
 
 # Table of Contents
 
-- [1. Access to the Agent Desktop](#part-1:-access-to-the-agent-desktop)
-- [2. Agent Desktop Overview](#part-2:-agent-desktop-overview)
-- [3. Configure the User Profile](#part-3:-configure-the-user-profile)
-- [4. Custom Desktop Layout](#part-4:-custom-desktop-layout)
+- [1. Access to the Agent Desktop](#part-1-access-to-the-agent-desktop)
+- [2. Agent Desktop Overview](#part-2-agent-desktop-overview)
+- [3. Configure the User Profile](#part-3-configure-the-user-profile)
+- [4. Custom Desktop Layout](#part-4-custom-desktop-layout)
+- [5. Configuring Outdial](#part-5-configuring-outdial)
 
 
 # Introduction
@@ -174,7 +175,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 - **Wait** some seconds to see the result
 
 ### 5. More advance example
-- Download the JSON file from https://cisco.box.com/s/x18nka82ypk45crwv8vp44dhptlrn5jw
+- Download the JSON file from **https://cisco.box.com/s/x18nka82ypk45crwv8vp44dhptlrn5jw**
 - Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
 - Click on **_New Layout_**
 - Provide any preferable **name and description** 
@@ -192,19 +193,18 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 
 
-
 ### 1. Verify/create the Outdial Entry Point and Queue
 - Login in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}** 
 - Navigate to **_Provisioning > Outdial Entry Point / Outdial Queue_**
-- **Create a new Outdial Entry Point** and set any Service Level Threshold. It will be automatically associated to **_Outdial Queue-1_**
+- **Create a new Outdial Entry Point** called **EP_Outdial_pod\<ID>** and set any Service Level Threshold. It will be automatically associated to **_Outdial Queue-1_**
 - Go to **_Routing Strategy > Create new Routing Strategy** 
 - Configure the outdial entry point routing strategy with the script **`Outdial_EP.js`**
 - Ensure the strategy **time of day** setting is correctly **open 24x7** and marked as **_Default_**
 - Navigate again to **_Provisioning > Outdial ANI > Create an Outdial ANI_** on the setup by mapping it to the existing toll free number
-- Go to  in _Provisioning > Address Book_ and add **+18005536387** Cisco Public Tollfree number in a **_New Address Book_**
+- Go to  in **_Provisioning > Address Book_** and add **+18005536387** Cisco Public Tollfree number in a **_New Address Book_**
 - Go to **_Provisioning > Agent Profiles_** and edit the one called **_Agent-Profile_**
 - Go to the **_Dial Plan_** tab
-- Configure all the Outdial settings: **Outdial Enabled, Outdial Entry Point=Outdial Entry Point-1, Dial Plan Enabled (Any Format) and select the before created Outdial ANI**
+- Configure all the Outdial settings: **Outdial Enabled, Outdial Entry Point=EP_Outdial_pod\<ID>, Dial Plan Enabled (Any Format) and select the before created Outdial ANI**
 
 
 ### 2. Test Outdial
@@ -215,6 +215,13 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 
 Congratulations, you are now ready to start the next [Lab 3: IVR and Contact Routing](lab3.md)
+
+
+
+
+
+
+
 
 
 **Quick Links**
