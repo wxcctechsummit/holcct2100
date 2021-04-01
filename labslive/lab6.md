@@ -6,15 +6,15 @@ title: "Lab 6: Bonus section - Facebook Messenger Integration"
 This is a bonus section for the participants who has successfully compleated the mandatory part.
 
 ## Table of Contents
-- [1. Organization admin: set up facebook account](#1-organization-admin-set-up-facebook-account)
-- [2. Configure Facebook Connector in WxCC Control Hub](#2-configure-facebook-connector-in-wxcc-control-hub)
-- [3. Configure Facebook Entrypoint](#3-configure-facebook-entrypoint)
-- [4. Configure Facebook Queue](#4-configure-facebook-queue)
-- [5. Configure EntryPoint Mappings](#5-configure-entrypoint-mappings)
-- [6. Entry point routing strategy creation](#6-entry-point-routing-strategy-creation)
-- [7. Queue routing strategy creation](#7-queue-routing-strategy-creation)
-  * [Testing Facebook Chat to Agent Desktop](#testing-facebook-chat-to-agent-desktop)
-- [8. Agent Desktop: Contact offering to an Agent, Acceptance, and closure](#8-agent-desktop-contact-offering-to-an-agent-acceptance-and-closure)
+- [Part 1: Organization admin: set up Facebook account](#Part-1-Organization-admin-set-up-Facebook-account)
+- [Part 2: Configure Facebook Connector in WxCC Control Hub](#Part-2-Configure-Facebook-Connector-in-WxCC-Control-Hub)
+- [Part 3: Configure Facebook Connector in Management Portal](#Part-3-Configure-Facebook-Connector-in-Management-Portal)
+  * [1. Configure Facebook Entrypoint](#1-configure-facebook-entrypoint)
+  * [2. Configure Facebook Queue](#2-configure-facebook-queue)
+  * [3. Configure EntryPoint Mappings](#3-configure-entrypoint-mappings)
+  * [4. Entry point routing strategy creation](#4-entry-point-routing-strategy-creation)
+  * [5. Queue routing strategy creation](#5-queue-routing-strategy-creation)
+- [Part 4: Testing Facebook Chat to Agent Desktop](#Part-4-testing-facebook-chat-to-agent-desktop)
 
 # Introduction
 
@@ -174,4 +174,4 @@ End customer can initiate queries from provided facebook page to contact center 
 * Click "Accept" to handle the contact, after responding close the task.
 
 
-Congratulations, you have completed the **bonus** section. Well done!!!
+Congratulations, you have completed the **bonus section**. Well done!!!
