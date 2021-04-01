@@ -28,8 +28,8 @@ In this lab, we will show you the existing dashboards which are available for su
 ### Pre-requisites
 
 - You have successfully completed Lab 1, Lab 2 and Lab 3;
-- There is an agent logged in to the Agent desktop;
-- You have the supervisor's login credentials;
+- Agent account to login to agent desktop.
+- Supervisor account to login to Management Portal.
 
 
 # Lab Section
