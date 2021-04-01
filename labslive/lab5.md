@@ -110,5 +110,5 @@ Note: You can log out agents who are in the Available, Idle, or Not Responding. 
 
 
 
-Congratulations, you have completed all mandatory labs. If you still have time, you can go through the **bonus** section [Lab 6: Bonus section](lab6.md)
+Congratulations, you have completed all mandatory labs. If you still have time, you can go through the **bonus** section [Lab 6: Bonus section - Facebook Messenger Integration](lab6.md)
 
