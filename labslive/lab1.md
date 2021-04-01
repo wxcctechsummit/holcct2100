@@ -62,7 +62,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Verify that the **EmailID** is same as the one shared to you and click **_Next_**
 - Check **_Webex Teams_** , **_Webex Calling (Enterprise)_** & **_Contact Center_**
 - Ensure that the License Type is **_Premium Agent_** and Role is **_Agent_** and click **_Add Users_**. 
-- In the next page, make sure that the **_Location_** is selected under **_Assign Numbers_**. 
+- In the next page, make sure that the **_Location_** is selected under **_Assign Numbers_**. The correct value should be already selected by default.
 - In the same page, Enter the correct **_Extension_** under **_Assign Numbers_**. You can find this in the table above.
 - Click **_Finish_**
 - Select the supervisor user and modify his role to **_Supervisor_** by clicking on **_Edit_** button.
