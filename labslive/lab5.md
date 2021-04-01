@@ -89,8 +89,8 @@ Note: You can log out agents who are in the Available, Idle, or Not Responding. 
 
 | **Entity** | **Name**      | 
 | ----------- | ----------------- | 
-| Supervisor         | Supervisor_wxcclab_pod\<ID\>@mailinator.com | 
 | User Profiles        | Supervisor Profile Pod\<ID\>   | 
+| Supervisor         | Supervisor_wxcclab_pod\<ID\>@mailinator.com | 
 
 ### 3. Supervisor’s User Profile
 - Make sure the agent is logged back into the agent interface. During the agent login select the **_Team2_wxcclab_pod\<ID\>_**.
