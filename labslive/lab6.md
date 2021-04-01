@@ -1,5 +1,5 @@
 ---
-title: "Lab 6: Bonus section"
+title: "Lab 6: Bonus section - Facebook Messenger Integration"
 ---
 
 ### Overview of the lab:
@@ -16,8 +16,7 @@ This is a bonus section for the participants who has successfully compleated the
   * [Testing Facebook Chat to Agent Desktop](#testing-facebook-chat-to-agent-desktop)
 - [8. Agent Desktop: Contact offering to an Agent, Acceptance, and closure](#8-agent-desktop-contact-offering-to-an-agent-acceptance-and-closure)
 
-## Introduction
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dibFEv-xv3g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# Introduction
 
 ### Lab Objective
 
@@ -27,17 +26,26 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ### Pre-requisite
 
-1. WxCC Portal url.
-2. Admin login credentials to login to WxCC portal.
-3. Facebook account along with login credentials.
-4. Agent account to login to agent desktop.
+- You have successfully completed Lab 1 and Lab 2;
+- Facebook account along with login credentials;
+- Agent account to login to agent desktop;
+
+# Lab Section
+
+## Part 1: Organization admin: set up Facebook account
+>The following video provides detailed steps of configuration from the Facebook side. It will show you how to create a new Facebook page and how to collect API data for Facebook integration.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dibFEv-xv3g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Quick Links**
+
+- Facebook: [http://facebook.com/](http://facebook.com/){:target="_blank"}
 
 
-## 1. Organization admin: set up facebook account
+### Steps for creating a Facebook page
 
 * Customer/Partner should have an facebook account that can be used for creating new page.
 
-* Login to the [Facebook](http://facebook.com/) to create a business page which will be used for your end customers.
+* Login to the [Facebook](http://facebook.com/){:target="_blank"} to create a business page which will be used for your end customers.
 
 * Once logged in, please select Pages tab which is on left side of the facebook home page.
 
@@ -48,7 +56,16 @@ End customer can initiate queries from provided facebook page to contact center 
 * Upload cover photo and Logo then save.
 
 
-## 2. Configure Facebook Connector in WxCC Control Hub
+## Part 2: Configure Facebook Connector in WxCC Control Hub
+>The following video outlines how to create a new Facebook Connector in the Control Hub.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dibFEv-xv3g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Quick Links**
+
+- Control hub: [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
+
+
+### Steps for creating a new connector in the Control Hub
 
 * Login to the WxCC portal.
 
@@ -75,7 +92,16 @@ End customer can initiate queries from provided facebook page to contact center 
 * Now you should be able to see the newly created Facebook Page in Social Channels.
 
 
-## 3. Configure Facebook Entrypoint
+## Part 3: Configure Facebook Connector in Management Portal
+>Here we go through the list of settings which are needed from the Management Portal perspective. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dibFEv-xv3g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Quick Links**
+
+- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}
+
+
+### 1. Configure Facebook Entrypoint
 
 * Login to the WxCC portal.
 
@@ -86,7 +112,7 @@ End customer can initiate queries from provided facebook page to contact center 
 * Provide the Entry Point Name, Description and Channel type as "Social Channel" and Social Channel type as "Facebook Messenger" and save.
 
 
-## 4. Configure Facebook Queue
+### 2. Configure Facebook Queue
 
 * Select Provisioning and expand Entry Points/Queues, now choose Queue.
 
@@ -99,7 +125,7 @@ End customer can initiate queries from provided facebook page to contact center 
 * Update the Max time in queue and save.
 
 
-## 5. Configure EntryPoint Mappings
+### 3. Configure EntryPoint Mappings
 
 * Select left side menu, expand Provisioning to see the available tabs. Select "Entry Point Mappings".
 
@@ -107,7 +133,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 * Select the Connector and choose the one which we have created in Control Hub, then select entry point and save.  
 
-## 6. Entry point routing strategy creation
+### 4. Entry point routing strategy creation
 
 * Select left side menu, expand to see the available tabs. Select "Routing Strategy"
 
@@ -116,7 +142,7 @@ End customer can initiate queries from provided facebook page to contact center 
 * Select new Strategy, provide name, start & end date, add the newly create facebook queue then save.
 
 
-## 7. Queue routing strategy creation
+### 5. Queue routing strategy creation
 
 * Now from the routing strategy page, select the ‘queue’ that you created and choose ‘New Strategy’.
 
@@ -126,10 +152,18 @@ End customer can initiate queries from provided facebook page to contact center 
 
 * Now click save to complete Queue routing strategy settings. 
 
-### Testing Facebook Chat to Agent Desktop
+
+## Part 4: Testing Facebook Chat to Agent Desktop
+>The following video will show how to test the configuration. It will demonstrate how to send a message from Facebook page and how it can be managed by agent.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6Y-VNupYLns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 8. Agent Desktop: Contact offering to an Agent, Acceptance, and closure
+**Quick Links**
+
+- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}
+- Agent Interface: [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}
+
+
+### Agent Desktop: Contact offering to an Agent, Acceptance, and closure
 
 * Select left side menu in Wxcc Portal, expand to see the available tabs. Select "Agent Desktop".
 
@@ -139,3 +173,5 @@ End customer can initiate queries from provided facebook page to contact center 
 
 * Click "Accept" to handle the contact, after responding close the task.
 
+
+Congratulations, you have completed the **bonus** section. Well done!!!
