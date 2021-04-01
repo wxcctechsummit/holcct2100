@@ -49,8 +49,8 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 | **User Role** | **User email**      | **User Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Agent        | Agent_wxcclab_pod\<ID\>   | 1000 |
-| Supervisor         | Supervisor_wxcclab_pod\<ID\>  | 2000 |
+| Agent        | Agent_wxcclab_pod\<ID\>@mailinator.com   | 1000 |
+| Supervisor         | Supervisor_wxcclab_pod\<ID\>@mailinator.com  | 2000 |
  
 ### 1. Add an agent and a supervisor users and configure the calling extension
 
@@ -65,7 +65,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - In the next page, enter the correct **_Extension_** under **_Assign Numbers_**. You can find this in the information already shared with you.
 - Click **_Finish_**
 - Select the supervisor user and modify his role to **_Supervisor_** by clicking on **_Edit_** button.
-- Validate the users by going to [www.mailinator.com](www.mailinator.com){:target="_blank"}. Check the emails inbox and follow the email instructions to activate the user account.
+- Validate the users by going to [https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}. Check the emails inbox and follow the email instructions to activate the user account.
 
 ### 2. Optionally, add the rest of the users
 
