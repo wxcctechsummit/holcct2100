@@ -13,7 +13,7 @@ In this lab, we will show you the existing dashboards which are available for su
 * [1. Management Portal with Supervisor account](#1-management-portal-with-supervisor-account)
 * [2. Portal's dashboards information](#2-portals-dashboards-information)
 - [Part 2: Supervisor permissions and remote agent logout](#part-2-Supervisor-permissions-and-remote-agent-logout) 
-* [1. Agent State Data – Realtime dashboard](#1-agent-state-data-realtime-dashboard)
+* [1. Agent State Data – Realtime dashboard](#1-agent-state-data--realtime-dashboard)
 * [2. Remote Agent Logout](#2-remote-agent-logout)
 * [3. Supervisor’s User Profile](#3-supervisors-user-profile)
 
