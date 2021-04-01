@@ -13,7 +13,7 @@ In this lab, we will show you the existing dashboards which are available for su
 * [1. Management Portal with Supervisor account](#1-management-portal-with-supervisor-account)
 * [2. Portal's dashboards information](#2-portals-dashboards-information)
 - [Part 2: Supervisor permissions and remote agent logout](#part-2-Supervisor-permissions-and-remote-agent-logout) 
-* [1. “Agent State Data – Realtime” dashboard](#1-agent-state-data-realtime-dashboard)
+* [1. Agent State Data – Realtime dashboard](#1-agent-state-data-realtime-dashboard)
 * [2. Remote Agent Logout](#2-remote-agent-logout)
 * [3. Supervisor’s User Profile](#3-supervisors-user-profile)
 
@@ -76,7 +76,7 @@ In this lab, we will show you the existing dashboards which are available for su
 - Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}
 - Agent Interface: [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}
 
-### 1. “Agent State Data – Realtime” dashboard 
+### 1. Agent State Data – Realtime dashboard 
 - Make sure that the agent is logged in.
 - Go to the portal's dashboard as a supervisor and select the 4th dashboard **Agent State Data – Realtime** in the upper left corner.
 - Now the agent has to be presented in the **Agent State Data** dashboard.
