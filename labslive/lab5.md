@@ -13,20 +13,22 @@ In this lab, we will show you the existing dashboards which are available for su
 * [1. Management Portal with Supervisor account](#management-portal-with-supervisor-account)
 * [2. Portal's dashboards information](#portals-dashboards-information)
 - [Part 2: Supervisor permissions and remote agent logout](#part-2-Supervisor-permissions-and-remote-agent-logout) 
-
+* [1. “Agent State Data – Realtime” dashboard](#agent-state-data-–-Realtime-dashboard)
+* [2. Remote Agent Logout](#remote-agent-logout)
+* [3. Supervisor’s User Profile](#supervisors-user-profile)
 
 # Introduction
 
 ### Lab Objective
 
 - This lab is designed to help you to be familiar with the supervisor dashboards of the Management Portal. 
-- It shows how to customize a user profile setting and define limit access rights.
 - It demonstrates a new Agent Log out functionality with the latest "Agent State Data - Realtime" dashboard.
-
+- It shows how to customize a user profile setting and define an access rights.
+- 
 ### Pre-requisites
 
 - You have successfully completed Lab 1, Lab 2 and Lab 3;
-- There is at least one agent logged in to the Agent desktop;
+- There is an agent logged in to the Agent desktop;
 - You have the supervisor's login credentials;
 
 
@@ -65,19 +67,48 @@ In this lab, we will show you the existing dashboards which are available for su
 
 ## Part 2: Supervisor permissions and remote agent logout
 
->Here we take a look at the dashboard that was recently added. We will learn how to change the supervisor's access rights and how to manually log agents out with the supervisor account.
+>Here we go through the newly added dashboard. We will learn how to change supervisor permissions and how to manually log out agents by using a supervisor account.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0NcgneC1UZo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ij08tvZltlg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Quick Links**
+
+- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}
+- Agent Interface: [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}
 
 ### 1. “Agent State Data – Realtime” dashboard 
-### 2. Remote agent Logout 
-### 3. Supervisor’s User Profiles
+- Make sure that the agent is logged in.
+- Go to the portal's dashboard as a supervisor and select the 4th dashboard **Agent State Data – Realtime** in the upper left corner.
+- Now the agent has to be presented in the **Agent State Data** dashboard.
+- Manually refresh dashboard data by clicking on **Stop Refresh** button. As the result, the **time since last refresh** will be restarted.
+
+### 2. Remote Agent Logout 
+- To log out an agent, click **Sign Out** button in the Action field. Make sure that you receive a notification that the agent has been successfully logged out.
+Note: You can log out agents who are in the Available, Idle, or Not Responding. If the agent is in a **Connected** state the Sign Out button will not be available.
+- Go to the Agent desktop and verify the agent status. He should receive the notification that the supervisor has signed him out.
+
+| **Entity** | **Name**      | 
+| ----------- | ----------------- | 
+| Supervisor         | Supervisor_wxcclab_pod\<ID\>@mailinator.com | 
+| User Profiles        | Supervisor Profile Pod\<ID\>   | 
+
+### 3. Supervisor’s User Profile
+- Make sure the agent is logged back into the agent interface. During the agent login select the **_Team2_wxcclab_pod\<ID\>_**.
+- Navigate to **_Provisioning_** and select **_User Profiles_**.
+- Click on dots **_..._** infront of **_Supervisor Profile_** and select **Copy** option.
+- The new **User Profile** page will be presented. Set the **Name** base on your Pod\<ID\> **_Supervisor Profile Pod\<ID\>_**.
+- In the **User Profile** page click on **Access Rights**.
+- In **Teams** field set only team1 **_Team1_wxcclab_pod\<ID\>_** and click **Save**.
+- Navigate to **_Provisioning_**, select **_Users_** and modify your supervisor account 
+- Click on **_Provisioning_** and select **_Users_**
+- Infront of the current supervisor **Supervisor_wxcclab_pod\<ID\>@mailinator.com** click on **_..._** , to launch the **_Edit_** view for a particular User configuration.
+- Select a created profile **_Supervisor Profile Pod\<ID\> _** in the **_User Profile_** drop down list and hit **_Save_**.
+- Log out and log back in to apply the new supervisor profile settings.
+- Verify that there are no agents in the **Agent State Data – Realtime** dashboard with a new profile.
+- Go to the agent desktop and change the team settings. Switch the agent to the team1 **_Team1_wxcclab_pod\<ID\>_**
+- In the agent dashboard click the **_Stop Refresh_** button and make sure the agent appears.
 
 
-### 1. Supervisor's User Profile 
-### 2. Agent State Data dashboard with Agent Logout 
 
-
-Congratulations, you have completed all mandatory labs. If you still have time, you can go through the advanced section [Lab 6: Advance features](lab6.md)
-
+Congratulations, you have completed all mandatory labs. If you still have time, you can go through the **bonus** section [Lab 6: Advanced Features](lab6.md)
 
