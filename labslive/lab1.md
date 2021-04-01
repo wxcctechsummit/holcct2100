@@ -85,7 +85,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}
 
 
-| **Role** | **Name**      | 
+| **Entity** | **Name**      | 
 | ----------- | ----------------- | 
 | Multimedia Profiles        | MM_Profile_wxcclab_pod\<ID\>   | 
 | Site         | Site_wxcclab_pod\<ID\>  | 
