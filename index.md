@@ -1,4 +1,8 @@
-<p align="center">
+<p align="left">
+<img src="labslive/cisco.png">
+</p>
+
+<p align="right">
   <img src="labslive/CL2.png">
 </p>
 
