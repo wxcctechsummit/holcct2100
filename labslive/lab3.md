@@ -65,10 +65,30 @@ title: "Lab 3: IVR and Contact Routing"
 - Place a test call again. The call should be disconnected after the welcome prompt.
 
 
-## Part 2: Adding Queue treatment
+## Part 2: Adding Menu and Queue treatment
+
+### 1. Upload Audio Prompts
+- Download a new welcome prompt `_placehodler_here`
+- To upload the audio files, Go to  Routing Strategy (from Portal) > Resources > Audio Files
+  (Browse > New > Upload the files)
+
+### 2. Create Queue
+- Create a voice queue `Q_voice_<podId>`. (Provisioning > Entry Point / Queue > Queue). 
+- In Queue Call Distribution assign agent team `Team_wxcclab` to the Queue. Your Agent will then login to that team to get the call.
+
+### 3. Add Menu and Queue treatment to the flow
+-
+- Configure the play music to loop, and start 0, end 120 to play 2 minutes of music.
+- Verify and publish the flow.
+ 
+## Part 3: Configure Agent Screen-Pop
+
+### 1. Configure Event Flow
+-
+- Configure the event flow under the queue - ensure they have end flow steps.
 
 
--------
+------- *in progress, to be deleted later* -----------
 ### 3. Create an inbound Voice Entry Point and Voice Queue
 - Login to Portal and create an inbound voice entry point and voice queue. (Provisioning > Entry Point / Queue). Create `EP_voice_wxcclab` and `Q_voice_wxcclab` respectively.
 
