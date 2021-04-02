@@ -32,7 +32,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 ## Part 1: Setup a Simple Flow and make a test call
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/aCJTdOW4uaE" title="WxCC Lab #3 IVR & Call Routing.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aCJTdOW4uaE" title="WxCC Lab #3 IVR & Call Routing.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Configure and Publish the first flow
 - Create a new flow `MyFirstFlow_<podId>` where PodId is your unique pod number.
@@ -42,14 +42,14 @@ title: "Lab 3: IVR and Contact Routing"
 
 ### 2. Create an inbound Voice Entry Point and map a DN
 
-<iframe width="1024" height="576" src="https://www.youtube.com/embed/u1GDs_-YYK4" title="WxCC Lab #3 IVR & Call Routing.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u1GDs_-YYK4" title="WxCC Lab #3 IVR & Call Routing.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - On the Portal create an inbound voice entry point `EP_voice_<podId>` (Provisioning > Entry Point)
 - Map the external number on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to `EP_voice_<podId>`. The DN is already added on Control Hub.
 
 ### 3. Configure the Entry Point Routing Strategy
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/3lrVvKLvvLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3lrVvKLvvLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies > `EP_voice_<podId>`.
 - Map the flow `MyFirstFlow_<podId>`.
