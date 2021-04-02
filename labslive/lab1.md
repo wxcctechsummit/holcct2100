@@ -59,7 +59,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
----
 
 ### 1. Add an agent and a supervisor users and configure the calling extension
 
