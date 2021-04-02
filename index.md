@@ -1,7 +1,6 @@
 <img src="labslive/cisco.png" align="left" />
 <img src="labslive/CL2.png" align="right" />
-<br />
-<br />
+
 &nbsp;
 &nbsp;
 
