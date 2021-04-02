@@ -35,8 +35,8 @@ In this Lab, we will go through the tasks that are required to complete the gene
 [X] You have the agent's extension number
 
 ### Quick Links
-> Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
-> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
+> <a href="https://admin.webex.com" target="_blank">Control Hub</a><br>
+> <a href="https://portal.wxcc-us1.cisco.com/portal" target="_blank">Portal</a>
 
 
 # Lab Section
