@@ -23,14 +23,14 @@ In this Lab, we will explore the different sections and some useful options of t
   * [3. See the list of the keyboard shortcuts](#3-See-the-list-of-the-keyboard-shortcuts)
   * [4. Download Error Report](#4-Download-Error-Report)
 - [4. Custom Desktop Layout](#part-4-custom-desktop-layout)
-  * [1. Download default desktop Layout](#1. Download default desktop Layout)
-  * [2. Customize default desktop layout with logo and title](#2. Customize default desktop layout with logo and title)
-  * [3. Upload the custom desktop layout and associate it to a team](#3. Upload the custom desktop layout and associate it to a team)
-  * [4. Verify the new custom desktop layout](#4. Verify the new custom desktop layout)
-  * [5. More advance example](#5. More advance example)
+  * [1. Download default desktop Layout](#1-Download-default-desktop-Layout)
+  * [2. Customize default desktop layout with logo and title](#2-Customize-default-desktop-layout-with-logo-and-title)
+  * [3. Upload the custom desktop layout and associate it to a team](#3-Upload-the-custom-desktop-layout-and-associate-it-to-a-team)
+  * [4. Verify the new custom desktop layout](#4-Verify-the-new-custom-desktop-layout)
+  * [5. More advance example](#5-More-advance-example)
 - [5. Configuring Outdial](#part-5-configuring-outdial)
-  * [1. Verify/create the Outdial Entry Point and Queue](#1. Verify/create the Outdial Entry Point and Queue)
-  * [2. Test Outdial](#2. Test Outdial)
+  * [1. Verify/create the Outdial Entry Point and Queue](#1-Verifycreate-the-Outdial-Entry-Point-and-Queue)
+  * [2. Test Outdial](#2-Test-Outdial)
 
 # Introduction
 
