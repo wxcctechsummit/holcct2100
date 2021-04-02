@@ -55,10 +55,13 @@ title: "Lab 3: IVR and Contact Routing"
 - Login to the supervisor WebEx Calling app on your mobile.
 - From supervisor's WebEx Calling app, dial the number you associated with EP. You should hear the welcome prompt and then silence.
 
-**Note**: The call is not dropped, as we use EndFlow block which finishes the flow but does not disconnect the call.
+**Good to Know!**: The call is not dropped, as we use EndFlow block which finishes the flow but does not disconnect the call.
 
 - Modify `MyFirstFlow_<podId>` and replace EndFlow with Disconnect node from CallHandling section. Publish flow.
-- Place a test call again. The call should be disconnected after welcome prompt.
+- Place a test call again. The call should be disconnected after the welcome prompt.
+
+
+## Part 2: Adding Queue treatment
 
 
 -------
