@@ -192,6 +192,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Repeat the same for all other users by selecting the appropriate profile in the **_User Profile_** drop down.
 
 
-## Congratulations, you are now ready to start the next [Lab 2: Exploring the Agent Desktop](lab2.md)
+## Congratulations, you are now ready to start the [Lab 2: Exploring the Agent Desktop](lab2.md)
 
 
