@@ -37,14 +37,31 @@ title: "Lab 3: IVR and Contact Routing"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aCJTdOW4uaE" title="WxCC Lab #3 IVR & Call Routing.1 " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Configure and Publish the first flow
-- Configure the flow `flow_wxcclab` with a Play prompt - welcome message and End node.
+- Create a new flow `MyFirstFlow_<podId>` where PodId is your unique pod number.
+- Add play message step and configure it with `0_welcome.wav` prompt. 
+- Finish the flow with EndFlow block.
 - Verify and publish the flow.
 
-### 2. Create an inbound Voice Entry Point
-- On the Portal create an inbound voice entry point `EP_voice_wxcclab` (Provisioning > Entry Point)
-- Map the DN from Control Hub - that is assigned to Wx Calling - on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to `EP_voice_wxcclab`
+### 2. Create an inbound Voice Entry Point and map
+- On the Portal create an inbound voice entry point `EP_voice_<podId>` (Provisioning > Entry Point)
+- Map the external number on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to `EP_voice_<podId>`. The DN is already added on Control Hub.
+
+### 3. Configure the Entry Point Routing Strategy
+- Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies > `EP_voice_<podId>`.
+- Map the flow `MyFirstFlow_<podId>`.
+
+### 4. Make a test call
+- Login to the agent desktop into `Team_wxcclab` and go to a ready state. Login agent WebEx Calling application.
+- Login to the supervisor WebEx Calling app on your mobile.
+- From supervisor's WebEx Calling app, dial the number you associated with EP. You should hear the welcome prompt and then silence.
+
+**Note**: The call is not dropped, as we use EndFlow block which finishes the flow but does not disconnect the call.
+
+- Modify `MyFirstFlow_<podId>` and replace EndFlow with Disconnect node from CallHandling section. Publish flow.
+- Place a test call again. The call should be disconnected after welcome prompt.
 
 
+-------
 ### 3. Create an inbound Voice Entry Point and Voice Queue
 - Login to Portal and create an inbound voice entry point and voice queue. (Provisioning > Entry Point / Queue). Create `EP_voice_wxcclab` and `Q_voice_wxcclab` respectively.
 
