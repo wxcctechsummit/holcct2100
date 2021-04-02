@@ -4,32 +4,33 @@ title: "Lab 4: Email and Chat Configuration"
 
 # Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Part 1: Email Configuration](#part-1-email-configuration)
-  * [Introduction](#introduction)
-    + [Objective](#objective)
-    + [Pre-requisites](#pre-requisites)
-  * [1. Setup test email account (Gmail example)](#1-setup-test-email-account--gmail-example-)
-  * [2. Email Entry Point creation](#2-email-entry-point-creation)
-  * [3. Email Queue creation](#3-email-queue-creation)
-  * [4. Entry point routing strategy creation](#4-entry-point-routing-strategy-creation)
-  * [5. Queue routing strategy creation](#5-queue-routing-strategy-creation)
-  * [6. Email Template creation](#6-email-template-creation)
-  * [7. Customer sends an Email](#7-customer-sends-an-email)
-  * [8. Agent Desktop experience](#8-agent-desktop-experience)
+  - [Introduction](#introduction)
+    - [Objective](#objective)
+    - [Pre-requisites](#pre-requisites)
+  - [1. Setup test email account (Gmail example)](#1-setup-test-email-account-gmail-example)
+  - [2. Email Entry Point creation](#2-email-entry-point-creation)
+  - [3. Email Queue creation](#3-email-queue-creation)
+  - [4. Entry point routing strategy creation](#4-entry-point-routing-strategy-creation)
+  - [5. Queue routing strategy creation](#5-queue-routing-strategy-creation)
+  - [6. Email Template creation](#6-email-templatecreation)
+  - [7. Customer sends an Email](#7-customer-sends-an-email)
+  - [8. Agent Desktop experience](#8-agent-desktop-experience)
 - [Part 2: Chat Configuration](#part-2-chat-configuration)
-  * [Section 1 Configuration in WxCC Portal](#section-1-configuration-in-wxcc-portal)
-    + [Objective](#objective-1)
-    + [Pre-requisites](#pre-requisites-1)
-    + [1. Chat Entry Point creation](#1-chat-entry-point-creation)
-    + [2. Chat Queue creation](#2-chat-queue-creation)
-    + [3. Multimedia Profile creation](#3-multimedia-profile-creation)
-    + [4. Assign the team setup to handle chat to the agent](#4-assign-the-team-setup-to-handle-chat-to-the-agent)
-  * [Section 2 Chat Template configuration](#section-2-chat-template-configuration)
-    + [Objective](#objective-1)
-    + [Pre-requisites](#pre-requisites-1)
-    + [1. Chat template creation](#1-chat-template-creation)
-    + [2. Entry point routing strategy creation](#2-entry-point-routing-strategy-creation)
-    + [3. Queue routing strategy creation](#3-queue-routing-strategy-creation)
+  - [Section 1 Configuration in WxCC Portal](#section-1-configuration-in-wxcc-portal)
+    - [Objective](#objective-1)
+    - [Pre-requisites](#pre-requisites-1)
+    - [1. Chat Entry Point creation](#1-chat-entry-point-creation)
+    - [2. Chat Queue creation](#2-chat-queue-creation)
+    - [3. Multimedia Profile creation](#3-multimedia-profile-creation)
+    - [4. Assign the team setup to handle chat to the agent](#4-assign-the-team-setup-to-handle-chat-to-the-agent)
+  - [Section 2 Chat Template configuration](#section-2-chat-template-configuration)
+    - [Objective](#objective-2)
+    - [Pre-requisites](#pre-requisites-2)
+    - [1. Chat template creation](#1-chat-template-creation)
+    - [2. Entry point routing strategy creation](#2-entry-point-routing-strategy-creation)
+    - [3. Queue routing strategy creation](#3-queue-routing-strategy-creation)
 
 # Part 1: Email Configuration
 
@@ -39,42 +40,72 @@ title: "Lab 4: Email and Chat Configuration"
 
 ### Objective
 
-This lab is designed to ensure we onboard Email account configuration in to WxCC. You will be able to initiate an email to the Contact Centre and be able to accept/respond to the email by logging in as an agent.  
+In this lab we will complete all configuration required to route emails in WxCC.
+You will be able to send an email to the Contact Centre and be able to accept/respond to the email by logging in as an agent.  
 
 We will be configuring Email Account settings, Entry Point, Queue, corresponding Routing strategies, Routing rules and Email Template. This helps us connecting the Email account with our application.  
 
 ### Pre-requisites
 
-1. An Email account to be used in WxCC.
+1. An Email account to be used in WxCC. We provide a GMAIL account to each Lab POD.
 2. Portal and Agent Desktop URL.
 3. Admin credentials to configure.
 4. Agent Credentials to Handle the Email.
 
 ## 1. Setup test email account (Gmail example)
 
-Customer/Partner should have an Email account that can be used in WxCC for polling and handling the emails. It can be a Gmail account or Office 365 account.
+embed video
 
-• If a Gmail account is used, we need to enable POP3/IMAP setting. 
-• Login to the Gmail account with the credentials -> Click on settings icon on top right corner -> Select “See all settings”
-• Now Click on “Forwarding and POP/IMAP” and enable the “POP Download” and “IMAP access” as in screenshot
-• Click on “Google Apps” icon on top right corner -> Select “Account”
-• Select “Security” option and turn “ON” the “Less secure app access”
+
+> A GMAIL account is provided for this lab purpose please check the POD information that has been shared with you. Please reach out to your lab proctors if you have any issues.
+
+Follow the instructions below to set the necesary settings on the GMAIL account
+- Login to the Gmail account with the provided credentials. You might have to use your mobile phone to authenticate
+- Click on settings icon on top right corner -> Select `See all settings`
+- Click on `Forwarding and POP/IMAP` and enable  `POP Download` and `IMAP access`
+- Click on `Google Apps` icon on top right corner -> Select `Account`
+- Select `Security` option and turn `ON` the `Less secure app access`
 • Use this [link](https://accounts.google.com/b/0/DisplayUnlockCaptcha) to disable captcha for the account and click Continue
 
 ## 2. Email Entry Point creation
 
-• Customer admin logins to [WxCC Portal](https://portal.cjp.cisco.com)  with the credentials and accesses the menu ‘Provisioning -> Entry Point/Queues -> Entry Point’.
-• Select “New Entry Point” and enter the respective values and click save
+embed video
+
+- Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com) and go to `Provisioning -> Entry Point/Queues -> Entry Point`
+- Click `New Entry Point` and enter the respective values and click save
+
+Configuration item | Value
+--- | ---
+Name | `EP_email_<ID>`
+Channel Type | `Email`
+Service Level Threshold | `24 hours`
+Time Zone | `Default`
+
 
 ## 3. Email Queue creation
 
-• Customer admins access the menu ‘Provisioning -> Entry Point/Queues -> Queue’
-• Select “New Queue” and enter the respective values and click save
+embed video
+
+- Access the menu `Provisioning -> Entry Point/Queues -> Queue`
+- Click `New Queue` and enter the respective values
+
+Configuration item | Value
+--- | ---
+Name | `Q_email_<ID>`
+Channel Type | `Email`
+Service Level Threshold | `1 hours`
+Maximum time in Queue | `24 hours`
+Time Zone | `Default`
+
+- Click `Add Group` in Email Distribution and select `Team1_<ID>` as created earlier
+
 
 ## 4. Entry point routing strategy creation
 
-• Customer admins access the menu and clicks ‘Routing Strategy’ which cross launches the routing strategy page.
-• Select the ‘email entry point’ that you created from the drop down and click on ‘New Strategy’ button 
+embed video
+
+- Click `Routing Strategy` menu item which cross launches the routing strategy page.
+- Select the `Email entry point` created earlier click on `New Strategy` button 
 • Enter the Routing strategy name and proceed to configure the account connection setting by clicking “Add Email Account”
 • Configure your support email account and save
 • Now click on ‘Add Routing Rule’ and enter your routing rules and save. The content in the subject line helps in subject line-based routing. A combination of ‘And’ and ‘Or’ rules can be applied. However, both ‘And’ and ‘Or’ can’t be added to the same rule.
