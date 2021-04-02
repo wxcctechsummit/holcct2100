@@ -29,7 +29,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ### Pre-requisites
 
-- You have an assigned POD ID
+- You have an assigned POD and attendee ID
 - You have the customer admin login credentials
 - You have the calling DNIS
 - You have the agent's extension number
@@ -37,6 +37,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 ### Quick Links
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
+> Mailinator: **[https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}**
 
 
 # Lab Section
@@ -45,15 +46,20 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 > The following video outlines the process to manage different types of users to the Customer tenant. Following the steps, you will add new users and set the extension. While adding the user, we will see how to select user roles. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LRadvKFIPjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/LRadvKFIPjA?rel=0" title="WxCC Lab #1 Part 1: Control Hub User Management Admin Task" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
 | **User Role** | **User email**      | **User Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Agent        | Agent_wxcclab_pod\<ID\>@mailinator.com   | 1000 |
-| Supervisor         | Supervisor_wxcclab_pod\<ID\>@mailinator.com  | 2000 |
- 
+| Agent        | agent1_\<ID\>@mailinator.com   | 1000 |
+| Supervisor         | supervisor1_\<ID\>@mailinator.com  | 2000 |
+
+**NOTE:**
+
+Your \<ID\> is provided in the email in the **"Attendee ID"** line.
+
+
 ### 1. Add an agent and a supervisor users and configure the calling extension
 
 - Navigate to **_Users_**
@@ -90,7 +96,8 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 > The following video outlines how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to each different Contact Center Users. We will also see how to navigate to Admin Portal from Control Hub UI
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_Bdt7WV8DCg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/_Bdt7WV8DCg?rel=0" title="WxCC Lab #1 Part 2: Admin Portal Multimedia Profile, Site and Team Configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ---
 
@@ -153,7 +160,8 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 >The following video outlines how to configure the users in Admin Portal that were added first in Control Hub. This is a very critical task from the Contact Center perspective. We also would take a look at how to associate customer-created Site, Team, and Multi-Media Profile with those users. Post this we should be able to successfully login as an agent using any of the users and their associated extension.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eUDI-5z0VyQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/eUDI-5z0VyQ?rel=0" title="WxCC Lab #1 Part 3: Admin Portal User Configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ---
 
@@ -180,8 +188,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Click on **_Provisioning_** and select **_Users_**
 
 - Click on `...` for the first user, to launch the **_Edit_** view for a particular User configuration
-
-- Ensure that **_Administrator Profile_** is selected in the **_User Profile_** drop down.
 
 - Click on **_Contact Center Enabled_** Toggle to move it to **_On_**
 
