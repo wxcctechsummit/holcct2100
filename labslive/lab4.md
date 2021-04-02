@@ -13,10 +13,8 @@ title: "Lab 4: Email and Chat Configuration"
   - [2. Email Entry Point creation](#2-email-entry-point-creation)
   - [3. Email Queue creation](#3-email-queue-creation)
   - [4. Entry point routing strategy creation](#4-entry-point-routing-strategy-creation)
-  - [5. Queue routing strategy creation](#5-queue-routing-strategy-creation)
-  - [6. Email Template creation](#6-email-templatecreation)
-  - [7. Customer sends an Email](#7-customer-sends-an-email)
-  - [8. Agent Desktop experience](#8-agent-desktop-experience)
+  - [5. Email Template creation](#5-email-templatecreation)
+  - [6. Test Email customer and agent experience](#6-test-email-customer-and-agent-experience)
 - [Part 2: Chat Configuration](#part-2-chat-configuration)
   - [Section 1 Configuration in WxCC Portal](#section-1-configuration-in-wxcc-portal)
     - [Objective](#objective-1)
@@ -40,10 +38,13 @@ title: "Lab 4: Email and Chat Configuration"
 
 ### Objective
 
-In this lab we will complete all configuration required to route emails in WxCC.
+In this lab we will complete all configuration required to route emails and chats into WxCC.
 You will be able to send an email to the Contact Centre and be able to accept/respond to the email by logging in as an agent.  
+You will also have the ability to start a chat session with an agent from an embedded chat bubble on a website
 
-We will be configuring Email Account settings, Entry Point, Queue, corresponding Routing strategies, Routing rules and Email Template. This helps us connecting the Email account with our application.  
+In the email part, we will be configuring Email Account settings, Entry Point, Queue, corresponding Routing strategies, Routing rules and Email Template. This helps us connecting the Email account with our application.  
+
+In the chat part, we will be configuring 
 
 ### Pre-requisites
 
@@ -60,12 +61,12 @@ embed video
 > A GMAIL account is provided for this lab purpose please check the POD information that has been shared with you. Please reach out to your lab proctors if you have any issues.
 
 Follow the instructions below to set the necesary settings on the GMAIL account
-- Login to the Gmail account with the provided credentials. You might have to use your mobile phone to authenticate
+- Open a new browser tab and login to the Gmail account with the provided credentials. You might have to use your mobile phone to authenticate
 - Click on settings icon on top right corner -> Select `See all settings`
 - Click on `Forwarding and POP/IMAP` and enable  `POP Download` and `IMAP access`
 - Click on `Google Apps` icon on top right corner -> Select `Account`
 - Select `Security` option and turn `ON` the `Less secure app access`
-• Use this [link](https://accounts.google.com/b/0/DisplayUnlockCaptcha) to disable captcha for the account and click Continue
+- Use this [link](https://accounts.google.com/b/0/DisplayUnlockCaptcha) to disable captcha for the account and click Continue
 
 ## 2. Email Entry Point creation
 
@@ -104,39 +105,69 @@ Time Zone | `Default`
 
 embed video
 
-- Click `Routing Strategy` menu item which cross launches the routing strategy page.
-- Select the `Email entry point` created earlier click on `New Strategy` button 
-• Enter the Routing strategy name and proceed to configure the account connection setting by clicking “Add Email Account”
-• Configure your support email account and save
-• Now click on ‘Add Routing Rule’ and enter your routing rules and save. The content in the subject line helps in subject line-based routing. A combination of ‘And’ and ‘Or’ rules can be applied. However, both ‘And’ and ‘Or’ can’t be added to the same rule.
-• Select the queue from the drop-down list for the default routing queue and click save
+- Click `Routing Strategy` menu item which cross launches the routing strategy configuration webpage.
+- Select the `EP_queue_<ID>` created earlier click on `New Strategy` button 
+- Enter the Routing strategy name `RS-EP_email_<ID>`and proceed to configure the account connection setting by clicking `Add Email Account`
+- Configure the assigned GMAIL email account settings as below and Save
 
-## 5. Queue routing strategy creation
+Configuration item | Value
+--- | ---
+Email Address | GMAIL emmail address specified in your Lab POD details
+Incoming Protocol | `IMAP`
+Incoming Host | `imap.gmail.com`
+Inbound Encryption | `SSL`
+Inbound Port Number | `993`
+SMTP Server | `smtp.gmail.com`
+Outbound Encryption | `SSL`
+Outbound Port Number | `465`
+Username | GMAIL email address specified in your Lab POD details
+Password | GMAIL password specified in your Lab POD details
+Maximum Attachment size | `25 MB`
+Attachment Limit | `3`
+Mail Delay | `60 Seconds`
+Maximum Messages/Cycle | `10`
 
-• Now from the routing strategy page, select the ‘queue’ that you created and click on ‘New Strategy’ button 
-• Enter the Queue Name and Select the ‘Routing Type’ from the drop down.
-• Enter the 'Time Settings', 'Advanced settings' and 'Email Distribution’ by selecting 'Add Group'.
-• Select the Team to which the contact should be delivered and click save group.
-• Now click save to complete Queue routing strategy settings. 
+- Click on `Add Routing Rule` and enter your routing rules and save. The content in the subject line helps in subject line-based routing. A combination of ‘And’ and ‘Or’ rules can be applied. However, both ‘And’ and ‘Or’ can’t be added to the same rule.
 
-## 6. Email Template creation
+Configuration item | Value
+--- | ---
+Routing Rule Name | `Sales Email Routing`
+IF Email Subject Contains | `Sales`
+THEN Queue To | `Q_email_<ID>`
 
-• Now from the routing strategy page, select the ‘resources’ menu at the top and then choose ‘Predefined Emails’.
-• Now click on the ‘New’ button
-• Use the insert macro’s option to add the customer name and agent name and their defaults. Also add text as appropriate to the template and save. The template will now be available to all agents to use.
+- Finally select the queue from the drop-down list for the default routing as `Q_email_<ID>` and click Save
 
-**Note:** A Predefined Email provides agents with an email outline that can be modified or sent directly to customers. There is currently a limit of one Predefined Email per organization. If its status is set to Active, the Predefined Email will automatically appear in all new agent emails. 
+## 5. Email Template creation
 
-## 7. Customer sends an Email
+embed video
 
-• Customer sends an email to the support email address that was initially configured in the Entry point routing strategy creation.
+- Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Emails`.
+- Click on the `New` button
+- Use the insert macro’s option to add the customer name and agent name and their defaults. Also add text as appropriate to the template and save. The template will now be available to all agents to use.
 
-## 8. Agent Desktop experience
+Example:
+```
+Hello ${CustomerName},
 
-• Once the agent goes Available, the Email will be offered to the agent.
-• Click "Accept" to handle the email.
-• Click "Reply" or Reply All" to reply to the email and enter the body of the email and hit send button
-• Add wrap up and close the task
+<Required Information>
+
+Regards,
+
+${AgentName}
+```
+
+
+> **Note:** A Predefined Email provides agents with an email outline that can be modified or sent directly to customers. There is currently a limit of one Predefined Email per organization. If its status is set to Active, the Predefined Email will automatically appear in all new agent emails. 
+
+## 6. Test Email customer and agent experience
+
+- Send test email from your personal or work email account to:`GMAIL account in lab topology guide` with Subject:`Sales` 
+- You can verify that email reaches GMAIL account by checking the previously open tab
+- If you haven't done so, login to WxCC agent desktop as Agent 1
+- Once the agent goes Available, the Email will be offered to the agent.
+- Click `Accept` to handle the email.
+- Click `Reply` or `Reply All` to reply to the email and enter the body of the email and hit send button
+- Add wrap up code and close the task
 
 
 # Part 2: Chat Configuration
