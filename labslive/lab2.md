@@ -62,6 +62,8 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/dUYcMI0bsuU?rel=0" title="WxCC Lab #2 Part 1: Access to the Agent Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
 ### 1. Activate Webex Calling
 
 - Login the **[Control Hub](https://admin.webex.com/){:target="_blank"}** with your admin credentials
@@ -129,6 +131,8 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/6PhY8Wl_8Rw?rel=0" title="WxCC Lab #2 Part 2: Agent Desktop Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
 ### 1. Introducing the Agent Desktop Interface
 
 > **Note:** In this section you don't need to do anny tasks. This section was created to familiarize you with the agent interface.
@@ -158,6 +162,8 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 > The following video explains the steps you need to follow in order to configure some basic, but really useful, user profile related options in the Agent Desktop.
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/3ZrPeIBE-HA?rel=0" title="WxCC Lab #2 Part 3: Configure the User Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ### 1. Change Notifications setting and volume
 
@@ -201,6 +207,8 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 > Watch the following video to learn the dekstop layout customization process. After the video, you will be able to customize the Agent Desktop with your company logo and you will see a more advanced and cool layout example.
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/Olrifma7Khc?rel=0" title="WxCC Lab #2 Part 4: Custom Desktop Layout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ### 1. Download default desktop Layout
 
@@ -275,6 +283,8 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 > In the following video, all the required steps to configure and test an outbound call are explained. In order to complet it you will need to login in Webex Calling with the corresponding extension number of the agent.
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/47DPXWs7H54?rel=0" title="WxCC Lab #2 Part 5: Configuring Outdial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ### 1. Verify/create the Outdial Entry Point and Queue
 
