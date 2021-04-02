@@ -29,7 +29,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ### Pre-requisites
 
-- You have an assigned POD ID
+- You have an assigned POD and attendee ID
 - You have the customer admin login credentials
 - You have the calling DNIS
 - You have the agent's extension number
@@ -180,8 +180,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - Click on **_Provisioning_** and select **_Users_**
 
 - Click on `...` for the first user, to launch the **_Edit_** view for a particular User configuration
-
-- Ensure that **_Administrator Profile_** is selected in the **_User Profile_** drop down.
 
 - Click on **_Contact Center Enabled_** Toggle to move it to **_On_**
 
