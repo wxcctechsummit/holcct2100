@@ -33,8 +33,8 @@ End customer can initiate queries from provided facebook page to contact center 
 ### Quick Links
 > Control Hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
-> Facebook: [http://facebook.com/](http://facebook.com/){:target="_blank"}
-> Agent Interface: [https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}
+> Facebook: **[http://facebook.com/](http://facebook.com/){:target="_blank"}**
+> Agent Interface: **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
 
 # Lab Section
 
