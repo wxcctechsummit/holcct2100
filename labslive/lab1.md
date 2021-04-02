@@ -29,10 +29,10 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ### Pre-requisites
 
-X You have an assigned POD ID
-X You have the customer admin login credentials
-X You have the calling DNIS
-X You have the agent's extension number
+[X] You have an assigned POD ID
+[X] You have the customer admin login credentials
+[X] You have the calling DNIS
+[X] You have the agent's extension number
 
 ### Quick Links
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
