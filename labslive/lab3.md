@@ -67,13 +67,17 @@ title: "Lab 3: IVR and Contact Routing"
 
 ## Part 2: Adding Menu and Queue treatment
 
-### 1. Upload Audio Prompts
+### 1. Upload New Prompts
+
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/U7OnhQ3ZPRo?rel=0" title="WxCC Lab #3 IVR & Call Routing2.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Download new prompts:
    - [Welcome.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/Welcome.wav){:target="_blank"}
    - [2OptionMenu.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/2OptionMenu.wav){:target="_blank"}
    - [QueueMusic.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/QueueMusic.wav){:target="_blank"}
 
-- Upload audio files to WebEx Contact Center, Go to  Routing Strategy (from Portal) > Resources > Audio Files
+- Upload audio files to WebEx Contact Center.
+  Go to  Routing Strategy (from Portal) > Resources > Audio Files. 
   (Browse > New > Upload the files)
 
 ### 2. Create Queue
