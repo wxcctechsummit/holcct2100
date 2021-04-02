@@ -85,49 +85,24 @@ title: "Lab 3: IVR and Contact Routing"
 - In Queue Call Distribution assign agent team `Team_wxcclab` to the Queue. Your Agent will then login to that team to get the call.
 
 ### 3. Add Menu and Queue treatment to the flow
--
-- Configure the play music to loop, and start 0, end 120 to play 2 minutes of music.
-- Verify and publish the flow.
- 
-## Part 3: Configure Agent Screen-Pop
-
-### 1. Configure Event Flow
--
-- Configure the event flow under the queue - ensure they have end flow steps.
-
-
-------- *in progress, to be deleted later* -----------
-### 3. Create an inbound Voice Entry Point and Voice Queue
-- Login to Portal and create an inbound voice entry point and voice queue. (Provisioning > Entry Point / Queue). Create `EP_voice_wxcclab` and `Q_voice_wxcclab` respectively.
-
-### 4. Verify the Audio Prompts, Create the Entry Point flow.
-- The audio prompts required for the script build out are wav files. The whole bundle of wav files [can be found here](https://cisco.box.com/s/njmhdrho38mbohoqlc7iznkj74bgk7tv){:target="_blank"}.
-- You may listen to the files to get an idea of the kind of flows being constructed in the later labs.
-- To create a flow and have these wav files ready for use, ensure that these prompt files are already uploaded to the org.
-- To upload the audio files, Go to  Routing Strategy (from Portal) > Resources > Audio Files and ensure that the audio files are uploaded. (Browse > New > Upload the files)
-- Then, you can go to flow to create the flow. Routing Strategy (from Portal) > Flow > New and create the new flow as described in the video above.
-
-
-### 1. Configure and Publish the flow
-- Configure the flow `flow_wxcclab` with a Play prompt - welcome message and queue block and play music block.
-- Configure the Queue Block to `Q_voice_wxcclab`. Map the queue inside of the queue block.
-- Configure the event flow under the queue - ensure they have end flow steps.
+- Modify `MyFirstFlow_<podId>`:
+  - replace a welcome prompt to the new one `Welcome.wav`
+  - add Menu step with prompt `2OptionMenu.wav` and configure two options
+  - add Queue Contact step and configure it with queue `Q_voice_<podId>`
 - Configure the play music to loop, and start 0, end 120 to play 2 minutes of music.
 - Verify and publish the flow.
 
-### 6. Configure the Entry Point Routing Strategy
-- Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies > `EP_voice_wxcclab`.
-- Map the flow `flow_wxcclab` you just created in there.
-
-### 7. Configure the Queue Routing Strategy
-- Create the Queue routing strategy for `Q_voice_wxcclab` using a 24x7 open queue.
-- Map the Team `Team_wxcclab` to the Queue. Your Agent will then login to that team to get the call.
-
-### 8. Make a test call
+### 4. Make a test call
 - Login to the agent desktop into `Team_wxcclab` and go to a ready state.
 - Dial the number using your cell. You should hear the welcome prompt and get the call on the agent desktop.
 
-## Part 2: Adding Menu and Queue treatment to the call
+
+## Part 3: Configure Agent Screen-Pop
+
+### 1. Configure Event Flow
+- Configure the event flow under the queue - ensure they have end flow steps.
+
+------- *in progress, to be deleted later* -----------
 
 
 
