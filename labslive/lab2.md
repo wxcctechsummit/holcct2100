@@ -11,9 +11,9 @@ In this Lab, we will explore the different sections and some useful options of t
 
 - [1. Access to the Agent Desktop](#part-1-access-to-the-agent-desktop)
   * [1. Activate Webex Calling](#1-Activate-Webex-Calling)
-  * [2. Download and Login in the Webex Calling app for PC](#Download-and-Login-in-the-Webex-Calling-app-for-PC)
-  * [3. Download and Login in the Webex Calling app for mobile](#Download-and-Login-in-the-Webex-Calling-app-for-mobile)
-  * [4. Login in the Agent Desktop](#Login-in-the-Agent-Desktop)
+  * [2. Download and Login in the Webex Calling app for PC](#1-Download-and-Login-in-the-Webex-Calling-app-for-PC)
+  * [3. Download and Login in the Webex Calling app for mobile](#3-Download-and-Login-in-the-Webex-Calling-app-for-mobile)
+  * [4. Login in the Agent Desktop](#4-login-in-the-agent-desktop)
 - [2. Agent Desktop Overview](#part-2-agent-desktop-overview)
   * [1. Introducing the Agent Desktop Interface](#1-Introducing-the-Agent-Desktop-Interface)
   * [2. Verification of understanding](#2-Verification-of-understanding)
@@ -48,10 +48,8 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 ### Quick Links
 
-> Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**
-
-> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**
-
+> Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
+> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
 > Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**
 
 # Lab Section
