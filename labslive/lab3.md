@@ -5,12 +5,15 @@ title: "Lab 3: IVR and Contact Routing"
 # Table of Contents
 - [Part 1: Setup a Simple Flow and make a test call](#part-1-setup-a-simple-flow-and-make-a-test-call)
   * [1. Configure and Publish the first flow](#1-configure-and-publish-the-flow)
-  * [4. Verify the Audio Prompts, Create the Entry Point flow.](#4-verify-the-audio-prompts-create-the-entry-point-flow)
-  * [5. Configure and Publish the flow](#5-configure-and-publish-the-flow)
-  * [6. Configure the Entry Point Routing Strategy](#6-configure-the-entry-point-routing-strategy)
-  * [7. Configure the Queue Routing Strategy](#7-configure-the-queue-routing-strategy)
-  * [8. Make a test call](#8-make-a-test-call)
-- [Part 2: Adding Menu and Queue treatment to the call](#part-2-adding-menu-and-queue-treatment-to-the-call)
+  * [2. Create an inbound Voice Entry Point and map a DN](#2-create-an-inbound-voice-entry-point-and-map-a-dn)
+  * [3. Configure the Entry Point Routing Strategy](#3-configure-the-entry-point-routing-strategy)
+  * [4. Make a test call](#4-make-a-test-call)
+- [Part 2: Adding Menu and Queue treatment](#part-2-adding-menu-and-queue-treatment)
+  * [1. Upload New Prompts](#1-upload-new-prompts)
+  * [2. Create Queue](#2-create-queue)
+  * [3. Add Menu and Queue treatment to the flow](#3-add-menu-and-queue-treatment-to-the-flow)
+  * [4. Make a test call](#4-make-a-test-call)
+
 
 
 # Introduction
