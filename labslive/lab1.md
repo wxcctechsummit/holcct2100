@@ -29,10 +29,10 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ### Pre-requisites
 
-&check; You have an assigned POD ID
-✔️: You have the customer admin login credentials
-:heavy_check_mark: You have the calling DNIS
-:heavy_check_mark: You have the agent's extension number
+- You have an assigned POD ID
+- You have the customer admin login credentials
+- You have the calling DNIS
+- You have the agent's extension number
 
 ### Quick Links
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
@@ -43,7 +43,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ## Part 1: Control Hub User Management Admin Task
 
-* | + | - Note: The following video outlines the process to manage different types of users to the Customer tenant. Following the steps, you will add new users and set the extension. While adding the user, we will see how to select user roles. 
+> The following video outlines the process to manage different types of users to the Customer tenant. Following the steps, you will add new users and set the extension. While adding the user, we will see how to select user roles. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LRadvKFIPjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -88,7 +88,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ## Part 2: Admin Portal Multimedia Profile, Site and Team Configuration
 
-* | + | - Annotation: The following video outlines how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to each different Contact Center Users. We will also see how to navigate to Admin Portal from Control Hub UI
+> The following video outlines how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to each different Contact Center Users. We will also see how to navigate to Admin Portal from Control Hub UI
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_Bdt7WV8DCg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
