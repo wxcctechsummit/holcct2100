@@ -34,6 +34,12 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - You have the calling DNIS;
 - You have the agent's extension number;
 
+### Quick Links
+> Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
+> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
+> Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**
+
+
 # Lab Section
 
 ## Part 1: Control Hub User Management Admin Task
@@ -42,10 +48,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LRadvKFIPjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-**Quick Links**
-
-- Control hub: [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
 
 | **User Role** | **User email**      | **User Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
@@ -82,19 +84,13 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ### 2. Optionally, add the rest of the users
 
-- Please follow the same steps as above to add any extra users that you want to add to the Contact Center.
+* Please follow the same steps as above to add any extra users that you want to add to the Contact Center.
 
 ## Part 2: Admin Portal Multimedia Profile, Site and Team Configuration
 
 >The following video outlines how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to each different Contact Center Users. We will also see how to navigate to Admin Portal from Control Hub UI
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_Bdt7WV8DCg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-**Quick Links**
-
-- Control hub: [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
-- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}
 
 
 | **Entity** | **Name**      | 
@@ -106,35 +102,51 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ### 1. Create a new MultiMedia Profile
 
-- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
-- Enter the admin email id and the password.
-- Navigate to **_Contact Center_** Card
-- Click on **_Settings_**
-- Scroll down to **_Webex Contact Center Management_**
-- Click on **_Go to Webex Contact Center Management Portal_**
-- Ensure that browser pop up blockers are not blocking the **_Admin Portal_** pop up.
-- Click on **_Provisioning_** and select **_Multimedia Profiles_**
-- Click on `+` **_New Multimedia Profile_** to open Multimedia Profile configuration page.
-- Input Name as `MM_Profile_wxcclab_pod\<ID\>_` and input `1` for **_Voice_**, `3` for **_Chat_**, `3` for **_Email_**, `3` for **_Social Channel_** and click **_Save_**
+* Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
+
+* Enter the admin email id and the password.
+
+* Navigate to **_Contact Center_** Card
+
+* Click on **_Settings_**
+
+* Scroll down to **_Webex Contact Center Management_**
+
+* Click on **_Go to Webex Contact Center Management Portal_**
+
+* Ensure that browser pop up blockers are not blocking the **_Admin Portal_** pop up.
+
+* Click on **_Provisioning_** and select **_Multimedia Profiles_**
+
+* Click on `+` **_New Multimedia Profile_** to open Multimedia Profile configuration page.
+
+* Input Name as `MM_Profile_wxcclab_pod\<ID\>_` and input `1` for **_Voice_**, `3` for **_Chat_**, `3` for **_Email_**, `3` for **_Social Channel_** and click **_Save_**
 
 ### 2. Create a new Site
 
-- Navigate to **_Provisioning_** and select **_Site_**
-- Click on `+` **_New Site_** button and provide the Name as `Site_wxcclab_pod\<ID\>`
-- Select `MM_Profile_wxcclab_pod\<ID\>` in the **_Multimedia Profile_** drop down and hit **_Save_**
+* Navigate to **_Provisioning_** and select **_Site_**
+
+* Click on `+` **_New Site_** button and provide the Name as `Site_wxcclab_pod\<ID\>`
+
+* Select `MM_Profile_wxcclab_pod\<ID\>` in the **_Multimedia Profile_** drop down and hit **_Save_**
 
 ### 3. Create a new Team 1 
 
-- Navigate to **_Provisioning_** and select **_Team_**
-- Click on `+` **_New Team_**
-- Select `Site_wxcclab_pod\<ID\>` from the Site drop down
-- Input Name as `Team1_wxcclab_pod\<ID\>`
-- Select `MM_Profile_wxcclab_pod\<ID\>` in the **_Multimedia Profile_** drop down
-- Select **_Global Layout_** in the **_Desktop Layout_** drop down and hit **_Save_**
+* Navigate to **_Provisioning_** and select **_Team_**
+
+* Click on `+` **_New Team_**
+
+* Select `Site_wxcclab_pod\<ID\>` from the Site drop down
+
+* Input Name as `Team1_wxcclab_pod\<ID\>`
+
+* Select `MM_Profile_wxcclab_pod\<ID\>` in the **_Multimedia Profile_** drop down
+
+* Select **_Global Layout_** in the **_Desktop Layout_** drop down and hit **_Save_**
 
 ### 4. Create a new Team 2
 
-- Please follow the same steps as above to add an extra Team as `Team2_wxcclab_pod\<ID\>`. Later we will use this team to assign a custom Desktop Layout.
+* Please follow the same steps as above to add an extra Team as `Team2_wxcclab_pod\<ID\>`. Later we will use this team to assign a custom Desktop Layout.
 
 ## Part 3: Admin Portal User Configuration
 
@@ -143,34 +155,43 @@ In this Lab, we will go through the tasks that are required to complete the gene
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eUDI-5z0VyQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-**Quick Links**
-
-- Control hub: [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
-- Managment Portal: [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}
-
 ### 1. Synchronize Webex Contact Center Users
 
-- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
-- Enter the admin email id and the password.
-- Navigate to **_Contact Center_** Card
-- Click on **_Settings_**
-- Click on `Synchronize Users`
+* Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
+
+* Enter the admin email id and the password.
+
+* Navigate to **_Contact Center_** Card
+
+* Click on **_Settings_**
+
+* Click on `Synchronize Users`
 
 ### 2. Manage settings for existing user
 
 - Scroll down to **_Webex Contact Center Management_**
+
 - Click on **_Go to Webex Contact Center Management Portal_**
+
 - Ensure that browser pop up blockers are not blocking the **_Admin Portal_** pop up
+
 - Click on **_Provisioning_** and select **_Users_**
+
 - Click on `...` for the first user, to launch the **_Edit_** view for a particular User configuration
+
 - Ensure that **_Administrator Profile_** is selected in the **_User Profile_** drop down.
+
 - Click on **_Contact Center Enabled_** Toggle to move it to **_On_**
+
 - In the **_Agent Settings_** section, select `Site_wxcclab_pod\<ID\>` in the Site drop down
+
 - Click in the **_Teams_** area and select `Team1_wxcclab_pod\<ID\>` and `Team2_wxcclab_pod\<ID\>`
+
 - Select `MM_Profile_wxcclab_pod\<ID\>` in the **_Multimedia Profile_** drop down and hit **_Save_**
+
 - Repeat the same for **_all other users_** by selecting the appropriate profile in the **_User Profile_** drop down.
 
 
-Congratulations, you are now ready to start the next [Lab 2: Exploring the Agent Desktop](lab2.md)
+## Congratulations, you are now ready to start the next [Lab 2: Exploring the Agent Desktop](lab2.md)
 
 
