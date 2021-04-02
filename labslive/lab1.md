@@ -55,9 +55,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 | Agent        | agent1_\<ID\>@mailinator.com   | 1000 |
 | Supervisor         | supervisor1_\<ID\>@mailinator.com  | 2000 |
 
-**NOTE**
+**NOTE:**
 
-Your \<ID\> is provided in the email in **"Attendee ID"** line.
+Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 ---
 
