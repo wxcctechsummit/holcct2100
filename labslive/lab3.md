@@ -20,7 +20,7 @@ title: "Lab 3: IVR and Contact Routing"
 - This lab is designed to ensure you are able to configure a voice contact end to end and receive it on the agent desktop.
 - The lab will also contain multiple exercises on flow designer to make you comfortable with the Webex Contact Center Flow Designer and the overall Contact Routing configuration.
 
-## Pre-requisite
+## Pre-requisites
 - WebEx Calling App installed for Agent installed on your laptop.
 - Supervisor's WebEx Calling App installed on your mobile phone.
 
@@ -69,9 +69,9 @@ title: "Lab 3: IVR and Contact Routing"
 
 ### 1. Upload Audio Prompts
 - Download new prompts:
-   [Welcome.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/Welcome.wav){:target="_blank"}
-   [2OptionMenu.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/2OptionMenu.wav){:target="_blank"}
-   [QueueMusic.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/QueueMusic.wav){:target="_blank"}
+   - [Welcome.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/Welcome.wav){:target="_blank"}
+   - [2OptionMenu.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/2OptionMenu.wav){:target="_blank"}
+   - [QueueMusic.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/QueueMusic.wav){:target="_blank"}
 
 - Upload audio files to WebEx Contact Center, Go to  Routing Strategy (from Portal) > Resources > Audio Files
   (Browse > New > Upload the files)
