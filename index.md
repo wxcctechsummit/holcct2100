@@ -1,8 +1,6 @@
   <img src="labslive/cisco.png" align="left" />
   <img src="labslive/CL2.png" align="right" />
 
----
-
 ![Banner](images/wxccbanner.jpg)
 
 Welcome to the Lab Guide Library for the 2021 Cisco Live! This is "Webex Contact Center (WxCC) Uplift" lab. 
