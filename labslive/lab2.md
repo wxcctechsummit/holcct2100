@@ -15,7 +15,7 @@ In this Lab, we will explore the different sections and some useful options of t
   * [3. Download and Login in the Webex Calling app for mobile](#Download-and-Login-in-the-Webex-Calling-app-for-mobile)
   * [4. Login in the Agent Desktop](#Login-in-the-Agent-Desktop)
 - [2. Agent Desktop Overview](#part-2-agent-desktop-overview)
-  * [1. Agent Desktop Interface](#1-Agent-Desktop-Interface)
+  * [1. Introducing the Agent Desktop Interface](#1-Introducing-the-Agent-Desktop-Interface)
   * [2. Verification of understanding](#2-Verification-of-understanding)
 - [3. Configure the User Profile](#part-3-configure-the-user-profile)
   * [1. Change Notifications setting and volume](#1-Change-Notifications-setting-and-volume)
@@ -62,6 +62,8 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/dUYcMI0bsuU?rel=0" title="WxCC Lab #2 Part 1: Access to the Agent Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
 ### 1. Activate Webex Calling
 
 - Login the **[Control Hub](https://admin.webex.com/){:target="_blank"}** with your admin credentials
@@ -94,7 +96,7 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 ### 3. Download and Login in the Webex Calling app for mobile 
 
-> **Note:** You need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. Alternatively, if you have a US number, you can use it from the agent's desktop. This tenant does not allow numbers outside of the United States to be used for agent logins.
+> **Note:** You need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. Alternatively, if you have a US number, you can use it from the agent's desktop. This tenant does not allow numbers outside of the United States.
 
 - Open your app manager (**Play Store or AppStore**) in your mobile
 
@@ -116,7 +118,7 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 - In the Station Login pane, select **"Extension"** and input the configured number for that user. 
 
-> **Note:** Please use only Extension for this lab:
+> **Note:** Please use Extension for this lab. Alternatively, if you have a US number, you can use it from the agent's desktop. This tenant does not allow numbers outside of the United States.
 
 - Select the `Team1_wxcclab_pod<ID>`, with default layout
 
@@ -129,7 +131,11 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/6PhY8Wl_8Rw?rel=0" title="WxCC Lab #2 Part 2: Agent Desktop Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Agent Desktop Interface
+---
+
+### 1. Introducing the Agent Desktop Interface
+
+> **Note:** In this section you don't need to do anny tasks. This section was created to familiarize you with the agent interface.
 
 ![Image1](AgentDesktopOverview.png)
 
@@ -145,8 +151,10 @@ The Agent Desktop is divided in 6 sections. In the image above you can see a gen
 ### 2. Verification of understanding
 
 Finally, in order to make sure that you have understood the basic concepts, we ask you to **complete the following tasks**:
-   * **Verify that Agent can see reports**
-   * **Download the Agent Dekstop User Guide**
+
+- Verify that Agent can see reports by clicking on **Agent Performance Statistic**
+
+- Open the Agent Dekstop User Guide by clicking on **Help** button
 
 
 ## Part 3: Configure the User Profile
@@ -155,29 +163,43 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/3ZrPeIBE-HA?rel=0" title="WxCC Lab #2 Part 3: Configure the User Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
 ### 1. Change Notifications setting and volume
-- Scroll down to **_User Settings_**
-- Click on **_Notification Settings_**
+
+- Click on **_User Settings_** in the upper right conner
+
+- Scroll down to **_Notification Settings_**
+
 - **Toggle** any of the 3 options to **enable or disable** different notifications
+
 - Move the **Sound Volume** toggle bar
+
 - You'll test this in the next lab.
+
 - Check this when you receive a notification
 		
 ### 2. Switch to Dark Mode
+
 - Go again under **_User Settings_**
+
 - Toggle the **_Switch to Dark Mode_** button to enable or disable it
 		
 ### 3. See the list of the keyboard shortcuts
+
 - Scroll down to **_Help_**
+
 - Click on **_Keyboard Shortcuts_** or press **Ctrl+Alt+F**
+
 - **See the list** of the keyboard shortcuts
+
 - Find and test the combination to make the Agent status **_'Available'_**
 		
 ### 4. Download Error Report
-- Scroll down to **_Help_**
-- Click on **_Keyboard Shortcuts_** or press **Ctrl+Shift+2**
-- Find the downloaded **error reports** file in your machine
 
+- Use a **_Keyboard Shortcuts_** and press **Ctrl+Shift+2** or click on **_User Settings_** in the upper right conner and scroll down to **_Download Error Repor_**
+
+- Open the downloaded **error reports** file in your machine
 
 
 ## Part 4: Custom Desktop Layout
@@ -186,44 +208,74 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/Olrifma7Khc?rel=0" title="WxCC Lab #2 Part 4: Custom Desktop Layout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
 ### 1. Download default desktop Layout
+
 - Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials​
-- Navigate to **_Provisioning_** –> **_Desktop Layout_**​
-- Click on ellipses **(…)** of Global Layout and select **_Edit_** ​
+
+- Navigate to **_Provisioning_** –> **_Desktop Layout_**
+
+- Click on ellipses `...` of Global Layout and select **_Edit_**
+
 - Click on **_Download_** button to download the **Default Desktop Layout.json** file
 
 ### 2. Customize default desktop layout with logo and title
-- Open the **Default Desktop Layout.json** file with any text editor (e.g. Notepad or Sublime text)​
+
+- Open the **Default Desktop Layout.json** file with any text editor (e.g. Notepad or Sublime text)
+
 - Modify the **_appTitle_** key value with your company name in order to change Agent Desktop title
-- Modify the **_logo_** key value with your company logo URL or use this CiscoLive logo url: **https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg**
+
+- Modify the **_logo_** key value with your company logo URL or use this CiscoLive logo url: **https://raw.githubusercontent.com/wxcctechsummit/holcct2100/main/labslive/CiscoLiveLogo.jpg**
+
 - **_Save As_** the JSON file with a distinguishable name
 
 ### 3. Upload the custom desktop layout and associate it to a team
+
 - Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
+
 - Click on **_New Layout_**
-- Provide any preferable **name and description** 
-- Select **Team2_wxcclab_pod\<ID>** as Team		
-- Click **_Upload_** button to upload the modified JSON file​		
+
+- Provide any preferable **name** `Desktop Layout Pod<ID>`
+
+- Select `Team2_wxcclab_pod<ID>` as Team
+
+- Click **_Upload_** button to upload the modified JSON file	
+
 - Click **_Save_** button to apply the layout.
 
-
 ### 4. Verify the new custom desktop layout
+
 - Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
-- Open the **_User Profile_** and click on the arrow **'>'** under **_Team_**
+
+- Open the **_User Profile_** and click on the arrow `>` under **_Team_**
+
 - Change the team of the agent to **Team2_wxcclab_pod\<ID>**
+
 - Click on **_Save Team Selection_**
+
 - **Confirm** the changes
+
 - **Wait** some seconds to see the result
 
 ### 5. More advance example
+
 - Download the JSON file from **https://cisco.box.com/s/4hmozg4h9gwaa1x9zhq1w6mehw8guvuy**
+
 - Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
+
 - Click on **_New Layout_**
+
 - Provide any preferable **name and description** 
-- Select **Team1_wxcclab_pod\<ID>** again as Team	
-- Click **_Upload_** button to upload the modified JSON file​		
+
+- Select `Team1_wxcclab_pod<ID>` again as Team	
+
+- Click **_Upload_** button to upload the modified JSON file
+
 - Click **_Save_** button to apply the layout.
-- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** with **Team1_wxcclab_pod\<ID>** team
+
+- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** with the team `Team1_wxcclab_pod<ID>`
+
 - **See** the new desktop layout
 
 
@@ -232,25 +284,42 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/47DPXWs7H54?rel=0" title="WxCC Lab #2 Part 5: Configuring Outdial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
 ### 1. Verify/create the Outdial Entry Point and Queue
+
 - Login in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}** 
+
 - Navigate to **_Provisioning > Outdial Entry Point / Outdial Queue_**
-- **Create a new Outdial Entry Point** called **EP_Outdial_pod\<ID>** and set any Service Level Threshold. It will be automatically associated to **_Outdial Queue-1_**
+
+- **Create a new Outdial Entry Point** called `EP_Outdial_pod<ID>` and set any Service Level Threshold. It will be automatically associated to `Outdial Queue-1`
+
 - Go to **_Routing Strategy > Create new Routing Strategy** 
+
 - Configure the outdial entry point routing strategy with the script **`Outdial_EP.js`**
+
 - Ensure the strategy **time of day** setting is correctly **open 24x7** and marked as **_Default_**
+
 - Navigate again to **_Provisioning > Outdial ANI > Create an Outdial ANI_** on the setup by mapping it to the existing toll free number
+
 - Go to  in **_Provisioning > Address Book_** and add **+18005536387** Cisco Public Tollfree number in a **_New Address Book_**
+
 - Go to **_Provisioning > Agent Profiles_** and edit the one called **_Agent-Profile_**
+
 - Go to the **_Dial Plan_** tab
-- Configure all the Outdial settings: **Outdial Enabled, Outdial Entry Point=EP_Outdial_pod\<ID>, Dial Plan Enabled (Any Format) and select the before created Outdial ANI**
+
+- Configure all the Outdial settings: Outdial Enabled, Outdial Entry Point as `EP_Outdial_pod<ID>`, Dial Plan Enabled (Any Format) and select the before created Outdial ANI
 
 
 ### 2. Test Outdial
+
 - Login/Relogin in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"}** for the new agent profile settings to take effect
+
 - You should now see the **Outdial button enabled**
+
 - **Select the Outdial ANI** and test making a call to your cellphone number or the provided Cisco Public Tollfree number (**+18005536387**)
-- You should **receive a call notification** in the Agent Desktop and your Webex Calling application ringing 
+
+- You should **receive a call notification** in the Agent Desktop and your Webex Calling application ringing. If the call is established, you have successfully completed this lab.
 
 
 ## Congratulations, you are now ready to start the [Lab 3: IVR and Contact Routing](lab3.md)
