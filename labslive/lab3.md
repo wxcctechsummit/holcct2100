@@ -5,8 +5,6 @@ title: "Lab 3: IVR and Contact Routing"
 # Table of Contents
 - [Part 1: Setup a Simple Flow and make a test call](#part-1-setup-a-simple-flow-and-make-a-test-call)
   * [1. Configure and Publish the first flow](#1-configure-and-publish-the-flow)
-  * [2. Verify your inbound numbers are correctly setup on Calling](#2-verify-your-inbound-numbers-are-correctly-setup-on-calling)
-  * [3. Create an inbound Voice Entry Point and Voice Queue](#3-create-an-inbound-voice-entry-point-and-voice-queue)
   * [4. Verify the Audio Prompts, Create the Entry Point flow.](#4-verify-the-audio-prompts-create-the-entry-point-flow)
   * [5. Configure and Publish the flow](#5-configure-and-publish-the-flow)
   * [6. Configure the Entry Point Routing Strategy](#6-configure-the-entry-point-routing-strategy)
@@ -43,6 +41,9 @@ title: "Lab 3: IVR and Contact Routing"
 - Verify and publish the flow.
 
 ### 2. Create an inbound Voice Entry Point and map a DN
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u1GDs_-YYK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - On the Portal create an inbound voice entry point `EP_voice_<podId>` (Provisioning > Entry Point)
 - Map the external number on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to `EP_voice_<podId>`. The DN is already added on Control Hub.
 
@@ -57,7 +58,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 **Good to Know!**: The call is not dropped, as we use EndFlow block which finishes the flow but does not disconnect the call.
 
-- Modify `MyFirstFlow_<podId>` and replace EndFlow with Disconnect node from CallHandling section. Publish flow.
+- Modify `MyFirstFlow_<podId>` and replace EndFlow with Disconnect node from CallHandling section. Publish the flow.
 - Place a test call again. The call should be disconnected after the welcome prompt.
 
 
