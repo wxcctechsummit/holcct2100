@@ -48,6 +48,9 @@ title: "Lab 3: IVR and Contact Routing"
 - Map the external number on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to `EP_voice_<podId>`. The DN is already added on Control Hub.
 
 ### 3. Configure the Entry Point Routing Strategy
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3lrVvKLvvLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies > `EP_voice_<podId>`.
 - Map the flow `MyFirstFlow_<podId>`.
 
