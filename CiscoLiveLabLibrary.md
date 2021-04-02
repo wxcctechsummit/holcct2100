@@ -1,9 +1,9 @@
----
-title: "HOLCCT-2100: Cisco Live Lab Guide Library"
----
-<p align="center">
-  <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
-</p>
+<img src="labslive/cisco.png" align="left" />
+<img src="labslive/CL2.png" align="right" />
+<br />
+<br />
+&nbsp;
+&nbsp;
 
 ![Banner](images/wxccbanner.jpg)
 

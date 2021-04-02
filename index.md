@@ -1,10 +1,9 @@
-<p align="center">
-  <img src="labslive/CL2.png">
-</p>
-
----
-title: "HOLCCT-2100: Cisco Live Lab Guide Library"   
----
+<img src="labslive/cisco.png" align="left" />
+<img src="labslive/CL2.png" align="right" />
+<br />
+<br />
+&nbsp;
+&nbsp;
 
 ![Banner](images/wxccbanner.jpg)
 
@@ -34,6 +33,4 @@ In the table below you can find the agenda of the lab and some referred links, w
 * [Lab 5: New Supervisor functionality](labslive/lab5.md)
 * [Lab 6: Bonus section - Facebook Messenger Integration](labslive/lab6.md)
 
-<p>
-<img src="labslive/cisco.png">
-</p>
+
