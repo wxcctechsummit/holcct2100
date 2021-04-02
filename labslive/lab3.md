@@ -34,7 +34,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 ## Part 1: Setup a Simple Flow and make a test call
 
-<iframe width="560" height="315" src="https://youtu.be/embed/aCJTdOW4uaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aCJTdOW4uaE" title="WxCC Lab #3 IVR & Call Routing.1 " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Configure and Publish the first flow
 - Configure the flow `flow_wxcclab` with a Play prompt - welcome message and End node.
