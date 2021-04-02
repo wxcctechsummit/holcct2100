@@ -70,7 +70,7 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 - Scroll down to **_Calling Behaviour** and select **Webex Calling App**
 - Repeat the same steps for you **Supervisor user**
 
-### 2. Download and Login in the Webex Calling app for PC
+### 2. Download and Login in the Webex Calling app for PC or Mac
 - Login to **[https://settings.webex.com/](https://settings.webex.com/){:target="_blank"}**
 - Click on **_Webex Calling_** this will cross launch CUP in a new browser tab
 - Go to **_My Apps_**
@@ -89,6 +89,8 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 - **Download** the app
 
 - Login in the app with the **Supervisor user credentials**
+
+![WxCallingAndroid](../images/wxcallingandroid.png)
 
 ### 4. Login in the Agent Desktop
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** in a new browser tab
