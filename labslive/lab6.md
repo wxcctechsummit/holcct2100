@@ -94,7 +94,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ## Part 3: Configure Facebook Connector in Management Portal
 >Here we go through the list of settings which are needed from the Management Portal perspective. 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dibFEv-xv3g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gmi_kPIOixE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Quick Links**
 
