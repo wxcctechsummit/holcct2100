@@ -23,14 +23,14 @@ In this Lab, we will explore the different sections and some useful options of t
   * [3. See the list of the keyboard shortcuts](#3-See-the-list-of-the-keyboard-shortcuts)
   * [4. Download Error Report](#4-Download-Error-Report)
 - [4. Custom Desktop Layout](#part-4-custom-desktop-layout)
-  * [1. Download default desktop Layout](#1. Download default desktop Layout)
-  * [2. Customize default desktop layout with logo and title](#2. Customize default desktop layout with logo and title)
-  * [3. Upload the custom desktop layout and associate it to a team](#3. Upload the custom desktop layout and associate it to a team)
-  * [4. Verify the new custom desktop layout](#4. Verify the new custom desktop layout)
-  * [5. More advance example](#5. More advance example)
+  * [1. Download default desktop Layout](#1-Download-default-desktop-Layout)
+  * [2. Customize default desktop layout with logo and title](#2-Customize-default-desktop-layout-with-logo-and-title)
+  * [3. Upload the custom desktop layout and associate it to a team](#3-Upload-the-custom-desktop-layout-and-associate-it-to-a-team)
+  * [4. Verify the new custom desktop layout](#4-Verify-the-new-custom-desktop-layout)
+  * [5. More advance example](#5-More-advance-example)
 - [5. Configuring Outdial](#part-5-configuring-outdial)
-  * [1. Verify/create the Outdial Entry Point and Queue](#1. Verify/create the Outdial Entry Point and Queue)
-  * [2. Test Outdial](#2. Test Outdial)
+  * [1. Verify/create the Outdial Entry Point and Queue](#1-Verifycreate-the-Outdial-Entry-Point-and-Queue)
+  * [2. Test Outdial](#2-Test-Outdial)
 
 # Introduction
 
@@ -40,11 +40,11 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 ### Pre-requisites
 
-For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin Portal](lab2.md)**:
+For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin Portal](lab1.md)**:
 - You have the administrator's access to the Tenant Portal
 - Agent created and configured
 - Agent is part of 2 Teams
-- Webex Calling extensions are assigned to a WxCC user
+- Webex Calling extensions are assigned to a WxCC users (agent and supervisor)
 
 ### Quick Links
 
@@ -60,27 +60,41 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 >The following video explains the process to access the Agent Desktop. Following the steps, you will login with your credentials and indicate the number where you want to receive the calls. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dUYcMI0bsuU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/dUYcMI0bsuU?rel=0" title="WxCC Lab #2 Part 1: Access to the Agent Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Activate Webex Calling
-- Login the **[Control Hub](https://admin.webex.com/){:target="_blank"}** with your admin credentials
-- Navigate to **_Users_**
-- **Select the Agent user** created in the 1. lab
-- Make sure that you have activated **Webex Teams, Webex Calling (Enterprise) and Contact Center** services
-- Scroll down to **_Calling Behaviour** and select **Webex Calling App**
-- Repeat the same steps for you **Supervisor user**
 
-### 2. Download and Login in the Webex Calling app for PC
+- Login the **[Control Hub](https://admin.webex.com/){:target="_blank"}** with your admin credentials
+
+- Navigate to **_Users_**
+
+- Select the **Agent** user `agent1_<ID>@mailinator.com` created in the previus lab
+
+- Make sure that you have activated **Webex Teams, Webex Calling (Enterprise) and Contact Center** services
+
+- Scroll down to **_Calling Behaviour_** and select **_Webex Calling App_**
+
+- Repeat the same steps for you **Supervisor** user `supervisor1_<ID>@mailinator.com`
+
+### 2. Download and Login in the Webex Calling app for PC or Mac
+
 - Login to **[https://settings.webex.com/](https://settings.webex.com/){:target="_blank"}**
+
 - Click on **_Webex Calling_** this will cross launch CUP in a new browser tab
+
 - Go to **_My Apps_**
+
 - **Download** the Webex Calling Desktop App
+
 - Open Webex Calling and **login** 
-- Check the **_Sign-in with system browser**_ option
+
+- Check the **_Sign-in with system browser_** option
+
 - Go to **_File >  Edit Server Address**_ and choose **North America**
 
 ### 3. Download and Login in the Webex Calling app for mobile 
-> Note: Also, you can alternatively use your personal US mobile number)
+
+> **Note:** You need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. Alternatively, if you have a US number, you can use it from the agent's desktop. This tenant does not allow numbers outside of the United States to be used for agent logins.
 
 - Open your app manager (**Play Store or AppStore**) in your mobile
 
@@ -90,25 +104,30 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 - Login in the app with the **Supervisor user credentials**
 
+![WxCallingAndroid](../images/wxcallingandroid.png)
+
 ### 4. Login in the Agent Desktop
+
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** in a new browser tab
-- Enter the agent’s **Username** which you created in the previous lab.
+
+- Enter the agent’s **Username** `agent1_<ID>@mailinator.com` which you created in the previous lab.
+
 - Enter the **Password** for the appropriate Username
+
 - In the Station Login pane, select **"Extension"** and input the configured number for that user. 
-**Note** Please use only Extension for this lab
-- Select the **Team1_wxcclab_pod\<ID>**, with default layout. 
-- Click **_Submit_**
-			
-If you are successfully logged in the Agent Desktop you have completed this section and you can continue with the next part!
+
+> **Note:** Please use only Extension for this lab:
+
+- Select the `Team1_wxcclab_pod<ID>`, with default layout
+
+- Click **_Submit_**. Make sure that you are successfully logged in to the Agent Desktop. Now you can continue with the next section.
 
 
 
 ## Part 2: Agent Desktop Overview
 > Watch the following video, where each of the sections and their main options are explained. You will get a better idea of how the Agent Desktop look like and how to use it.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6PhY8Wl_8Rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/6PhY8Wl_8Rw?rel=0" title="WxCC Lab #2 Part 2: Agent Desktop Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Agent Desktop Interface
 
@@ -123,9 +142,6 @@ The Agent Desktop is divided in 6 sections. In the image above you can see a gen
 6. **Navigation bar**: By default you can find the following icons here: Home, Agent Performance Statistics and Help. However, you can customize it and add some additional icons and widgets.
 
 
-
-
-
 ### 2. Verification of understanding
 
 Finally, in order to make sure that you have understood the basic concepts, we ask you to **complete the following tasks**:
@@ -133,14 +149,11 @@ Finally, in order to make sure that you have understood the basic concepts, we a
    * **Download the Agent Dekstop User Guide**
 
 
- 
-
-
 ## Part 3: Configure the User Profile
 
 > The following video explains the steps you need to follow in order to configure some basic, but really useful, user profile related options in the Agent Desktop.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3ZrPeIBE-HA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/3ZrPeIBE-HA?rel=0" title="WxCC Lab #2 Part 3: Configure the User Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Change Notifications setting and volume
 - Scroll down to **_User Settings_**
@@ -171,8 +184,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 > Watch the following video to learn the dekstop layout customization process. After the video, you will be able to customize the Agent Desktop with your company logo and you will see a more advanced and cool layout example.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Olrifma7Khc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/Olrifma7Khc?rel=0" title="WxCC Lab #2 Part 4: Custom Desktop Layout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Download default desktop Layout
 - Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials​
@@ -218,9 +230,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 ## Part 5: Configuring Outdial
 > In the following video, all the required steps to configure and test an outbound call are explained. In order to complet it you will need to login in Webex Calling with the corresponding extension number of the agent.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/47DPXWs7H54" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/47DPXWs7H54?rel=0" title="WxCC Lab #2 Part 5: Configuring Outdial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Verify/create the Outdial Entry Point and Queue
 - Login in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}** 
@@ -243,4 +253,4 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 - You should **receive a call notification** in the Agent Desktop and your Webex Calling application ringing 
 
 
-Congratulations, you are now ready to start the next [Lab 3: IVR and Contact Routing](lab3.md)
+## Congratulations, you are now ready to start the [Lab 3: IVR and Contact Routing](lab3.md)
