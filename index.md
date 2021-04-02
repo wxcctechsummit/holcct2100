@@ -32,6 +32,4 @@ In the table below you can find the agenda of the lab and some referred links, w
 * [Lab 5: New Supervisor functionality](labslive/lab5.md)
 * [Lab 6: Bonus section - Facebook Messenger Integration](labslive/lab6.md)
 
-<p align="center">
-<img src="labslive/cisco.png">
-</p>
+
