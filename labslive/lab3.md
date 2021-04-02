@@ -4,6 +4,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 # Table of Contents
 - [Part 1: Setup a Simple Flow and make a test call](#part-1-setup-a-simple-flow-and-make-a-test-call)
+  * [1. Configure and Publish the first flow](#1-configure-and-publish-the-flow)
   * [2. Verify your inbound numbers are correctly setup on Calling](#2-verify-your-inbound-numbers-are-correctly-setup-on-calling)
   * [3. Create an inbound Voice Entry Point and Voice Queue](#3-create-an-inbound-voice-entry-point-and-voice-queue)
   * [4. Verify the Audio Prompts, Create the Entry Point flow.](#4-verify-the-audio-prompts-create-the-entry-point-flow)
@@ -22,12 +23,8 @@ title: "Lab 3: IVR and Contact Routing"
 - The lab will also contain multiple exercises on flow designer to make you comfortable with the Webex Contact Center Flow Designer and the overall Contact Routing configuration.
 
 ## Pre-requisite
-
-**Note on Above Prerequisite Configuration**
-Download and install the WebEx Calling App for Agents, Admins or Supervisors and make on-net calls.
-
-**Download instructions**
-**[https://help.webex.com/en-us/n730ah9/Install-the-Webex-Calling-App](https://help.webex.com/en-us/n730ah9/Install-the-Webex-Calling-App){:target="_blank"}**
+- WebEx Calling App installed for Agent installed on your laptop.
+- Supervisor's WebEx Calling App installed on your mobile phone.
 
 **Links**
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
@@ -37,15 +34,19 @@ Download and install the WebEx Calling App for Agents, Admins or Supervisors and
 
 ## Part 1: Setup a Simple Flow and make a test call
 
-### 1. Verify that your users are ready to login
-- With the steps outlined in the previous lab and recap above, you should now be able to login to the agent desktop.
+<iframe width="560" height="315" src="https://youtu.be/aCJTdOW4uaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 2. Verify your inbound numbers are correctly setup on Calling 
-- The inbound Numbers need to be added on Control Hub.
+### 1. Configure and Publish the first flow
+- Configure the flow `flow_wxcclab` with a Play prompt - welcome message and End node.
+- Verify and publish the flow.
+
+### 2. Create an inbound Voice Entry Point
+- On the Portal create an inbound voice entry point `EP_voice_wxcclab` (Provisioning > Entry Point)
+- Map the DN from Control Hub - that is assigned to Wx Calling - on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to `EP_voice_wxcclab`
+
 
 ### 3. Create an inbound Voice Entry Point and Voice Queue
 - Login to Portal and create an inbound voice entry point and voice queue. (Provisioning > Entry Point / Queue). Create `EP_voice_wxcclab` and `Q_voice_wxcclab` respectively.
-- Map the DN from Control Hub - that is assigned to Wx Calling - on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to `EP_voice_wxcclab`
 
 ### 4. Verify the Audio Prompts, Create the Entry Point flow.
 - The audio prompts required for the script build out are wav files. The whole bundle of wav files [can be found here](https://cisco.box.com/s/njmhdrho38mbohoqlc7iznkj74bgk7tv){:target="_blank"}.
@@ -54,7 +55,8 @@ Download and install the WebEx Calling App for Agents, Admins or Supervisors and
 - To upload the audio files, Go to  Routing Strategy (from Portal) > Resources > Audio Files and ensure that the audio files are uploaded. (Browse > New > Upload the files)
 - Then, you can go to flow to create the flow. Routing Strategy (from Portal) > Flow > New and create the new flow as described in the video above.
 
-### 5. Configure and Publish the flow
+
+### 1. Configure and Publish the flow
 - Configure the flow `flow_wxcclab` with a Play prompt - welcome message and queue block and play music block.
 - Configure the Queue Block to `Q_voice_wxcclab`. Map the queue inside of the queue block.
 - Configure the event flow under the queue - ensure they have end flow steps.
