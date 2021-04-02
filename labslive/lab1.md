@@ -37,6 +37,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 ### Quick Links
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
+> Mailinator: **[https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}**\
 
 
 # Lab Section
@@ -53,7 +54,14 @@ In this Lab, we will go through the tasks that are required to complete the gene
 | ----------- | ----------------- | -------------------------------- |
 | Agent        | agent1_\<ID\>@mailinator.com   | 1000 |
 | Supervisor         | supervisor1_\<ID\>@mailinator.com  | 2000 |
- 
+
+---
+**NOTE**
+
+Your \<ID\> is provided in the email in **"Attendee ID"** line.
+
+---
+
 ### 1. Add an agent and a supervisor users and configure the calling extension
 
 - Navigate to **_Users_**
