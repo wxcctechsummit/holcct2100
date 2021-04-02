@@ -2,8 +2,9 @@
   <img src="labslive/cisco.png" align="left" />
   <img src="labslive/CL2.png" align="right" />
 </p> 
-<hr>
 
+
+---
 
 ![Banner](images/wxccbanner.jpg)
 
