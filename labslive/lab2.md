@@ -15,7 +15,7 @@ In this Lab, we will explore the different sections and some useful options of t
   * [3. Download and Login in the Webex Calling app for mobile](#Download-and-Login-in-the-Webex-Calling-app-for-mobile)
   * [4. Login in the Agent Desktop](#Login-in-the-Agent-Desktop)
 - [2. Agent Desktop Overview](#part-2-agent-desktop-overview)
-  * [1. Agent Desktop Interface](#1-Agent-Desktop-Interface)
+  * [1. Introducing the Agent Desktop Interface](#1-Introducing-the-Agent-Desktop-Interface)
   * [2. Verification of understanding](#2-Verification-of-understanding)
 - [3. Configure the User Profile](#part-3-configure-the-user-profile)
   * [1. Change Notifications setting and volume](#1-Change-Notifications-setting-and-volume)
@@ -129,7 +129,7 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/6PhY8Wl_8Rw?rel=0" title="WxCC Lab #2 Part 2: Agent Desktop Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Agent Desktop Interface
+### 1. Introducing the Agent Desktop Interface
 
 > **Note:** In this section you don't need to do anny tasks. This section was created to familiarize you with the agent interface.
 
