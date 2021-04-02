@@ -43,7 +43,7 @@ In this lab, we will show you the existing dashboards which are available for su
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/0NcgneC1UZo?rel=0" title="WxCC Lab #5 Part 1: Portal's Dashboards" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+---
  
 ### 1. Management Portal with Supervisor account
 
@@ -85,6 +85,7 @@ In this lab, we will show you the existing dashboards which are available for su
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/Ij08tvZltlg?rel=0" title="WxCC Lab #5 Part 2: Supervisor permissions and remote agent logout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
 
 ### 1. Agent State Data – Realtime dashboard 
 
