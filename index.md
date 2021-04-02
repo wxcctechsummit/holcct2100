@@ -2,6 +2,8 @@
 <img src="labslive/CL2.png" align="right" />
 <br />
 <br />
+&nbsp;
+&nbsp;
 
 ![Banner](images/wxccbanner.jpg)
 
