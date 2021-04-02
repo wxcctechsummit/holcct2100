@@ -29,10 +29,10 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ### Pre-requisites
 
-- You have an assigned POD ID;
-- You have the customer admin login credentials;
-- You have the calling DNIS;
-- You have the agent's extension number;
+X You have an assigned POD ID
+X You have the customer admin login credentials
+X You have the calling DNIS
+X You have the agent's extension number
 
 ### Quick Links
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
@@ -92,6 +92,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_Bdt7WV8DCg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
 
 | **Entity** | **Name**      | 
 | ----------- | ----------------- | 
@@ -154,6 +155,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eUDI-5z0VyQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
 
 ### 1. Synchronize Webex Contact Center Users
 
