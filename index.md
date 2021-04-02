@@ -1,11 +1,7 @@
-<p align="left">
-<img src="labslive/cisco.png">
+<p>
+  <img src="labslive/cisco.png" align="left" />
+  <img src="labslive/CL2.png"align="right" />
 </p>
-
-<p align="right">
-  <img src="labslive/CL2.png">
-</p>
-
 
 
 ![Banner](images/wxccbanner.jpg)
