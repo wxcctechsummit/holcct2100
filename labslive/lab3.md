@@ -67,7 +67,7 @@ title: "Lab 3: IVR and Contact Routing"
 - Modify `MyFirstFlow_<podId>` and replace EndFlow with Disconnect node from CallHandling section. Publish the flow.
 - Place a test call again. The call should be disconnected after the welcome prompt.
 
-[To top of this lab](#Table-of-Contents)
+[To top of this lab](#table-of-contents)
 
 
 ## Part 2: Adding Menu and Queue treatment
@@ -101,14 +101,14 @@ title: "Lab 3: IVR and Contact Routing"
 - Login to the agent desktop into `Team_wxcclab` and go to a ready state.
 - Dial the number using your cell. You should hear the welcome prompt and get the call on the agent desktop.
 
-[To top of this lab](#Table-of-Contents)
+[To top of this lab](#table-of-contents)
 
 ## Part 3: Configure Agent Screen-Pop
 
 ### 1. Configure Event Flow
 - Configure the event flow under the queue - ensure they have end flow steps.
 
-[To top of this lab](#Table-of-Contents)
+[To top of this lab](#table-of-contents)
 
 ------- *in progress, to be deleted later* -----------
 
