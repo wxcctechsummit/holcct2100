@@ -1,5 +1,5 @@
 ---
-title: "Lab 6: Bonus section - Facebook Messenger Integration"
+title: "Bonus Lab 6: Facebook Messenger Integration"
 ---
 
 ### Overview of the lab:
