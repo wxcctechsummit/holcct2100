@@ -130,7 +130,7 @@ title: "Lab 3: IVR and Contact Routing"
 - On AgentAnswered Event add Screen Pop block and configure it with:
    - URL `http://www.google.com/search`
    - Key `q`
-   - Value `\{\{NewPhoneContact.ANI\}\}`
+   - Value `{{NewPhoneContact.ANI}}`
 
 ### 2. Make a test call
 - Login to the agent desktop into `Team_wxcclab` and go to a ready state.
