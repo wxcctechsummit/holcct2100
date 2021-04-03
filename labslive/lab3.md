@@ -107,7 +107,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 ### 4. Make a test call
 - Login to the agent desktop into `Team_wxcclab` and go to a ready state.
-- Dial the number using your cell. You should hear the new welcome prompt, press `1` get the call on the agent desktop.
+- From supervisor's WebEx Calling app, dial the number. You should hear the new welcome prompt, press `1` get the call on the agent desktop.
 - Place more test calls and experiment with different options:
   - press `2` - the call should be disconnected
   - provide invalid option - the call should be disconnected
@@ -116,14 +116,29 @@ title: "Lab 3: IVR and Contact Routing"
 
 [To top of this lab](#table-of-contents)
 
-## Part 3: Configure Agent Screen-Pop
+## Part 3: Configure Agent Screen Pop
 
 ### 1. Configure Event Flow
-- Configure the event flow under the queue - ensure they have end flow steps.
+
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/dYyM5GPxG9w?rel=0" title="WxCC Lab #3 IVR & Call Routing3.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- Configure the event flow inside `MyFirstFlow_<podId>`
+- On AgentAnswered Event add Screen Pop block and configure it with:
+   URL `http://www.google.com/search`
+   Key `q`
+   Value `{{NewPhoneContact.ANI}}`
+
+### 2. Make a test call
+- Login to the agent desktop into `Team_wxcclab` and go to a ready state.
+- From supervisor's WebEx Calling app, dial the number, press `1`  and get the call on the agent desktop.
+- New browser tab pops up with a google search for your supervisor's ANI.
+
+### 3. Configure PhoneContactEnded and AgentDisconnected Events.
+- Modify Event flow and test screen pop on other events `PhoneContactEnded` and `AgentDisconnected`.
 
 [To top of this lab](#table-of-contents)
 
-------- *in progress, to be deleted later* -----------
+
 
 
 
