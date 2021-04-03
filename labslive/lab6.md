@@ -101,6 +101,12 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ---
 
+| **Entity** | **Name**      | 
+| ----------- | ----------------- | 
+| Facebook Entrypoint        | MM_Profile_wxcclab_\<ID\>   | 
+| Facebook Queue         | Site_wxcclab_\<ID\>  | 
+| Team1         | Team1_wxcclab_\<ID\> | 
+
 ### 1. Configure Facebook Entrypoint
 
 * Login to the WxCC portal.
@@ -120,7 +126,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 * Provide the Queue Name, Description and Channel type as "Social Channel".
 
-* Now choose "Add Group" and select the required team names to whom these facebook contacts need to be routed.
+* Now choose "Add Group" and select the required team `Team1_wxcclab_<ID>` names to whom these facebook contacts need to be routed.
 
 * Update the Max time in queue and save.
 
@@ -148,7 +154,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 * Provide the Queue Name, start & end date, Max Time In Queue.
 
-* 'Add Group' and Select the team to which the contact should be delivered and click save group.
+* 'Add Group' and Select the team `Team1_wxcclab_<ID>` to which the contact should be delivered and click save group.
 
 * Now click save to complete Queue routing strategy settings. 
 
@@ -164,7 +170,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 * Select left side menu in Wxcc Portal, expand to see the available tabs. Select "Agent Desktop".
 
-* Login to agent desktop, provide agent login DN and choose the team.
+* Login to agent desktop, provide agent login DN and choose the team `Team1_wxcclab_<ID>`.
 
 * Once the agent goes Available, the facebook contact will be offered to the agent.
 
