@@ -13,7 +13,7 @@ title: "Lab 3: IVR and Contact Routing"
   * [2. Create Queue](#2-create-queue)
   * [3. Add Menu and Queue treatment to the flow](#3-add-menu-and-queue-treatment-to-the-flow)
   * [4. Make a test call](#4-make-a-test-call)
--[Part 3: Configure Agent Screen Pop](#part-3-configure-agent-screen-pop)
+- [Part 3: Configure Agent Screen Pop](#part-3-configure-agent-screen-pop)
   * [1. Configure Event Flow](#1-configure-event-flow)
   * [2. Make a test call](#2-make-a-test-call)
   * [3. Configure PhoneContactEnded and AgentDisconnected Events](#3-configure-phonecontactended-and-agentdisconnected-events)
