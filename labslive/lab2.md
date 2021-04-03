@@ -118,7 +118,7 @@ For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin 
 
 > **Note:** Please use Extension for this lab. Alternatively, if you have a US number, you can use it from the agent's desktop. This tenant does not allow numbers outside of the United States.
 
-- Select the `Team1_wxcclab_pod<ID>`, with default layout
+- Select the `Team1_wxcclab_<ID>`, with default layout
 
 - Click **_Submit_**. Make sure that you are successfully logged in to the Agent Desktop. Now you can continue with the next section.
 
@@ -234,9 +234,9 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 - Click on **_New Layout_**
 
-- Provide any preferable **name** `Desktop Layout Pod<ID>`
+- Provide the preferable **name** `Desktop Layout <ID>`. Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
-- Select `Team2_wxcclab_pod<ID>` as Team
+- Select `Team2_wxcclab_<ID>` as Team
 
 - Click **_Upload_** button to upload the modified JSON file	
 
@@ -248,7 +248,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 - Open the **_User Profile_** and click on the arrow `>` under **_Team_**
 
-- Change the team of the agent to **Team2_wxcclab_pod\<ID>**
+- Change the team of the agent to `Team2_wxcclab_<ID>`
 
 - Click on **_Save Team Selection_**
 
@@ -266,13 +266,13 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 - Provide any preferable **name and description** 
 
-- Select `Team1_wxcclab_pod<ID>` again as Team	
+- Select `Team1_wxcclab_<ID>` again as Team	
 
 - Click **_Upload_** button to upload the modified JSON file
 
 - Click **_Save_** button to apply the layout.
 
-- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** with the team `Team1_wxcclab_pod<ID>`
+- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** with the team `Team1_wxcclab_<ID>`
 
 - **See** the new desktop layout
 
@@ -290,7 +290,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 - Navigate to **_Provisioning > Outdial Entry Point / Outdial Queue_**
 
-- **Create a new Outdial Entry Point** called `EP_Outdial_pod<ID>` and set any Service Level Threshold. It will be automatically associated to `Outdial Queue-1`
+- **Create a new Outdial Entry Point** called `EP_Outdial_<ID>` and set any Service Level Threshold. It will be automatically associated to `Outdial Queue-1`
 
 - Go to **_Routing Strategy > Create new Routing Strategy** 
 
@@ -306,7 +306,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 - Go to the **_Dial Plan_** tab
 
-- Configure all the Outdial settings: Outdial Enabled, Outdial Entry Point as `EP_Outdial_pod<ID>`, Dial Plan Enabled (Any Format) and select the before created Outdial ANI
+- Configure all the Outdial settings: Outdial Enabled, Outdial Entry Point as `EP_Outdial_<ID>`, Dial Plan Enabled (Any Format) and select the before created Outdial ANI
 
 
 ### 2. Test Outdial
