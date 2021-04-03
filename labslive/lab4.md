@@ -42,13 +42,9 @@ You will also have the ability to start a chat session with an agent from an emb
 
 In this part, we will be configuring Email Account settings to ensure WxCC can fetch emails correctly. Then we will complete all required WxCC Portal configurations, Entry Point, Queue, corresponding Routing strategies, Routing rules and Email Template so that emails can be routed to an Agent.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FGbDmz3lrhk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ## 1. Setup test email account (Gmail example)
 
-embed video
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/mIhvCn8EHgk?rel=0" title="WxCC Lab #4: Setup test email account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 > A GMAIL account is provided for this lab purpose please check the POD information that has been shared with you. Please reach out to your lab proctors if you have any issues.
