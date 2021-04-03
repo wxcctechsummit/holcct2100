@@ -13,6 +13,10 @@ title: "Lab 3: IVR and Contact Routing"
   * [2. Create Queue](#2-create-queue)
   * [3. Add Menu and Queue treatment to the flow](#3-add-menu-and-queue-treatment-to-the-flow)
   * [4. Make a test call](#4-make-a-test-call)
+-[Part 3: Configure Agent Screen Pop](#part-3-configure-agent-screen-pop)
+  * [1. Configure Event Flow](#1-configure-event-flow)
+  * [2. Make a test call](#2-make-a-test-call)
+  * [3. Configure PhoneContactEnded and AgentDisconnected Events](#3-configure-phonecontactended-and-agentdisconnected-events)
 
 
 
@@ -124,16 +128,16 @@ title: "Lab 3: IVR and Contact Routing"
 
 - Configure the event flow inside `MyFirstFlow_<podId>`
 - On AgentAnswered Event add Screen Pop block and configure it with:
-   URL `http://www.google.com/search`
-   Key `q`
-   Value `{{NewPhoneContact.ANI}}`
+   - URL `http://www.google.com/search`
+   - Key `q`
+   - Value `\{\{NewPhoneContact.ANI\}\}`
 
 ### 2. Make a test call
 - Login to the agent desktop into `Team_wxcclab` and go to a ready state.
 - From supervisor's WebEx Calling app, dial the number, press `1`  and get the call on the agent desktop.
 - New browser tab pops up with a google search for your supervisor's ANI.
 
-### 3. Configure PhoneContactEnded and AgentDisconnected Events.
+### 3. Configure PhoneContactEnded and AgentDisconnected Events
 - Modify Event flow and test screen pop on other events `PhoneContactEnded` and `AgentDisconnected`.
 
 [To top of this lab](#table-of-contents)
