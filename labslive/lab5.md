@@ -41,7 +41,7 @@ In this lab, we will show you the existing dashboards which are available for su
 
 >The following video outlines the existing dashboards available to the supervisor in the management portal. Follow the instructions to find out which dashboards are available and what they are for.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/0NcgneC1UZo?rel=0" title="WxCC Lab #5 Part 1: Portal's Dashboards" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/WGUy_BaqleU?rel=0" title="WxCC Lab #5 Part 1: Portal's Dashboards" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
  
@@ -83,7 +83,7 @@ In this lab, we will show you the existing dashboards which are available for su
 
 >Here we go through the newly added dashboard. We will learn how to change supervisor permissions and how to manually log out agents by using a supervisor account.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/Ij08tvZltlg?rel=0" title="WxCC Lab #5 Part 2: Supervisor permissions and remote agent logout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/nVvtE8r6Oxk?rel=0" title="WxCC Lab #5 Part 2: Supervisor permissions and remote agent logout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
