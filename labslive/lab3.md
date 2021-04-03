@@ -137,7 +137,7 @@ title: "Lab 3: IVR and Contact Routing"
 [To top of this lab](#table-of-contents)
 
 <script>
-function celeButton() {document.body.style.backgroundImage="url('https://i.gifer.com/5Q17.gif')";}
+function celeButton() {document.body.style.backgroundImage="url('https://gph.is/g/466LXX4')";}
 </script>
 
 <div id="container">
