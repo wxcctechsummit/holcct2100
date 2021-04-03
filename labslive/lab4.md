@@ -66,7 +66,7 @@ Follow the instructions below to set the necesary settings on the GMAIL account:
 
 ## 2. Email Entry Point, Queue and Routing Strategy
 
-embed video
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/xMKN7f10h7Q?rel=0" title="WxCC Lab #4: EP Q RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 2.1 Email Entry point
 
@@ -138,7 +138,7 @@ THEN Queue To | `Q_email_<ID>`
 
 ## 3. Email Template
 
-embed video
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/JkFC433lPCA?rel=0" title="WxCC Lab #4: Predefined Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Emails`.
 
@@ -161,13 +161,13 @@ ${AgentName}
 
 ## 4. Test Email customer and agent experience
 
-embed video
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/OWsDlV3_ZCk?rel=0" title="WxCC Lab #4: Test Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Send test email from your personal or work email account to:`GMAIL account in lab topology guide` with Subject:`Sales` 
 
 - You can verify that email reaches GMAIL account by checking the previously open tab
 
-- If you haven't done so, login to WxCC agent desktop as Agent 1
+- If you haven't done so, login to [WxCC agent desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} as Agent 1
 
 - Once the agent goes Available, the Email will be offered to the agent.
 
