@@ -10,18 +10,20 @@ title: "Lab 4: Email and Chat Configuration"
   - [Pre-requisites](#pre-requisites)
 - [Part 1: Email Configuration](#part-1-email-configuration)
   - [1. Setup test email account (Gmail example)](#1-setup-test-email-account-gmail-example)
-  - [2. Email Entry Point creation](#2-email-entry-point-creation)
-  - [3. Email Queue creation](#3-email-queue-creation)
-  - [4. Entry point routing strategy creation](#4-entry-point-routing-strategy-creation)
-  - [5. Email Template creation](#5-email-templatecreation)
-  - [6. Test Email customer and agent experience](#6-test-email-customer-and-agent-experience)
+  - [2. Email Entry Point, Queue and Routing Strategy](#2-email-entry-point-queue-and-routing-strategy)
+    - [2.1 Email Entry point](#21-email-entry-point)
+    - [2.2 Email Queue](#22-email-queue)
+    - [2.3 Email Entry point routing strategy](#23-email-entry-point-routing-strategy)
+  - [3. Email Template](#3-email-template)
+  - [4. Test Email customer and agent experience](#4-test-email-customer-and-agent-experience)
 - [Part 2: Chat Configuration](#part-2-chat-configuration)
-  - [1. Chat Entry Point creation](#1-chat-entry-point-creation)
-  - [2. Chat Queue creation](#2-chat-queue-creation)
-  - [3. Chat template creation](#3-chat-template-creation)
-  - [4. Entry point routing strategy creation](#4-entry-point-routing-strategy-creation-1)
-  - [5. Predefined chat Responses configuration](#5-predefined-chat-responsesconfiguration)
-  - [6. Test Chat customer and agent experience](#6-test-chat-customer-and-agent-experience)
+  - [1. Chat Entry Point, Queue, Template and Routing Strategy](#1-chat-entry-point-queue-template-and-routing-strategy)
+    - [1.1 Chat Entry Point](#11-chat-entry-point)
+  - [1.2 Chat Queue](#12-chat-queue)
+  - [1.3 Chat template](#13-chat-template)
+  - [1.4 Chat Entry point routing strategy creation](#14-chat-entry-point-routing-strategy-creation)
+  - [2. Predefined Chat Responses configuration](#2-predefined-chat-responsesconfiguration)
+  - [3. Test Chat customer and agent experience](#3-test-chat-customer-and-agent-experience)
   - [Congratulations, you are now ready to start Lab 5: New Supervisor functionality](#congratulations-you-are-now-ready-to-start-lab-5-new-supervisor-functionality)
 
 # Introduction
@@ -44,12 +46,12 @@ In this part, we will be configuring Email Account settings to ensure WxCC can f
 
 ## 1. Setup test email account (Gmail example)
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/mIhvCn8EHgk?rel=0" title="WxCC Lab #4: Setup test email account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 > A GMAIL account is provided for this lab purpose please check the POD information that has been shared with you. Please reach out to your lab proctors if you have any issues.
 
-Follow the instructions below to set the necesary settings on the GMAIL account
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/mIhvCn8EHgk?rel=0" title="WxCC Lab #4: Setup test email account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Follow the instructions below to set the necesary settings on the GMAIL account:
+
 - Open a new browser tab and login to the Gmail account with the provided credentials. You might have to use your mobile phone to authenticate
 
 - Click on settings icon on top right corner -> Select `See all settings`
@@ -62,9 +64,11 @@ Follow the instructions below to set the necesary settings on the GMAIL account
 
 - Use this [link](https://accounts.google.com/b/0/DisplayUnlockCaptcha){:target="_blank"} to disable captcha for the account and click Continue
 
-## 2. Email Entry Point creation
+## 2. Email Entry Point, Queue and Routing Strategy
 
 embed video
+
+### 2.1 Email Entry point
 
 - Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and go to `Provisioning -> Entry Point/Queues -> Entry Point`
 
@@ -77,10 +81,7 @@ Channel Type | `Email`
 Service Level Threshold | `24 hours`
 Time Zone | `Default`
 
-
-## 3. Email Queue creation
-
-embed video
+### 2.2 Email Queue
 
 - Access the menu `Provisioning -> Entry Point/Queues -> Queue`
 
@@ -96,10 +97,7 @@ Time Zone | `Default`
 
 - Click `Add Group` in **Email Distribution** and select `Team1_<ID>` as created earlier
 
-
-## 4. Entry point routing strategy creation
-
-embed video
+### 2.3 Email Entry point routing strategy
 
 - Click `Routing Strategy` menu item which cross launches the routing strategy configuration webpage.
 
@@ -138,7 +136,7 @@ THEN Queue To | `Q_email_<ID>`
 
 - Finally select the queue from the drop-down list for the default routing as `Q_email_<ID>` and click Save
 
-## 5. Email Template creation
+## 3. Email Template
 
 embed video
 
@@ -159,10 +157,11 @@ Regards,
 ${AgentName}
 ```
 
-
 > **Note:** A Predefined Email provides agents with an email outline that can be modified or sent directly to customers. There is currently a limit of one Predefined Email per organization. If its status is set to Active, the Predefined Email will automatically appear in all new agent emails. 
 
-## 6. Test Email customer and agent experience
+## 4. Test Email customer and agent experience
+
+embed video
 
 - Send test email from your personal or work email account to:`GMAIL account in lab topology guide` with Subject:`Sales` 
 
@@ -178,7 +177,6 @@ ${AgentName}
 
 - Add wrap up code and close the task
 
-
 # Part 2: Chat Configuration
 
 Chat configuration is divided between to configuration interfaces:
@@ -187,16 +185,11 @@ Chat configuration is divided between to configuration interfaces:
 
 - WxCC Portal allows you to configure Chat Entry Point and Routing Strategy and the Queue which will distribute Chats to your agents.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PsK4DqSgtb8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WGjbBwupBx0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## 1. Chat Entry Point creation
+## 1. Chat Entry Point, Queue, Template and Routing Strategy
 
 embed video
 
+### 1.1 Chat Entry Point
 - Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and go to `Provisioning -> Entry Point/Queues -> Entry Point`
 
 - Click `New Entry Point` and enter the respective values and click save
@@ -209,9 +202,7 @@ Service Level Threshold | `60 seconds`
 Time Zone | `Default`
 
 
-## 2. Chat Queue creation
-
-embed video
+## 1.2 Chat Queue
 
 - Access the menu `Provisioning -> Entry Point/Queues -> Queue`
 
@@ -227,9 +218,7 @@ Time Zone | `Default`
 
 - Click `Add Group` in **Chat Distribution** and select `Team1_<ID>` as created earlier
 
-## 3. Chat template creation
-
-embed video
+## 1.3 Chat template
 
 - Switch web interface to [Webex Control Hub](https://admin.cisco.com){:target="_blank"}
 
@@ -269,9 +258,7 @@ Add category Options | `Sales` (Press Enter key)
 - Click `Download Embed Code` option to save the Chat_Code_Snippet text file. The code in that text file can be embedded into your website or used in any web based HTML+Javascript editor like the one found [here](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
 
 
-## 4. Entry point routing strategy creation
-
-embed video
+## 1.4 Chat Entry point routing strategy creation
 
 - Go back to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and click `Routing Strategy` menu item which cross launches the routing strategy configuration webpage.
 
@@ -286,7 +273,7 @@ embed video
 - Click **Apply** and then Click **Save**.
 
 
-## 5. Predefined chat Responses configuration
+## 2. Predefined Chat Responses configuration
 
 embed video
 
@@ -304,7 +291,9 @@ Content| `Hi, how can I help you today?`
 
 > Optionally, add more predefined chat responses for a more realistic scenario when testing
 
-## 6. Test Chat customer and agent experience
+## 3. Test Chat customer and agent experience
+
+embed video
 
 - Navigate to an HTML+Javascript online editor like [this](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
 
