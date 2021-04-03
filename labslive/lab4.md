@@ -263,6 +263,7 @@ embed video
 
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Chat Responses`.
 - Click on the `New` button and enter the respective values and click **Save**
+
 Configuration field | Value
 --- | ---
 Response Name | `PredefinedResponse_<ID>`
@@ -277,6 +278,7 @@ Content| `Hi, how can I help you today?`
 
 - Navigate to an HTML+Javascript online editor like [this](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
 - Copy the code in Chat_Code_Snippet text file downloaded earlier and paste it after the `<body>` html tag. You should have the following on the left side of the editor (if using w3schools one)
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -299,12 +301,10 @@ Content| `Hi, how can I help you today?`
       e.parentNode.insertBefore(bubbleScript, e);
       })(document, 'script');
     </script>
-
 The content of the body element is displayed in your browser.
 </body>
 </html>
 ```
-
 - Click on the **Run** button, a Chat bubble button should appear at the bottom left of the browser window
 - Fill in the Chat form
 - If you haven't done so, login to WxCC agent desktop as Agent 1
