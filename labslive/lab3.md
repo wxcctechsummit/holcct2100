@@ -107,7 +107,12 @@ title: "Lab 3: IVR and Contact Routing"
 
 ### 4. Make a test call
 - Login to the agent desktop into `Team_wxcclab` and go to a ready state.
-- Dial the number using your cell. You should hear the welcome prompt and get the call on the agent desktop.
+- Dial the number using your cell. You should hear the new welcome prompt, press `1` get the call on the agent desktop.
+- Place more test calls and experiment with different options:
+  - press `2` - the call should be disconnected
+  - provide invalid option - the call should be disconnected
+  - do not provide input - the call should be disconnected after 3 seconds
+  - change agent status to Idle, and place a test call with option `1` - the call should stay in queue maximum for 2 minutes
 
 [To top of this lab](#table-of-contents)
 
