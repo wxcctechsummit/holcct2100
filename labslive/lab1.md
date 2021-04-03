@@ -62,7 +62,7 @@ Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 ### 1. Add an agent and a supervisor users and configure the calling extension
 
-- Login to the [Control Hub](https://admin.webex.com){:target="_blank"}
+- Login to the [Control Hub](https://admin.webex.com){:target="_blank"} with the admin account
 
 - Navigate to **_Users_**
 
