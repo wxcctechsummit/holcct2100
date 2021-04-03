@@ -39,23 +39,21 @@ title: "Lab 3: IVR and Contact Routing"
 
 ## Part 1: Setup a Simple Flow and make a test call
 
+### 1. Configure and Publish the first flow
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/aCJTdOW4uaE?rel=0" title="WxCC Lab #3 IVR & Call Routing1.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Configure and Publish the first flow
 - Create a new flow `MyFirstFlow_<podId>` where PodId is your unique pod number.
 - Add play message step and configure it with `0_welcome.wav` prompt. 
 - Finish the flow with EndFlow block.
 - Verify and publish the flow.
 
 ### 2. Create an inbound Voice Entry Point and map a DN
-
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/u1GDs_-YYK4?rel=0" title="WxCC Lab #3 IVR & Call Routing1.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - On the Portal create an inbound voice entry point `EP_voice_<podId>` (Provisioning > Entry Point)
 - Map the external number on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to `EP_voice_<podId>`. The DN is already added on Control Hub.
 
 ### 3. Configure the Entry Point Routing Strategy
-
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/3lrVvKLvvLc?rel=0" title="WxCC Lab #3 IVR & Call Routing1.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies > `EP_voice_<podId>`.
@@ -77,7 +75,6 @@ title: "Lab 3: IVR and Contact Routing"
 ## Part 2: Adding Menu and Queue treatment
 
 ### 1. Upload New Prompts
-
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/U7OnhQ3ZPRo?rel=0" title="WxCC Lab #3 IVR & Call Routing2.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Download new prompts:
@@ -92,14 +89,12 @@ title: "Lab 3: IVR and Contact Routing"
   (Browse > New > Upload the files)
 
 ### 2. Create Queue
-
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/PriGepc0XnU?rel=0" title="WxCC Lab #3 IVR & Call Routing2.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Create a voice queue `Q_voice_<podId>`. (Provisioning > Entry Point / Queue > Queue). 
 - In Queue Call Distribution assign agent team `Team_wxcclab` to the Queue. Your Agent will then login to that team to get the call.
 
 ### 3. Add Menu and Queue treatment to the flow
-
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/to58MHGUCq0?rel=0" title="WxCC Lab #3 IVR & Call Routing2.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Modify `MyFirstFlow_<podId>`:
@@ -123,7 +118,6 @@ title: "Lab 3: IVR and Contact Routing"
 ## Part 3: Configure Agent Screen Pop
 
 ### 1. Configure Event Flow
-
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/dYyM5GPxG9w?rel=0" title="WxCC Lab #3 IVR & Call Routing3.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Configure the event flow inside `MyFirstFlow_<podId>`
