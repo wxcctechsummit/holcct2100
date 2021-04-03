@@ -145,5 +145,6 @@ Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 
 
-## Congratulations, you have completed all mandatory labs. If you still have time, you can go through the [Lab 6: Bonus section - Facebook Messenger Integration](lab6.md)
+## Congratulations, you have completed all mandatory labs. If you still have time, you can go through the [Bonus Lab 6: Facebook Messenger Integration](lab6.md)
+
 
