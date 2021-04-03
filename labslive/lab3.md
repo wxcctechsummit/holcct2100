@@ -137,11 +137,15 @@ title: "Lab 3: IVR and Contact Routing"
 [To top of this lab](#table-of-contents)
 
 <script>
-function celeButton() {document.body.style.backgroundImage="url('https://i.gifer.com/5Q17.gif')";}
+function celeButton() {document.body.style.backgroundImage="url('https://media.giphy.com/media/PMV7yRpwGO5y9p3DBx/giphy.gif')";}
 </script>
 
-<div id="container">
-	<button onclick="celeButton()">Celebrate</button>
+<div id="container" style="text-align: center;">
+	<button onclick="celeButton()" style="
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(0,255,0);
+  padding: 10px;">Click To Finish</button>
 </div>
 
 
