@@ -19,9 +19,9 @@ title: "Lab 4: Email and Chat Configuration"
 - [Part 2: Chat Configuration](#part-2-chat-configuration)
   - [1. Chat Entry Point, Queue, Template and Routing Strategy](#1-chat-entry-point-queue-template-and-routing-strategy)
     - [1.1 Chat Entry Point](#11-chat-entry-point)
-  - [1.2 Chat Queue](#12-chat-queue)
-  - [1.3 Chat template](#13-chat-template)
-  - [1.4 Chat Entry point routing strategy creation](#14-chat-entry-point-routing-strategy-creation)
+    - [1.2 Chat Queue](#12-chat-queue)
+    - [1.3 Chat template](#13-chat-template)
+    - [1.4 Chat Entry point routing strategy creation](#14-chat-entry-point-routing-strategy-creation)
   - [2. Predefined Chat Responses configuration](#2-predefined-chat-responsesconfiguration)
   - [3. Test Chat customer and agent experience](#3-test-chat-customer-and-agent-experience)
   - [Congratulations, you are now ready to start Lab 5: New Supervisor functionality](#congratulations-you-are-now-ready-to-start-lab-5-new-supervisor-functionality)
@@ -202,7 +202,7 @@ Service Level Threshold | `60 seconds`
 Time Zone | `Default`
 
 
-## 1.2 Chat Queue
+### 1.2 Chat Queue
 
 - Access the menu `Provisioning -> Entry Point/Queues -> Queue`
 
@@ -218,7 +218,7 @@ Time Zone | `Default`
 
 - Click `Add Group` in **Chat Distribution** and select `Team1_<ID>` as created earlier
 
-## 1.3 Chat template
+### 1.3 Chat template
 
 - Switch web interface to [Webex Control Hub](https://admin.cisco.com){:target="_blank"}
 
@@ -258,7 +258,7 @@ Add category Options | `Sales` (Press Enter key)
 - Click `Download Embed Code` option to save the Chat_Code_Snippet text file. The code in that text file can be embedded into your website or used in any web based HTML+Javascript editor like the one found [here](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
 
 
-## 1.4 Chat Entry point routing strategy creation
+### 1.4 Chat Entry point routing strategy creation
 
 - Go back to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and click `Routing Strategy` menu item which cross launches the routing strategy configuration webpage.
 
