@@ -32,7 +32,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 - You have an assigned POD and attendee ID
 - You have the customer admin login credentials
 - You have the calling DNIS
-- You have the agent's extension number
+- You have the agent/supervisor extension number
 
 ### Quick Links
 > Control Hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
@@ -103,10 +103,14 @@ Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 | **Entity** | **Name**      | 
 | ----------- | ----------------- | 
-| Multimedia Profiles        | MM_Profile_wxcclab_pod\<ID\>   | 
-| Site         | Site_wxcclab_pod\<ID\>  | 
-| Team1         | Team1_wxcclab_pod\<ID\> | 
-| Team2         | Team2_wxcclab_pod\<ID\>  | 
+| Multimedia Profiles        | MM_Profile_wxcclab_\<ID\>   | 
+| Site         | Site_wxcclab_\<ID\>  | 
+| Team1         | Team1_wxcclab_\<ID\> | 
+| Team2         | Team2_wxcclab_\<ID\>  | 
+
+**NOTE:**
+
+Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 ### 1. Create a new MultiMedia Profile
 
@@ -128,15 +132,15 @@ Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 - Click on `+` **_New Multimedia Profile_** to open Multimedia Profile configuration page.
 
-- Input Name as `MM_Profile_wxcclab_pod<ID>` and input `1` for **_Voice_**, `3` for **_Chat_**, `3` for **_Email_**, `3` for **_Social Channel_** and click **_Save_**
+- Input Name as `MM_Profile_wxcclab_<ID>` and input `1` for **_Voice_**, `3` for **_Chat_**, `3` for **_Email_**, `3` for **_Social Channel_** and click **_Save_**
 
 ### 2. Create a new Site
 
 - Navigate to **_Provisioning_** and select **_Site_**
 
-- Click on `+` **_New Site_** button and provide the Name as `Site_wxcclab_pod<ID>`
+- Click on `+` **_New Site_** button and provide the Name as `Site_wxcclab_<ID>`
 
-- Select `MM_Profile_wxcclab_pod<ID>` in the **_Multimedia Profile_** drop down and hit **_Save_**
+- Select `MM_Profile_wxcclab_<ID>` in the **_Multimedia Profile_** drop down and hit **_Save_**
 
 ### 3. Create a new Team 1 
 
@@ -144,17 +148,17 @@ Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 - Click on `+` **_New Team_**
 
-- Select `Site_wxcclab_pod<ID>` from the Site drop down
+- Select `Site_wxcclab_<ID>` from the Site drop down
 
-- Input Name as `Team1_wxcclab_pod<ID>`
+- Input Name as `Team1_wxcclab_<ID>`
 
-- Select `MM_Profile_wxcclab_pod<ID>` in the **_Multimedia Profile_** drop down
+- Select `MM_Profile_wxcclab_<ID>` in the **_Multimedia Profile_** drop down
 
 - Select **_Global Layout_** in the **_Desktop Layout_** drop down and hit **_Save_**
 
 ### 4. Create a new Team 2
 
-- Please follow the same steps as above to add an extra Team as `Team2_wxcclab_pod<ID>`. Later we will use this team to assign a custom Desktop Layout.
+- Please follow the same steps as above to add an extra Team as `Team2_wxcclab_<ID>`. Later we will use this team to assign a custom Desktop Layout.
 
 ## Part 3: Admin Portal User Configuration
 
@@ -191,11 +195,11 @@ Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 - Click on **_Contact Center Enabled_** Toggle to move it to **_On_**
 
-- In the **_Agent Settings_** section, select `Site_wxcclab_pod<ID>` in the Site drop down
+- In the **_Agent Settings_** section, select `Site_wxcclab_<ID>` in the Site drop down
 
-- Click in the **_Teams_** area and select `Team1_wxcclab_pod<ID>` and `Team2_wxcclab_pod<ID>`
+- Click in the **_Teams_** area and select `Team1_wxcclab_<ID>` and `Team2_wxcclab_<ID>`
 
-- Select `MM_Profile_wxcclab_pod<ID>` in the **_Multimedia Profile_** drop down and hit **_Save_**
+- Select `MM_Profile_wxcclab_<ID>` in the **_Multimedia Profile_** drop down and hit **_Save_**
 
 - Repeat the same for all other users by selecting the appropriate profile in the **_User Profile_** drop down.
 
