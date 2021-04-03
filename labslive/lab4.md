@@ -313,7 +313,8 @@ Content| `Hi, how can I help you today?`
 - Navigate to an HTML+Javascript online editor like [this](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
 
 - Copy the code in Chat_Code_Snippet text file downloaded earlier and paste it after the `<body>` html tag. You should have the following on the left side of the editor (if using w3schools one)
-``` html
+  
+```html
 <!DOCTYPE html>
 <html>
 <body>
