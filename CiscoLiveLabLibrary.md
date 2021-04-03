@@ -20,7 +20,7 @@ In the table below you can find the agenda of the lab and some referred links, w
 | 10:30 CET | IVR configuration and placing a call | [Lab 3: IVR configuration and placing a cal](labslive/lab3.md) |
 | 11:30 CET | Email and Chat | [Lab 4: Email and Chat Configuration](labslive/lab4.md)|
 | 12:30 CET | New Supervisor functionality | [Lab 5: New Supervisor functionality](labslive/lab5.md) |
-| OPTIONAL | Bonus section - Facebook Messenger Integration |  [Lab 6: Bonus section - Facebook Messenger Integration](labslive/lab6.md) |
+| OPTIONAL | Bonus section - Facebook Messenger Integration |  [Bonus Lab 6: Facebook Messenger Integration](labslive/lab6.md) |
 
 
 
@@ -31,5 +31,5 @@ In the table below you can find the agenda of the lab and some referred links, w
 * [Lab 3: IVR configuration and placing a call](labslive/lab3.md)
 * [Lab 4: Email and Chat Configuration](labslive/lab4.md)
 * [Lab 5: New Supervisor functionality](labslive/lab5.md)
-* [Lab 6: Bonus section - Facebook Messenger Integration](labslive/lab6.md)
+* [Bonus Lab 6: Facebook Messenger Integration](labslive/lab6.md)
 
