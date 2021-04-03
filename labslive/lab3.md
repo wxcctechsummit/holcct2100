@@ -86,6 +86,7 @@ title: "Lab 3: IVR and Contact Routing"
   (Browse > New > Upload the files)
 
 ### 2. Create Queue
+  <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/PriGepc0XnU?rel=0" title="WxCC Lab #3 IVR & Call Routing2.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 - Create a voice queue `Q_voice_<podId>`. (Provisioning > Entry Point / Queue > Queue). 
 - In Queue Call Distribution assign agent team `Team_wxcclab` to the Queue. Your Agent will then login to that team to get the call.
 
