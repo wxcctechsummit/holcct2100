@@ -136,6 +136,14 @@ title: "Lab 3: IVR and Contact Routing"
 
 [To top of this lab](#table-of-contents)
 
+<script>
+function celeButton() {document.body.style.backgroundImage="url('https://i.gifer.com/5Q17.gif')";}
+</script>
+
+<div id="container">
+	<button onclick="celeButton()">Celebrate</button>
+</div>
+
 
 
 
