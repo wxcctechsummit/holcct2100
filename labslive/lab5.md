@@ -106,7 +106,7 @@ Note: You can log out agents who are in the Available, Idle, or Not Responding. 
 
 | **Entity** | **Name**      | 
 | ----------- | ----------------- | 
-| User Profiles        | Supervisor Profile Pod\<ID\>   | 
+| User Profiles        | Supervisor Profile \<ID\>   | 
 | Supervisor         | supervisor1_\<ID\>@mailinator.com | 
 
 **NOTE:**
@@ -115,17 +115,17 @@ Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 ### 3. Supervisor’s User Profile
 
-- Make sure the agent is logged back into the agent interface. During the agent login select the `Team2_wxcclab_pod<ID>`.
+- Make sure the agent is logged back into the agent interface. During the agent login select the `Team2_wxcclab_<ID>`.
 
 - Navigate to **_Provisioning_** and select **_User Profiles_**.
 
 - Click on dots `...` infront of **_Supervisor Profile_** and select **Copy** option.
 
-- The new **User Profile** page will be presented. Set the **Name** base on your Pod\<ID\> `Supervisor Profile Pod<ID>`.
+- The new **User Profile** page will be presented. Set the **Name** base on your Attendee \<ID\> `Supervisor Profile <ID>`.
 
 - In the **User Profile** page click on **Access Rights**.
 
-- In **Teams** field set only team1 `Team1_wxcclab_pod<ID>` and click **Save**.
+- In **Teams** field set only team1 `Team1_wxcclab_<ID>` and click **Save**.
 
 - Navigate to **_Provisioning_**, select **_Users_** and modify your supervisor account 
 
@@ -133,13 +133,13 @@ Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 - Infront of the current supervisor `supervisor1_<ID>@mailinator.com` click on `...` , to launch the **_Edit_** view for a particular User configuration.
 
-- Select a created profile `Supervisor Profile Pod<ID>` in the **_User Profile_** drop down list and hit **_Save_**.
+- Select a created profile `Supervisor Profile <ID>` in the **_User Profile_** drop down list and hit **_Save_**.
 
 - Log out and log back in to apply the new supervisor profile settings.
 
 - Verify that there are no agents in the `Agent State Data – Realtime` dashboard with a new profile.
 
-- Go to the agent desktop and change the team settings. Switch the agent to the team1 `Team1_wxcclab_pod<ID>`
+- Go to the agent desktop and change the team settings. Switch the agent to the team1 `Team1_wxcclab_<ID>`
 
 - In the agent dashboard click the **_Stop Refresh_** button and make sure the agent appears.
 
