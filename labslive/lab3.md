@@ -81,21 +81,28 @@ title: "Lab 3: IVR and Contact Routing"
    - [2OptionMenu.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/2OptionMenu.wav){:target="_blank"}
    - [QueueMusic.wav](https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/wcclab_prompts/QueueMusic.wav){:target="_blank"}
 
+**Note:** Prompts might be already uploaded by previous students. Feel free to delete them and re-upload again.
+
 - Upload audio files to WebEx Contact Center.
   Go to  Routing Strategy (from Portal) > Resources > Audio Files. 
   (Browse > New > Upload the files)
 
 ### 2. Create Queue
-  <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/PriGepc0XnU?rel=0" title="WxCC Lab #3 IVR & Call Routing2.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/PriGepc0XnU?rel=0" title="WxCC Lab #3 IVR & Call Routing2.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Create a voice queue `Q_voice_<podId>`. (Provisioning > Entry Point / Queue > Queue). 
 - In Queue Call Distribution assign agent team `Team_wxcclab` to the Queue. Your Agent will then login to that team to get the call.
 
 ### 3. Add Menu and Queue treatment to the flow
+
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/to58MHGUCq0?rel=0" title="WxCC Lab #3 IVR & Call Routing2.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Modify `MyFirstFlow_<podId>`:
   - replace a welcome prompt to the new one `Welcome.wav`
   - add Menu step with prompt `2OptionMenu.wav` and configure two options
   - add Queue Contact step and configure it with queue `Q_voice_<podId>`
-- Configure the play music to loop, and start 0, end 120 to play 2 minutes of music.
+- Configure the play music with `QueueMusic.wav`prompt,  Start Offset `0`, Music Duration `120` to play 2 minutes of music.
 - Verify and publish the flow.
 
 ### 4. Make a test call
