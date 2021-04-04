@@ -22,13 +22,13 @@ title: "Lab 4: Email and Chat Configuration"
     - [1.2 Chat Queue](#12-chat-queue)
     - [1.3 Chat template](#13-chat-template)
     - [1.4 Chat Entry point routing strategy creation](#14-chat-entry-point-routing-strategy-creation)
-  - [2. Predefined Chat Responses](#2-predefined-chat-responses)
+  - [2. Predefined Chat Responses configuration](#2-predefined-chat-responsesconfiguration)
   - [3. Test Chat customer and agent experience](#3-test-chat-customer-and-agent-experience)
   - [Congratulations, you are now ready to start Lab 5: New Supervisor functionality](#congratulations-you-are-now-ready-to-start-lab-5-new-supervisor-functionality)
 
 # Introduction
 
-## Objective
+## Lab Objective
 
 In this lab we will complete all configuration required to route emails and chats into WxCC.
 You will be able to send an email to the Contact Centre and be able to accept/respond to the email by logging in as an agent.  
@@ -40,6 +40,14 @@ You will also have the ability to start a chat session with an agent from an emb
 2. Portal and Agent Desktop URLs and credentials
 3. Lab 1 to 3 must be completed before starting Lab 4 as configuration done on previous labs is expected to be completed
 
+## Quick Links
+
+> Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
+> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
+> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**\
+> Gmail: **[https://mail.google.com/](https://mail.google.com/){:target="_blank"}**\
+> w3schools JS Tryit Editor: **[https://www.w3schools.com](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
+
 # Part 1: Email Configuration
 
 In this part, we will be configuring Email Account settings to ensure WxCC can fetch emails correctly. Then we will complete all required WxCC Portal configurations, Entry Point, Queue, corresponding Routing strategies, Routing rules and Email Template so that emails can be routed to an Agent.
@@ -49,6 +57,8 @@ In this part, we will be configuring Email Account settings to ensure WxCC can f
 > A GMAIL account is provided for this lab purpose please check the POD information that has been shared with you. Please reach out to your lab proctors if you have any issues.
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/mIhvCn8EHgk?rel=0" title="WxCC Lab #4: Setup test email account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 Follow the instructions below to set the necesary settings on the GMAIL account:
 
@@ -67,6 +77,8 @@ Follow the instructions below to set the necesary settings on the GMAIL account:
 ## 2. Email Entry Point, Queue and Routing Strategy
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/xMKN7f10h7Q?rel=0" title="WxCC Lab #4: EP Q RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ### 2.1 Email Entry point
 
@@ -140,6 +152,8 @@ THEN Queue To | `Q_email_<ID>`
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/JkFC433lPCA?rel=0" title="WxCC Lab #4: Predefined Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Emails`.
 
 - Click on the `New` button
@@ -162,6 +176,8 @@ ${AgentName}
 ## 4. Test Email customer and agent experience
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/OWsDlV3_ZCk?rel=0" title="WxCC Lab #4: Test Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 - Send test email from your personal or work email account to:`GMAIL account in lab topology guide` with Subject:`Sales` 
 
@@ -187,7 +203,7 @@ Chat configuration is divided between to configuration interfaces:
 
 ## 1. Chat Entry Point, Queue, Template and Routing Strategy
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/1wt4CwOMjtg?rel=0" title="WxCC Lab #4: Chat EP Q Template and RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+embed video
 
 ### 1.1 Chat Entry Point
 - Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and go to `Provisioning -> Entry Point/Queues -> Entry Point`
@@ -273,9 +289,9 @@ Add category Options | `Sales` (Press Enter key)
 - Click **Apply** and then Click **Save**.
 
 
-## 2. Predefined Chat Responses
+## 2. Predefined Chat Responses configuration
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/qcMM1NCgeKE?rel=0" title="WxCC Lab #4: Predefined Chat Responses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+embed video
 
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Chat Responses`.
 
@@ -293,7 +309,7 @@ Content| `Hi, how can I help you today?`
 
 ## 3. Test Chat customer and agent experience
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/8qRV3lL2Nx0?rel=0" title="WxCC Lab #4: Test Chat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+embed video
 
 - Navigate to an HTML+Javascript online editor like [this](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
 
@@ -329,7 +345,7 @@ The content of the body element is displayed in your browser.
 
 - Fill in the Chat form
 
-- If you haven't done so, login to [WxCC agent desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} as Agent 1
+- If you haven't done so, login to WxCC agent desktop as Agent 1
 
 - Once the agent goes Available, the Chat will be offered to the agent.
 
