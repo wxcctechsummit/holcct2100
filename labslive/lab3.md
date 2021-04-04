@@ -31,10 +31,10 @@ title: "Lab 3: IVR and Contact Routing"
 - WebEx Calling App installed for Agent installed on your laptop.
 - Supervisor's WebEx Calling App installed on your mobile phone.
 
-**Links**
+## Quick Links
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
-> Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**
+> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**
 
 
 ## Part 1: Setup a Simple Flow and make a test call
