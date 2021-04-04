@@ -183,12 +183,13 @@ function nextLab() {window.location.href = "https://wxcctechsummit.github.io/hol
 
 <div id="button-row">
 	<button onclick="celeButton()" style="
-  text-align: center;
   border-radius: 5px;
   background-color: rgb(0,255,0);
   padding: 10px;">Click To Finish</button>
 
   <button onclick="nextLab()" style="
+  position: absolute;
+  right: 200px;
   border-radius: 5px;
   background-color: rgb(0,255,0);
   padding: 10px;">Next Lab 4: Email and Chat Configuration</button>
