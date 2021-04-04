@@ -29,7 +29,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ### Pre-requisites
 
-- You have an assigned POD and your **attendee ID**.
+- You have an assigned **POD ID** and your **attendee ID**.
 - You have recived the **admin login** credentials.
 - You have the **calling DNIS**.
 - You have the agent/supervisor **extension** numbers.
