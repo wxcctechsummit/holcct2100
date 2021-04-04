@@ -47,17 +47,17 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ### Steps for creating a Facebook page
 
-* Customer/Partner should have an facebook account that can be used for creating new page.
+- Customer/Partner should have an facebook account that can be used for creating new page.
 
-* Login to the [Facebook](http://facebook.com/){:target="_blank"} to create a business page which will be used for your end customers.
+- Login to the [Facebook](http://facebook.com/){:target="_blank"} to create a business page which will be used for your end customers.
 
-* Once logged in, please select Pages tab which is on left side of the facebook home page.
+- Once logged in, please select **_Pages_** tab which is on left side of the facebook home page.
 
-* Now choose "Create New Page" which is on top left corner.
+- Now choose **_Create New Page_** which is on top left corner.
 
-* Provide the information which is required for creating the page as per your business and organisation.
+- Provide the information which is required for creating the page as per your business and organisation.
 
-* Upload cover photo and Logo then save.
+- Upload cover photo and Logo then **_Save_**.
 
 
 ## Part 2: Configure Facebook Connector in WxCC Control Hub
@@ -69,29 +69,21 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ### Steps for creating a new connector in the Control Hub
 
-* Login to the WxCC portal.
+- Login to the [Control Hub](https://admin.webex.com){:target="_blank"} with the admin account.
 
-* Once logged into the portal, on left side menu expand to see the available tabs. Select Provisioning and launch users.
+- Navigate **_Contact Center_** tab.
 
-* Here we will be able to see the available users and option to launch control hub. Select "Cisco Webex Control Hub".
+- Choose **_Connectors_** and select **_Facebook Messenger_**.
 
-* login to control hub and select "Contact Center" tab.
+- Provide Name `FB_Connector_<ID>` and choose **I do not have a Facebook Page ID and Access Token**.
 
-* Please provide the same username which was used to login to Cisco WxCC portal.
+- Proceed with Authentication to get Page ID and Access Token. Click on **_Authenticate with Facebook_**.
 
-* Once logged-in to control hub, please select "Contact Center" tab.
+- Once Authenticated copy `Facebook Page ID` and `Facebook Page Access Token`.
 
-* Choose Connectors and select "Facebook Messenger"
+- Update these details in WxCC Hontrol Hub.
 
-* Provide Name and choose I do not have a Facebook Page ID and Access Token.
-
-* Proceed with Authentication to get Page ID and Access Token.
-
-* Once Authenticated copy Page ID and Access Token.
-
-* Update these details in WxCC Hontrol Hub.
-
-* Now you should be able to see the newly created Facebook Page in Social Channels.
+- Now you should be able to see the newly created Facebook Page in **_Social Channels_**.
 
 
 ## Part 3: Configure Facebook Connector in Management Portal
@@ -109,54 +101,53 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ### 1. Configure Facebook Entrypoint
 
-* Login to the WxCC portal.
+- Login to the [WxCC portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}.
 
-* Select left side menu, expand to see the available tabs. Select Provisioning and expand Entry Points/Queues, now choose Entry Point.
+- Select left side menu, expand to see the available tabs. Select **_Provisioning_** and expand **_Entry Points/Queues_**, now choose **_Entry Point_**.
 
-* Select "New Entry Point".
+- Select **_New Entry Point_**.
 
-* Provide the Entry Point Name, Description and Channel type as "Social Channel" and Social Channel type as "Facebook Messenger" and save.
+- Provide the **Entry Point Name** as `EP_Facebook_<ID>`, Channel type as **Social Channel** and Social Channel type as **Facebook Messenger**. Click **_Save_**.
 
 
 ### 2. Configure Facebook Queue
 
-* Select Provisioning and expand Entry Points/Queues, now choose Queue.
+- Select **_Provisioning_** and expand **_Entry Points/Queues_**, now choose **_Queue_**.
 
-* Select "New Queue".
+- Select **_New Queue_**.
 
-* Provide the Queue Name, Description and Channel type as "Social Channel".
+- Provide the **Queue Name** as `Q_Facebook_<ID>`, and Channel type as **Social Channel**.
 
-* Now choose "Add Group" and select the required team `Team1_wxcclab_<ID>` names to whom these facebook contacts need to be routed.
+- Now choose **_Add Group_** and select the required team `Team1_wxcclab_<ID>` to whom these facebook contacts need to be routed.
 
-* Update the Max time in queue and save.
-
+- Update the **Max time in queue** to 300 sec and click **_Save_**.
 
 ### 3. Configure EntryPoint Mappings
 
-* Select left side menu, expand Provisioning to see the available tabs. Select "Entry Point Mappings".
+- Select left side menu, expand **_Provisioning_** to see the available tabs. Select **_Entry Point Mappings_**.
 
-* Choose Social Messaging and select "New Mapping".
+- Choose Social Messaging and select **_New Mapping_**.
 
-* Select the Connector and choose the one which we have created in Control Hub, then select entry point and save.  
+- Select the Connector `FB_Connector_<ID>` and choose the one which we have created in Control Hub, then select entry point `EP_Facebook_<ID>` and **_Save_**.  
 
 ### 4. Entry point routing strategy creation
 
-* Select left side menu, expand to see the available tabs. Select "Routing Strategy"
+- Select left side menu, expand to see the available tabs. Select **_Routing Strategy_**
 
-* Choose newly created facebook Entrypoint.
+- Choose newly created facebook Entrypoint `EP_Facebook_<ID>`.
 
-* Select new Strategy, provide name, start & end date, add the newly create facebook queue then save.
+- Select **_New Strategy_**, provide your name, start & end date, add the newly create facebook queue `Q_Facebook_<ID>` then **_Save_**.
 
 
 ### 5. Queue routing strategy creation
 
-* Now from the routing strategy page, select the ‘queue’ that you created and choose ‘New Strategy’.
+- Now from the **_Routing Strategy_** page, select the queue `Q_Facebook_<ID>` that you created and choose **_New Strategy_**.
 
-* Provide the Queue Name, start & end date, Max Time In Queue.
+- Provide the your name, start & end date, Max Time In Queue.
 
-* 'Add Group' and Select the team `Team1_wxcclab_<ID>` to which the contact should be delivered and click save group.
+- Click on **_Add Group_** and Select the team `Team1_wxcclab_<ID>` to which the contact should be delivered and click save group.
 
-* Now click save to complete Queue routing strategy settings. 
+- Now click **_Save_** to complete Queue routing strategy settings. 
 
 
 ## Part 4: Testing Facebook Chat to Agent Desktop
@@ -168,13 +159,13 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ### Agent Desktop: Contact offering to an Agent, Acceptance, and closure
 
-* Select left side menu in Wxcc Portal, expand to see the available tabs. Select "Agent Desktop".
+- Select left side menu in Wxcc Portal, expand to see the available tabs. Select **_Agent Desktop_**.
 
-* Login to agent desktop, provide agent login DN and choose the team `Team1_wxcclab_<ID>`.
+- Login to agent desktop with `agent1_<ID>@mailinator.com`, provide agent login Extension `1000` and choose the team `Team1_wxcclab_<ID>`.
 
-* Once the agent goes Available, the facebook contact will be offered to the agent.
+- Once the agent goes **Available**, the facebook contact will be offered to the agent.
 
-* Click "Accept" to handle the contact, after responding close the task.
+- Click **_Accept_** to handle the contact, after responding close the task.
 
 
 ## Congratulations, you have completed the **bonus section**. Well done!!!
