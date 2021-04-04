@@ -178,7 +178,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 <script>
 function celeButton() {document.body.style.backgroundImage="url('https://media.giphy.com/media/PMV7yRpwGO5y9p3DBx/giphy.gif')";}
-function nextLab() {} {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab4.html";}
+function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab4.html";}
 </script>
 
 <div id="button-row" style="text-align: center;">
