@@ -184,6 +184,7 @@ function celeButton() {document.body.style.backgroundImage="url('https://media.g
 <div id="container1" style="text-align: center;">
 	<button onclick="celeButton()" style="
   text-align: center;
+  display:inline;
   border-radius: 5px;
   background-color: rgb(0,255,0);
   padding: 10px;">Click To Finish</button>
@@ -191,6 +192,7 @@ function celeButton() {document.body.style.backgroundImage="url('https://media.g
 <div id="container2" style="text-align: right;">
   <button onclick="nextLab()" style="
   text-align: right;
+  display:inline;
   border-radius: 5px;
   background-color: rgb(0,255,0);
   padding: 10px;">Next Lab</button>
