@@ -26,9 +26,10 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ### Pre-requisite
 
-- You have successfully completed Lab 1 and Lab 2
-- Facebook account along with login credentials
-- Agent account to login to agent desktop
+- For doing this lab, you must first complete the **[Lab 1](lab1.md)** and **[Lab 2](lab2.md)**:
+   - You have the administrator's access to the Control Hub and Tenant Portal.
+   - Agent account to login to agent desktop
+- You have a Facebook account along with login credentials.
 
 ### Quick Links
 > Control Hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
