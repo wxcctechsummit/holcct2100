@@ -48,7 +48,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/1s9KnbrSGLA?rel=0" title="WxCC Lab #1 Part 1: Control Hub User Management Admin Task" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
 | **User Role** | **User email**      | **User Extension**                   |
 | ----------- | ----------------- | -------------------------------- |
@@ -98,8 +97,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/zcemK_kvsgM?rel=0" title="WxCC Lab #1 Part 2: Admin Portal Multimedia Profile, Site and Team Configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
----
 
 | **Entity** | **Name**      | 
 | ----------- | ----------------- | 
@@ -165,8 +162,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/tq26AnKFZuA?rel=0" title="WxCC Lab #1 Part 3: Admin Portal User Configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
----
-
 ### 1. Synchronize Webex Contact Center Users
 
 - Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
@@ -203,5 +198,3 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 
 ## Congratulations, you are now ready to start the [Lab 2: Exploring the Agent Desktop](lab2.md)
-
-
