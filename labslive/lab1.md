@@ -107,8 +107,8 @@ Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 | ----------- | ----------------- | 
 | Multimedia Profiles        | MM_Profile_wxcclab_\<ID\>   | 
 | Site         | Site_wxcclab_\<ID\>  | 
-| Team1         | Team1_wxcclab_\<ID\> | 
-| Team2         | Team2_wxcclab_\<ID\>  | 
+| Team1         | Team1\_wxcclab_\<ID\> | 
+| Team2         | Team2\_wxcclab_\<ID\>  | 
 
 **NOTE:**
 
