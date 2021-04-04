@@ -1,3 +1,4 @@
+{% assign id = 25 %}
 ---
 title: "Lab 3: IVR and Contact Routing"
 ---
@@ -43,7 +44,7 @@ title: "Lab 3: IVR and Contact Routing"
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/aCJTdOW4uaE?rel=0" title="WxCC Lab #3 IVR & Call Routing1.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- Create a new flow `MyFirstFlow_<podId>` where PodId is your unique pod number.
+- Create a new flow `MyFirstFlow_{{id}}` where PodId is your unique pod number.
 
 - Add play message step and configure it with `0_welcome.wav` prompt. 
 
