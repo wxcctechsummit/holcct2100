@@ -97,7 +97,7 @@ End customer can initiate queries from provided facebook page to contact center 
 | ----------- | ----------------- | 
 | Facebook Entrypoint        | EP_Facebook_\<ID\>   | 
 | Facebook Queue         | Q_Facebook_\<ID\>  | 
-| Team1         | Team1_wxcclab_\<ID\> | 
+| Team1         | Team1\_wxcclab_\<ID\> | 
 
 ### 1. Configure Facebook Entrypoint
 
