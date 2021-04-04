@@ -1,3 +1,4 @@
+ <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 ---
 title: "Lab 3: IVR and Contact Routing"
 ---
