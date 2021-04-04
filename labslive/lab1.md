@@ -69,9 +69,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 - Select **_Next_** in **_Manage Users_** pane.
 
-- Input the `EmailID` of the agent and supervisor users and click **_Next_**
+- Input the **Email addresses** of the agent and supervisor users and click **_Next_**. 
 
-- Verify that the **EmailID** is same as in the table above and click **_Next_**
+- Verify that the **Email addresses** are same as in the table above and click **_Next_**
 
 - Check **_Webex Teams_** , **_Webex Calling (Enterprise)_** & **_Contact Center_**
 
@@ -95,7 +95,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 > The following video outlines how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to each different Contact Center Users. We will also see how to navigate to Admin Portal from Control Hub UI
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/zcemK_kvsgM?rel=0" title="WxCC Lab #1 Part 2: Admin Portal Multimedia Profile, Site and Team Configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/tq26AnKFZuA?rel=0" title="WxCC Lab #1 Part 2: Admin Portal Multimedia Profile, Site and Team Configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 | **Entity** | **Name**      | 
@@ -159,7 +159,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 >The following video outlines how to configure the users in Admin Portal that were added first in Control Hub. This is a very critical task from the Contact Center perspective. We also would take a look at how to associate customer-created Site, Team, and Multi-Media Profile with those users. Post this we should be able to successfully login as an agent using any of the users and their associated extension.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/tq26AnKFZuA?rel=0" title="WxCC Lab #1 Part 3: Admin Portal User Configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/zcemK_kvsgM?rel=0" title="WxCC Lab #1 Part 3: Admin Portal User Configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### 1. Synchronize Webex Contact Center Users
