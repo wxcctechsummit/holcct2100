@@ -28,7 +28,7 @@ In the table below you can find the agenda of the lab and some referred links, w
 
 * [Lab 1: Control Hub and Tenant Portal configuration](labslive/lab1.md)
 * [Lab 2: New Agent Desktop Experience](labslive/lab2.md)
-* [Lab 3: IVR configuration and placing a call](labslive/lab3.md)
+* [Lab 3: IVR and Contact Routing](labslive/lab3.md)
 * [Lab 4: Email and Chat Configuration](labslive/lab4.md)
 * [Lab 5: New Supervisor functionality](labslive/lab5.md)
 * [Bonus Lab 6: Facebook Messenger Integration](labslive/lab6.md)
