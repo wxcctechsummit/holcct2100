@@ -3,7 +3,7 @@ title: "Bonus Lab 6: Facebook Messenger Integration"
 ---
 
 ### Overview of the lab:
-This is a bonus section for the participants who has successfully compleated the mandatory part.
+This is a bonus section for the participants who have successfully completed the mandatory part. In this Lab, we will go through the tasks that are required to complete the Facebook integration with WxCC. At the end of the lab, you should be able to get a Facebook message on the agent desktop.
 
 ## Table of Contents
 - [Part 1: Organization admin: set up Facebook account](#Part-1-Organization-admin-set-up-Facebook-account)
