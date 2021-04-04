@@ -55,8 +55,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 | Agent        | agent1_\<ID\>@mailinator.com   | 1000 |
 | Supervisor         | supervisor1_\<ID\>@mailinator.com  | 2000 |
 
-> **NOTE:**\{: .gitlab-orange}
-> Your \<ID\> is provided in the email in the **"Attendee ID"** line.
+> **NOTE:** Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 
 ### 1. Add an agent and a supervisor users and configure the calling extension
@@ -109,9 +108,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 | Team1         | Team1\_wxcclab_\<ID\> | 
 | Team2         | Team2\_wxcclab_\<ID\>  | 
 
-**NOTE:**
-
-Your \<ID\> is provided in the email in the **"Attendee ID"** line.
+> **NOTE:** Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 ### 1. Create a new MultiMedia Profile
 
