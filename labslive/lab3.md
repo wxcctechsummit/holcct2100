@@ -178,6 +178,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 <script>
 function celeButton() {document.body.style.backgroundImage="url('https://media.giphy.com/media/PMV7yRpwGO5y9p3DBx/giphy.gif')";}
+function nextLab() {} {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab4.html";}
 </script>
 
 <div id="button-row" style="text-align: center;">
@@ -195,7 +196,7 @@ function celeButton() {document.body.style.backgroundImage="url('https://media.g
   display:inline;
   border-radius: 5px;
   background-color: rgb(0,255,0);
-  padding: 10px;">Next Lab</button>
+  padding: 10px;">Next Lab 4</button>
 </span>
 </div>
 
