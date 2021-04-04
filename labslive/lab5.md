@@ -27,9 +27,10 @@ In this lab, we will show you the existing dashboards which are available for su
 - 
 ### Pre-requisites
 
-- You have successfully completed Lab 1, Lab 2 and Lab 3;
-- Agent account to login to agent desktop.
-- Supervisor account to login to Management Portal.
+- Lab 1 to 3 must be completed before starting Lab 5:
+   - You have the supervisor's access to the Tenant Portal.
+   - Agent created, configured and can login to the agent desktop.
+   - Agent is part of 2 Teams.
 
 ### Quick Links
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
