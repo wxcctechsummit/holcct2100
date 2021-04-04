@@ -170,44 +170,42 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ## Part 3: Admin Portal User Configuration
 
->The following video outlines how to configure the users in Admin Portal that were added first in Control Hub. This is a very critical task from the Contact Center perspective. We also would take a look at how to associate customer-created Site, Team, and Multi-Media Profile with those users. Post this we should be able to successfully login as an agent using any of the users and their associated extension.
+>The following video outlines how to configure the users in Admin Portal that were added first in Control Hub. This is a very critical task from the Contact Center perspective. We also would take a look at how to associate customer-created Site, Team, and Multi-Media Profile with those users. After this, we should be able to login as an agent using any of the users and their associated extension.
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/zcemK_kvsgM?rel=0" title="WxCC Lab #1 Part 3: Admin Portal User Configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### 1. Synchronize Webex Contact Center Users
 
-- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
+- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}.
 
 - Enter the admin email id and the password.
 
-- Navigate to **_Contact Center_** Card
+- Navigate to **_Contact Center_** Card.
 
-- Click on **_Settings_**
+- Click on **_Settings_**.
 
-- Click on `Synchronize Users`
+- Click on `Synchronize Users`.
 
 ### 2. Manage settings for existing user
 
-- Scroll down to **_Webex Contact Center Management_**
+- Go back to the **_Webex Contact Center Management Portal__**.
 
-- Click on **_Go to Webex Contact Center Management Portal_**
+- Click on **_Provisioning_** and select **_Users_**.
 
-- Ensure that browser pop up blockers are not blocking the **_Admin Portal_** pop up
+- Click on `...` for the first user, to launch the **_Edit_** view for a particular User configuration.
 
-- Click on **_Provisioning_** and select **_Users_**
+- Click on **_Contact Center Enabled_** toggle to move it to **_On_**.
 
-- Click on `...` for the first user, to launch the **_Edit_** view for a particular User configuration
+- In the **_Agent Settings_** section, select `Site_wxcclab_<ID>` in the **_Site_** drop-down.
 
-- Click on **_Contact Center Enabled_** Toggle to move it to **_On_**
+- Click the **_Teams_** area and select `Team1_wxcclab_<ID>` and `Team2_wxcclab_<ID>`.
 
-- In the **_Agent Settings_** section, select `Site_wxcclab_<ID>` in the Site drop down
-
-- Click in the **_Teams_** area and select `Team1_wxcclab_<ID>` and `Team2_wxcclab_<ID>`
-
-- Select `MM_Profile_wxcclab_<ID>` in the **_Multimedia Profile_** drop down and hit **_Save_**
+- Select `MM_Profile_wxcclab_<ID>` in the **_Multimedia Profile_** drop-down and hit **_Save_**.
 
 - Repeat the same for all other users by selecting the appropriate profile in the **_User Profile_** drop down.
+
+- Make sure that both users are now shown with the **_Contact Center Enabled_** flag as `Yes` and **_Status_** as `Active`.
 
 [To top of this lab](#table-of-contents)
 
