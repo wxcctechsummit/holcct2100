@@ -181,14 +181,14 @@ function celeButton() {document.body.style.backgroundImage="url('https://media.g
 </script>
 
 <div id="button-row" style="text-align: center;">
-<div id="container" style="text-align: center;">
+<div id="container1" style="text-align: center;">
 	<button onclick="celeButton()" style="
   text-align: center;
   border-radius: 5px;
   background-color: rgb(0,255,0);
   padding: 10px;">Click To Finish</button>
 </div>
-<div id="container" style="text-align: right;">
+<div id="container2" style="text-align: right;">
   <button onclick="nextLab()" style="
   text-align: right;
   border-radius: 5px;
