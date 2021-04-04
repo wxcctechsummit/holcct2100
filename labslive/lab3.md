@@ -1,4 +1,4 @@
-{% assign id = 25 %}
+{% raw %}{% assign id = "25" %}{% endraw %}
 ---
 title: "Lab 3: IVR and Contact Routing"
 ---
