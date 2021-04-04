@@ -6,8 +6,9 @@ title: "Lab 4: Email and Chat Configuration"
 
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
-  - [Objective](#objective)
+  - [Lab Objective](#lab-objective)
   - [Pre-requisites](#pre-requisites)
+  - [Quick Links](#quick-links)
 - [Part 1: Email Configuration](#part-1-email-configuration)
   - [1. Setup test email account (Gmail example)](#1-setup-test-email-account-gmail-example)
   - [2. Email Entry Point, Queue and Routing Strategy](#2-email-entry-point-queue-and-routing-strategy)
@@ -22,7 +23,7 @@ title: "Lab 4: Email and Chat Configuration"
     - [1.2 Chat Queue](#12-chat-queue)
     - [1.3 Chat template](#13-chat-template)
     - [1.4 Chat Entry point routing strategy creation](#14-chat-entry-point-routing-strategy-creation)
-  - [2. Predefined Chat Responses configuration](#2-predefined-chat-responsesconfiguration)
+  - [2. Predefined Chat Responses](#2-predefined-chat-responses)
   - [3. Test Chat customer and agent experience](#3-test-chat-customer-and-agent-experience)
   - [Congratulations, you are now ready to start Lab 5: New Supervisor functionality](#congratulations-you-are-now-ready-to-start-lab-5-new-supervisor-functionality)
 
@@ -203,7 +204,7 @@ Chat configuration is divided between to configuration interfaces:
 
 ## 1. Chat Entry Point, Queue, Template and Routing Strategy
 
-embed video
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/1wt4CwOMjtg?rel=0" title="WxCC Lab #4: Chat EP Q Template and RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1.1 Chat Entry Point
 - Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and go to `Provisioning -> Entry Point/Queues -> Entry Point`
@@ -289,9 +290,9 @@ Add category Options | `Sales` (Press Enter key)
 - Click **Apply** and then Click **Save**.
 
 
-## 2. Predefined Chat Responses configuration
+## 2. Predefined Chat Responses
 
-embed video
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/qcMM1NCgeKE?rel=0" title="WxCC Lab #4: Predefined Chat Responses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Chat Responses`.
 
@@ -309,7 +310,7 @@ Content| `Hi, how can I help you today?`
 
 ## 3. Test Chat customer and agent experience
 
-embed video
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/8qRV3lL2Nx0?rel=0" title="WxCC Lab #4: Test Chat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Navigate to an HTML+Javascript online editor like [this](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
 
@@ -345,7 +346,7 @@ The content of the body element is displayed in your browser.
 
 - Fill in the Chat form
 
-- If you haven't done so, login to WxCC agent desktop as Agent 1
+- If you haven't done so, login to [WxCC agent desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} as Agent 1
 
 - Once the agent goes Available, the Chat will be offered to the agent.
 
