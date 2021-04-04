@@ -46,7 +46,7 @@ You will also have the ability to start a chat session with an agent from an emb
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**\
 > Gmail: **[https://mail.google.com/](https://mail.google.com/){:target="_blank"}**\
-> w3schools JS Tryit Editor: **[https://www.w3schools.com](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
+> w3schools JS Tryit Editor: **[https://www.w3schools.com](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}**
 
 # Part 1: Email Configuration
 
