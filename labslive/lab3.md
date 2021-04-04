@@ -1,7 +1,11 @@
 ---
 title: "Lab 3: IVR and Contact Routing"
 ---
-{% raw %}{% assign id = "25" %}{% endraw %}
+{% raw %}
+~~~html
+{% assign id = "25" %}
+~~~
+{% endraw %}
 
 # Table of Contents
 - [Part 1: Setup a Simple Flow and make a test call](#part-1-setup-a-simple-flow-and-make-a-test-call)
