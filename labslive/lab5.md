@@ -4,7 +4,7 @@ title: "Lab 5: New Supervisor functionality"
 
 ### Overview of the lab:
 
-In this lab, we will show you the existing dashboards which are available for supervisor in the Management portal. At the end of the lab, you will learn how to create a custom access right and will get acquainted with the agent logout feature. 
+In this lab, we will show you the existing dashboards which are available for supervisor in the Management portal. At the end of the lab, you will learn how to create a custom access right and will get acquainted with the remote agent logout feature in the supervisor's dashboard. 
 
 
 # Table of Contents
