@@ -4,7 +4,7 @@ title: "Lab 2: New Agent Desktop Experience"
 
 
 ### Overview of the lab:
-In this Lab, we will explore the different sections and some useful options of the Agent Desktop. You will watch a demo video about Agent Desktop overview and you will configure some options by following the described steps. At the end of the lab, you should be able to know where to find the different features and customize your own desktop layout.
+In this Lab, we will explore the different sections and some useful options of **the New Agent Desktop**. You will watch a demo video about Agent Desktop overview and you will configure some options by following the described steps. At the end of the lab, you should be able to know where to find the different features and customize your own desktop layout.
 
 
 # Table of Contents
@@ -61,7 +61,6 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/dUYcMI0bsuU?rel=0" title="WxCC Lab #2 Part 1: Access to the Agent Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
 ### 1. Activate Webex Calling
 
@@ -95,7 +94,7 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 ### 3. Download and Login in the Webex Calling app for mobile 
 
-> **Note:** You need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. Alternatively, if you have a US number, you can use it from the agent's desktop. This tenant does not allow numbers outside of the United States.
+> **Note:** You need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. Alternatively, if you have a US number, you can use as agent's extension. This tenant does not allow numbers outside of the United States.
 
 - Open your app manager (**Play Store or AppStore**) in your mobile
 
@@ -259,7 +258,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 ### 5. More advance example
 
-- Download the JSON file from **https://cisco.box.com/s/4hmozg4h9gwaa1x9zhq1w6mehw8guvuy**
+- Download the **[custom JSON file](https://cisco.box.com/s/4hmozg4h9gwaa1x9zhq1w6mehw8guvuy){:target="_blank"}**
 
 - Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
 
@@ -283,7 +282,6 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/47DPXWs7H54?rel=0" title="WxCC Lab #2 Part 5: Configuring Outdial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
 ### 1. Verify/create the Outdial Entry Point and Queue
 
