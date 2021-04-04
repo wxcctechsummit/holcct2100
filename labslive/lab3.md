@@ -69,7 +69,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 ### 4. Make a test call
 
-- Login to the agent desktop into `Team_wxcclab` and go to a ready state. Login agent WebEx Calling application.
+- Login to the agent desktop into `Team1_wxcclab_<ID>` and go to a ready state. Login agent WebEx Calling application.
 
 - Login to the supervisor WebEx Calling app on your mobile.
 
@@ -110,7 +110,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 - Create a voice queue `Q_voice_<podId>`. (Provisioning > Entry Point / Queue > Queue). 
 
-- In Queue Call Distribution assign agent team `Team_wxcclab` to the Queue. Your Agent will then login to that team to get the call.
+- In Queue Call Distribution assign agent team `Team1_wxcclab_<ID>` to the Queue. Your Agent will then login to that team to get the call.
 
 ### 3. Add Menu and Queue treatment to the flow
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/to58MHGUCq0?rel=0" title="WxCC Lab #3 IVR & Call Routing2.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -130,7 +130,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 ### 4. Make a test call
 
-- Login to the agent desktop into `Team_wxcclab` and go to a ready state.
+- Login to the agent desktop into `Team1_wxcclab_<ID>` and go to a ready state.
 
 - From supervisor's WebEx Calling app, dial the number. You should hear the new welcome prompt, press `1` get the call on the agent desktop.
 
@@ -164,7 +164,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 ### 2. Make a test call
 
-- Login to the agent desktop into `Team_wxcclab` and go to a ready state.
+- Login to the agent desktop into `Team1_wxcclab_<ID>` and go to a ready state.
 
 - From supervisor's WebEx Calling app, dial the number, press `1`  and get the call on the agent desktop.
 
