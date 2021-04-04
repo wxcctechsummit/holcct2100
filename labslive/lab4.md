@@ -37,8 +37,8 @@ You will also have the ability to start a chat session with an agent from an emb
 ## Pre-requisites
 
 1. An Email account to be used in WxCC. We provide a GMAIL account to each Lab POD.
-2. Portal and Agent Desktop URLs and credentials
-3. Lab 1 to 3 must be completed before starting Lab 4 as configuration done on previous labs is expected to be completed
+2. Portal and Agent Desktop URLs and credentials.
+3. Lab 1 to 3 must be completed before starting Lab 4 as configuration done on previous labs is expected to be completed.
 
 ## Quick Links
 
