@@ -181,19 +181,17 @@ function celeButton() {document.body.style.backgroundImage="url('https://media.g
 function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab4.html";}
 </script>
 
-<div id="button-row" style="text-align: center;">
-<span id="button1" style="text-align: center;">
+<div id="button-row">
+<span id="button1" style="text-align: center; display:inline;">
 	<button onclick="celeButton()" style="
   text-align: center;
-  display:inline;
   border-radius: 5px;
   background-color: rgb(0,255,0);
   padding: 10px;">Click To Finish</button>
 </span>
-<span id="button2" style="text-align: right;">
+<span id="button2" style="text-align: right; display:inline;">
   <button onclick="nextLab()" style="
   text-align: right;
-  display:inline;
   border-radius: 5px;
   background-color: rgb(0,255,0);
   padding: 10px;">Next Lab 4: Email and Chat Configuration</button>
