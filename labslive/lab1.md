@@ -12,10 +12,10 @@ In this Lab, we will go through the tasks that are required to complete the gene
   * [1. Add an agent and a supervisor users and configure the calling extension](#1-add-an-agent-and-a-supervisor-users-and-configure-the-calling-extension)
   * [2. Optionally, add the rest of the users](#2-optionally-add-the-rest-of-the-users)
 - [Part 2: Admin Portal Multimedia Profile, Site and Team Configuration](#part-2-admin-portal-multimedia-profile-site-and-team-configuration)
-  * [1. Create a new MultiMedia Profile](#1-create-a-new-multimedia-profile)
-  * [2. Create a new Site](#2-create-a-new-site)
-  * [3. Create a new Team 1](#3-create-a-new-team-1)
-  * [4. Create a new Team 2](#4-create-a-new-team-2)
+  * [1. Create new MultiMedia Profile](#1-create-new-multimedia-profile)
+  * [2. Create new Site](#2-create-new-site)
+  * [3. Create new Team 1](#3-create-new-team-1)
+  * [4. Create new Team 2](#4-create-new-team-2)
 - [Part 3: Admin Portal User Configuration](#part-3-admin-portal-user-configuration)
   * [1. Synchronize Webex Contact Center Users](#1-synchronize-webex-contact-center-users)
   * [2. Manage settings for existing user](#2-manage-settings-for-existing-user)
@@ -54,46 +54,55 @@ In this Lab, we will go through the tasks that are required to complete the gene
 | Agent        | agent1_\<ID\>@mailinator.com   | 1000 |
 | Supervisor         | supervisor1_\<ID\>@mailinator.com  | 2000 |
 
-> **NOTE:**\
-> Your \<ID\> is provided in the email in the **"Attendee ID"** line.
+> **NOTE:** Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 ### 1. Add an agent and a supervisor users and configure the calling extension
 
-- Login to the [Control Hub](https://admin.webex.com){:target="_blank"} with the admin account
+- Login to the [Control Hub](https://admin.webex.com){:target="_blank"} with the admin account.
 
-- Navigate to **_Users_**
+- Navigate to **_Users_**.
 
-- Click on **_Manage Users_** button
+- Click on **_Manage Users_** button.
 
-- Click on **_Manually Add or Modify User_**
+- Click on **_Manually Add or Modify User_**.
 
 - Select **_Next_** in **_Manage Users_** pane.
 
 - Input the **Email addresses** of the agent and supervisor users and click **_Next_**. 
 
-- Verify that the **Email addresses** are same as in the table above and click **_Next_**
+- Verify that the **Email addresses** are same as in the table above and click **_Next_**.
 
-- Check **_Webex Teams_** , **_Webex Calling (Enterprise)_** & **_Contact Center_**
+- Check **_Webex Teams_** , **_Webex Calling (Enterprise)_** & **_Contact Center_**.
 
-- Ensure that the License Type is **_Premium Agent_** and Role is **_Agent_** and click **_Add Users_**. 
+- Ensure that the License Type is **_Premium Agent_** and Role is **_Agent_** and click **_Next_**. 
 
-- In the next page, make sure that the **_Location_** is selected under **_Assign Numbers_**. The correct value should be already selected by default.
+- On the next page, make sure that the **_Location_** is selected under **_Assign Numbers_**. The correct value should be already selected by default. 
 
-- In the same page, Enter the correct `Extension` under **_Assign Numbers_**. You can find this in the table above.
+- The **_Phone Number_** left as **None**.
 
-- Click **_Finish_**
+- On the same page, Enter the correct `Extension` under **_Assign Numbers_**. You can find this in the table above.
 
-- Select the supervisor user and modify his role to **_Supervisor_** by clicking on **_Edit_** button.
+- Click **_Finish_**.
 
-- Validate the users by going to [https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}. Check the emails inbox and follow the email instructions to activate the user account.
+- On the next page, you should get confirmation **"2 Total records processed"**. Confirm the same by pressing **_Finish_**.
+
+- Select the supervisor user and modify his role to **_Supervisor_** by clicking the top **_Edit_** button in front of **_Services_**. Click **_Save_** to confirm the changes.
+
+- Validate the users by going to [https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}. 
+
+- Check the email inboxes and follow the **Cisco Webex** email instructions to activate the user accounts. For the user activation, you have to set the password twice for both users.
+
+- Refresh the **_Users_** page in the Control Hub, make sure that all users are in **Active** status.
 
 ### 2. Optionally, add the rest of the users
 
-- Please follow the same steps as above to add any extra users that you want to add to the Contact Center.
+- Follow the same steps as above to add any extra users that you want to add to the Contact Center.
+
+[To top of this lab](#table-of-contents)
 
 ## Part 2: Admin Portal Multimedia Profile, Site and Team Configuration
 
-> The following video outlines how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to each different Contact Center Users. We will also see how to navigate to Admin Portal from Control Hub UI
+> The following video outlines how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to each different Contact Center Users. We will also see how to navigate to the Webex Contact Center Management Portal from Control Hub UI.
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/tq26AnKFZuA?rel=0" title="WxCC Lab #1 Part 2: Admin Portal Multimedia Profile, Site and Team Configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -107,53 +116,57 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 > **NOTE:** Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
-### 1. Create a new MultiMedia Profile
+### 1. Create new MultiMedia Profile
 
-- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}
+- Login to Control Hub by accessing [https://admin.webex.com](https://admin.webex.com){:target="_blank"}.
 
 - Enter the admin email id and the password.
 
-- Navigate to **_Contact Center_** Card
+- Navigate to **_Contact Center_** Card.
 
-- Click on **_Settings_**
+- Click **_Settings_** in the upper right corner.
 
-- Scroll down to **_Webex Contact Center Management_**
+- Scroll down to the **_Advanced Configuration_** section.
 
-- Click on **_Go to Webex Contact Center Management Portal_**
+- Click on **_Go to Webex Contact Center Management Portal_**.
 
 - Ensure that browser pop up blockers are not blocking the **_Admin Portal_** pop up.
 
-- Click on **_Provisioning_** and select **_Multimedia Profiles_**
+- Click on **_Provisioning_** and select **_Multimedia Profiles_**.
 
-- Click on `+` **_New Multimedia Profile_** to open Multimedia Profile configuration page.
+- Click on `+ New Multimedia Profile` to open Multimedia Profile configuration page.
 
-- Input Name as `MM_Profile_wxcclab_<ID>` and input `1` for **_Voice_**, `3` for **_Chat_**, `3` for **_Email_**, `3` for **_Social Channel_** and click **_Save_**
+- Input Name as `MM_Profile_wxcclab_<ID>` and input `1` for **_Voice_**, `3` for **_Chat_**, `3` for **_Email_**, `3` for **_Social Channel_** and click **_Save_**.
 
-### 2. Create a new Site
+### 2. Create new Site
 
-- Navigate to **_Provisioning_** and select **_Site_**
+- Navigate to **_Provisioning_** and select **_Site_**.
 
-- Click on `+` **_New Site_** button and provide the Name as `Site_wxcclab_<ID>`
+- Click on `+ New Site` button and provide the Name as `Site_wxcclab_<ID>`.
 
-- Select `MM_Profile_wxcclab_<ID>` in the **_Multimedia Profile_** drop down and hit **_Save_**
+- Select `MM_Profile_wxcclab_<ID>` in the **_Multimedia Profile_** drop down and hit **_Save_**.
 
-### 3. Create a new Team 1 
+### 3. Create new Team 1 
 
-- Navigate to **_Provisioning_** and select **_Team_**
+- Navigate to **_Provisioning_** and select **_Team_**.
 
-- Click on `+` **_New Team_**
+- Click on `+ New Team`.
 
-- Select `Site_wxcclab_<ID>` from the Site drop down
+- Select `Site_wxcclab_<ID>` from the **_Site_** drop-down.
 
-- Input Name as `Team1_wxcclab_<ID>`
+- Input **_Name_** as `Team1_wxcclab_<ID>`.
 
-- Select `MM_Profile_wxcclab_<ID>` in the **_Multimedia Profile_** drop down
+- Use the default **_Type_** `Agent Based`.
 
-- Select **_Global Layout_** in the **_Desktop Layout_** drop down and hit **_Save_**
+- Select `MM_Profile_wxcclab_<ID>` in the **_Multimedia Profile_** drop-down.
 
-### 4. Create a new Team 2
+- Left as a default value **_Global Layout_** in the **_Desktop Layout_** drop-down and hit **_Save_**.
+
+### 4. Create new Team 2
 
 - Please follow the same steps as above to add an extra Team as `Team2_wxcclab_<ID>`. Later we will use this team to assign a custom Desktop Layout.
+
+[To top of this lab](#table-of-contents)
 
 ## Part 3: Admin Portal User Configuration
 
@@ -196,5 +209,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 - Repeat the same for all other users by selecting the appropriate profile in the **_User Profile_** drop down.
 
+[To top of this lab](#table-of-contents)
 
 ## Congratulations, you are now ready to start the [Lab 2: Exploring the Agent Desktop](lab2.md)
