@@ -11,7 +11,7 @@ In this Lab, we will explore the different sections and some useful options of t
 
 - [1. Access to the Agent Desktop](#part-1-access-to-the-agent-desktop)
   * [1. Activate Webex Calling](#1-activate-webex-calling)
-  * [2. Download and Login in the Webex Calling app for PC](#2-download-and-login-in-the-webex-calling-app-for-pc)
+  * [2. Download and Login in the Webex Calling app for PC or Mac](#2-download-and-login-in-the-webex-calling-app-for-pc-or-mac)
   * [3. Download and Login in the Webex Calling app for mobile](#3-download-and-login-in-the-webex-calling-app-for-mobile)
   * [4. Login in the Agent Desktop](#4-login-in-the-agent-desktop)
 - [2. Agent Desktop Overview](#part-2-agent-desktop-overview)
@@ -23,7 +23,7 @@ In this Lab, we will explore the different sections and some useful options of t
   * [3. See the list of the keyboard shortcuts](#3-see-the-list-of-the-keyboard-shortcuts)
   * [4. Download Error Report](#4-download-error-report)
 - [4. Custom Desktop Layout](#part-4-custom-desktop-layout)
-  * [1. Download default desktop Layout](#1-download-default-desktop-Layout)
+  * [1. Download default desktop Layout](#1-download-default-desktop-layout)
   * [2. Customize default desktop layout with logo and title](#2-customize-default-desktop-layout-with-logo-and-title)
   * [3. Upload the custom desktop layout and associate it to a team](#3-upload-the-custom-desktop-layout-and-associate-it-to-a-team)
   * [4. Verify the new custom desktop layout](#4-verify-the-new-custom-desktop-layout)
