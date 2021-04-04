@@ -180,18 +180,21 @@ title: "Lab 3: IVR and Contact Routing"
 function celeButton() {document.body.style.backgroundImage="url('https://media.giphy.com/media/PMV7yRpwGO5y9p3DBx/giphy.gif')";}
 </script>
 
-<div id="container">
+<div id="button-row">
+<div id="container" style="text-align: center;">
 	<button onclick="celeButton()" style="
   text-align: center;
   border-radius: 5px;
   background-color: rgb(0,255,0);
   padding: 10px;">Click To Finish</button>
-
+</div>
+<div id="container" style="text-align: right;">
   <button onclick="nextLab()" style="
   text-align: right;
   border-radius: 5px;
   background-color: rgb(0,255,0);
   padding: 10px;">Next Lab</button>
+</div>
 </div>
 
 
