@@ -40,11 +40,12 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 ### Pre-requisites
 
-For doing this lab, you must first **complete the [Lab 1: Control Hub and Admin Portal](lab1.md)**:
-- You have the administrator's access to the Tenant Portal
-- Agent created and configured
-- Agent is part of 2 Teams
-- Webex Calling extensions are assigned to a WxCC users (agent and supervisor)
+- You need 2 devices where you can install webex calling (example: PC or Mac and Mobile)
+- For doing this lab, you must first complete the **[Lab 1: Control Hub and Admin Portal](lab1.md)**:
+   - You have the administrator's access to the Tenant Portal
+   - Agent created and configured
+   - Agent is part of 2 Teams
+   - Webex Calling extensions are assigned to a WxCC users (agent and supervisor)
 
 ### Quick Links
 
