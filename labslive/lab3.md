@@ -180,7 +180,7 @@ title: "Lab 3: IVR and Contact Routing"
 function celeButton() {document.body.style.backgroundImage="url('https://media.giphy.com/media/PMV7yRpwGO5y9p3DBx/giphy.gif')";}
 </script>
 
-<div id="button-row">
+<div id="button-row" style="text-align: center;">
 <div id="container" style="text-align: center;">
 	<button onclick="celeButton()" style="
   text-align: center;
