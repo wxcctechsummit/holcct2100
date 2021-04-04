@@ -4,7 +4,7 @@ title: "Lab 2: New Agent Desktop Experience"
 
 
 ### Overview of the lab:
-In this Lab, we will explore the different sections and some useful options of **the New Agent Desktop**. You will watch a demo video about Agent Desktop overview and you will configure some options by following the described steps. At the end of the lab, you should be able to know where to find the different features and customize your own desktop layout.
+In this Lab, we will explore the different sections and some useful options of the **New Agent Desktop**. You will watch a demo video about Agent Desktop overview and you will configure some options by following the described steps. At the end of the lab, you should be able to know where to find the different features and customize your own desktop layout.
 
 
 # Table of Contents
@@ -13,7 +13,7 @@ In this Lab, we will explore the different sections and some useful options of *
   * [1. Activate Webex Calling](#1-activate-webex-calling)
   * [2. Download and Login in the Webex Calling app for PC or Mac](#2-download-and-login-in-the-webex-calling-app-for-pc-or-mac)
   * [3. Download and Login in the Webex Calling app for mobile](#3-download-and-login-in-the-webex-calling-app-for-mobile)
-  * [4. Login in the Agent Desktop](#4-login-in-the-agent-desktop)
+  * [4. Agent Desktop Login](#4-agent-desktop-login)
 - [2. Agent Desktop Overview](#part-2-agent-desktop-overview)
   * [1. Introducing the Agent Desktop Interface](#1-introducing-the-agent-desktop-interface)
   * [2. Verification of understanding](#2-verification-of-understanding)
@@ -36,7 +36,7 @@ In this Lab, we will explore the different sections and some useful options of *
 
 ### Lab Objective
 
-The objective of this lab is to **explore the New Agent Desktop**, in order to be familiar with the new structure, learn about recently released features and be able to configure basic functionalities.
+The objective of this lab is to **explore the New Agent Desktop**, in order to be familiar with the new structure, learn about recently released features, and be able to configure basic functionalities.
 
 ### Pre-requisites
 
@@ -52,77 +52,92 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**
+> Webex Calling app **[https://settings.webex.com/](https://settings.webex.com/){:target="_blank"}**
 
 # Lab Section
 
 ## Part 1: Access to the Agent Desktop
 
->The following video explains the process to access the Agent Desktop. Following the steps, you will login with your credentials and indicate the number where you want to receive the calls. 
+>The following video explains the process to access the Agent Desktop. Following the steps, you will log in with your credentials and indicate the number where you want to receive the calls. 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/dUYcMI0bsuU?rel=0" title="WxCC Lab #2 Part 1: Access to the Agent Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### 1. Activate Webex Calling
 
-- Login the **[Control Hub](https://admin.webex.com/){:target="_blank"}** with your admin credentials
+- Login the **[Control Hub](https://admin.webex.com/){:target="_blank"}** with your admin credentials.
 
-- Navigate to **_Users_**
+- Navigate to **_Users_**.
 
-- Select the **Agent** user `agent1_<ID>@mailinator.com` created in the previus lab
+- Select the **Agent** user `agent1_<ID>@mailinator.com` created in the previus lab.
 
-- Make sure that you have activated **Webex Teams, Webex Calling (Enterprise) and Contact Center** services
+- In the User settings, make sure that the following **_Services_** are listed:
+   -  **_Messaging_** as **Cisco Webex Teams** 
+   -  **_Calling_** as **Webex Calling Enterprise**
+   -  **_Contact Center_**.
 
-- Scroll down to **_Calling Behaviour_** and select **_Webex Calling App_**
+- Scroll down to **_Calling Behaviour_** and select **_Webex Calling app_**. Click **_Save_**.
 
-- Repeat the same steps for you **Supervisor** user `supervisor1_<ID>@mailinator.com`
+- Repeat the same steps for **Supervisor** user `supervisor1_<ID>@mailinator.com`. Make sure that **_Webex Calling app_** has been activated.
 
 ### 2. Download and Login in the Webex Calling app for PC or Mac
 
-- Login to **[https://settings.webex.com/](https://settings.webex.com/){:target="_blank"}**
+> **Note:** You need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. Alternatively, if you have a US number, you can use it as an agent's extension. This tenant does not allow numbers outside of the United States. In this lab, we will use the Webex Calling app for PC or Mac for **agent** account.
 
-- Click on **_Webex Calling_** this will cross launch CUP in a new browser tab
+- Login to **[https://settings.webex.com/](https://settings.webex.com/){:target="_blank"}** by using account `agent1_<ID>@mailinator.com`.
 
-- Go to **_My Apps_**
+- Click on **_Webex Calling_** this will cross launch CUP in a new browser tab.
 
-- **Download** the Webex Calling Desktop App
+- Go to **_My Apps_**.
 
-- Open Webex Calling and **login** 
+- Click `Download` the Webex Calling Client **Desktop Software**.
 
-- Check the **_Sign-in with system browser_** option
+- Install the application on your PC or Mac.
+
+- Open Webex Calling and check the **_Sign-in with system browser_** option. 
+
+- Click **Sign In** and
 
 - Go to **_File >  Edit Server Address**_ and choose **North America**
 
 ### 3. Download and Login in the Webex Calling app for mobile 
 
-> **Note:** You need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. Alternatively, if you have a US number, you can use as agent's extension. This tenant does not allow numbers outside of the United States.
+> **Note:** You need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. In this lab, we will use the Webex Calling app for mobile for **supervisor** account.
 
-- Open your app manager (**Play Store or AppStore**) in your mobile
+- Open the Application Manager (**Play Store** or **App Store**) on your mobile phone.
 
-- Search for **_Webex Calling_**
+- Search for **_webex calling_**.
 
-- **Download** the app
+- **Download** and **Open** the app. Click `Get Started`.
 
-- Login in the app with the **Supervisor user credentials**
+- Login in the app by selecting **_Region_** as **North America**.
+
+- Set **_Email address_** and **_Password_** as the supervisor account `supervisor1_<ID>@mailinator.com`.
+
+- Enter **_Phone Number_** as it was defined in the supervisor extension user field in the lab guide.
+
+> **Note:** Make sure that you give access to the phone's microphone for the calling app.
 
 ![WxCallingAndroid](../images/wxcallingandroid.png)
 
-### 4. Login in the Agent Desktop
 
-- Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** in a new browser tab
+### 4. Agent Desktop Login
+
+- Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** in a new browser tab.
 
 - Enter the agent’s **Username** `agent1_<ID>@mailinator.com` which you created in the previous lab.
 
-- Enter the **Password** for the appropriate Username
+- Enter the **Password** for the appropriate Username.
 
-- In the Station Login pane, select **"Extension"** and input the configured number for that user. 
+- In the **_Station Login_** pane, select **"Extension"** and input the configured number for that user. 
 
-> **Note:** Please use Extension for this lab. Alternatively, if you have a US number, you can use it from the agent's desktop. This tenant does not allow numbers outside of the United States.
+> **Note:** Please use Webex Callin Extension for this lab. Optionally, if you have a US number, you can use it from the agent's desktop. This tenant does not allow numbers outside of the United States.
 
-- Select the `Team1_wxcclab_<ID>`, with default layout
+- Select the `Team1_wxcclab_<ID>`, with default desktop layout
 
 - Click **_Submit_**. Make sure that you are successfully logged in to the Agent Desktop. Now you can continue with the next section.
 
-
+[To top of this lab](#table-of-contents)
 
 ## Part 2: Agent Desktop Overview
 > Watch the following video, where each of the sections and their main options are explained. You will get a better idea of how the Agent Desktop look like and how to use it.
@@ -154,6 +169,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 - Open the Agent Dekstop User Guide by clicking on **Help** button
 
+[To top of this lab](#table-of-contents)
 
 ## Part 3: Configure the User Profile
 
@@ -199,6 +215,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 - Open the downloaded **error reports** file in your machine
 
+[To top of this lab](#table-of-contents)
 
 ## Part 4: Custom Desktop Layout
 
@@ -276,6 +293,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 - **See** the new desktop layout
 
+[To top of this lab](#table-of-contents)
 
 ## Part 5: Configuring Outdial
 > In the following video, all the required steps to configure and test an outbound call are explained. In order to complet it you will need to login in Webex Calling with the corresponding extension number of the agent.
@@ -318,5 +336,6 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 - You should **receive a call notification** in the Agent Desktop and your Webex Calling application ringing. If the call is established, you have successfully completed this lab.
 
+[To top of this lab](#table-of-contents)
 
 ## Congratulations, you are now ready to start the [Lab 3: IVR and Contact Routing](lab3.md)
