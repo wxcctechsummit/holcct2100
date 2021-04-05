@@ -2,21 +2,13 @@ title: Cisco Live 2021 - HOLCCT-2100
 company_name: Cisco
 author:
   name: Lab support email
-  email: "wxcclabs@cisco.com"
+  email: Site Support: "wxcclabs@cisco.com"
 remote_theme: jekyll/minima
 
 minima:
   skin: dark
   social_links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
   twitter: Webex
-
-social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
     
 
 header_pages:
