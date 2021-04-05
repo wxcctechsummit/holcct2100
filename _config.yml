@@ -1,14 +1,12 @@
 title: Cisco Live 2021 - HOLCCT-2100
 description: Lab guide for HOLCCT-2100
 author:
-  name: Lab support email: "wxcclabs@cisco.com"
-  email: Support: "wxcclabs@cisco.com"
+  name: Lab support email
+  email: "wxcclabs@cisco.com"
 remote_theme: jekyll/minima
 
 minima:
   skin: dark
-  social_links:
-    twitter: Webex
 
 header_pages:
   - CiscoLiveLabLibrary.md
