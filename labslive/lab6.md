@@ -153,7 +153,7 @@ End customer can initiate queries from provided facebook page to contact center 
 ## Part 4: Testing Facebook Chat to Agent Desktop
 >The following video will show how to test the configuration. It will demonstrate how to send a message from Facebook page and how it can be managed by agent.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/C05rSdzB_8Y?rel=0" title="WxCC Lab #6 Part 4: Testing Facebook Chat to Agent Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/QcZUcf4e0yU?rel=0" title="WxCC Lab #6 Part 4: Testing Facebook Chat to Agent Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
