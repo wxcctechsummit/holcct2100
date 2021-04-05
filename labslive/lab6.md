@@ -44,7 +44,6 @@ End customer can initiate queries from provided facebook page to contact center 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/-i07ntBMQ20?rel=0" title="WxCC Lab #6 Part 1: Organization admin: set up Facebook account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
 ### Steps for creating a Facebook page
 
@@ -66,7 +65,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/nJI4LrL0sJo?rel=0" title="WxCC Lab #6 Part 2: Configure Facebook Connector in WxCC Control Hub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
+
 
 ### Steps for creating a new connector in the Control Hub
 
@@ -92,7 +91,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/gmi_kPIOixE?rel=0" title="WxCC Lab #6 Part 3: Configure Facebook Connector in Management Portal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
+
 
 | **Entity** | **Name**      | 
 | ----------- | ----------------- | 
@@ -133,7 +132,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 ### 4. Entry point routing strategy creation
 
-- Select left side menu, expand to see the available tabs. Select **_Routing Strategy_**
+- Select left side menu, expand to see the available tabs. Select **_Routing Strategy_**.
 
 - Choose newly created facebook Entrypoint `EP_Facebook_<ID>`.
 
@@ -156,7 +155,7 @@ End customer can initiate queries from provided facebook page to contact center 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/6Y-VNupYLns?rel=0" title="WxCC Lab #6 Part 4: Testing Facebook Chat to Agent Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
+
 
 ### Agent Desktop: Contact offering to an Agent, Acceptance, and closure
 
