@@ -57,7 +57,7 @@ In this part, we will be configuring Email Account settings to ensure WxCC can f
 
 > A GMAIL account is provided for this lab purpose please check the POD information that has been shared with you. Please reach out to your lab proctors if you have any issues.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/mIhvCn8EHgk?rel=0" title="WxCC Lab #4: Setup test email account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/OC6XfAUSJo0?rel=0" title="WxCC Lab #4: Setup test email account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -77,7 +77,7 @@ Follow the instructions below to set the necesary settings on the GMAIL account:
 
 ## 2. Email Entry Point, Queue and Routing Strategy
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/xMKN7f10h7Q?rel=0" title="WxCC Lab #4: EP Q RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/ckGYzjRUbQY?rel=0" title="WxCC Lab #4: EP Q RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### 2.1 Email Entry point
@@ -150,7 +150,7 @@ THEN Queue To | `Q_email_<ID>`
 
 ## 3. Email Template
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/JkFC433lPCA?rel=0" title="WxCC Lab #4: Predefined Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/kvhVYFLcUSo?rel=0" title="WxCC Lab #4: Predefined Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -175,7 +175,7 @@ ${AgentName}
 
 ## 4. Test Email customer and agent experience
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/OWsDlV3_ZCk?rel=0" title="WxCC Lab #4: Test Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/521m4xpQRhg?rel=0" title="WxCC Lab #4: Test Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -203,7 +203,7 @@ Chat configuration is divided between to configuration interfaces:
 
 ## 1. Chat Entry Point, Queue, Template and Routing Strategy
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/1wt4CwOMjtg?rel=0" title="WxCC Lab #4: Chat EP Q Template and RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/y5NC5s2KfAU?rel=0" title="WxCC Lab #4: Chat EP Q Template and RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1.1 Chat Entry Point
 - Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and go to `Provisioning -> Entry Point/Queues -> Entry Point`.
@@ -291,7 +291,7 @@ Add category Options | `Sales` (Press Enter key)
 
 ## 2. Predefined Chat Responses
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/qcMM1NCgeKE?rel=0" title="WxCC Lab #4: Predefined Chat Responses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/r4oloB1tvuc?rel=0" title="WxCC Lab #4: Predefined Chat Responses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Chat Responses`.
 
@@ -309,7 +309,7 @@ Content| `Hi, how can I help you today?`
 
 ## 3. Test Chat customer and agent experience
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/8qRV3lL2Nx0?rel=0" title="WxCC Lab #4: Test Chat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/XQCTHjDSUi8?rel=0" title="WxCC Lab #4: Test Chat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Navigate to an HTML+Javascript online editor like [this](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}.
 
