@@ -129,9 +129,9 @@ In this lab, we will show you the existing dashboards which are available for su
 
 - In **Teams** field set only team1 `Team1_wxcclab_<ID>` and click **Save**.
 
-- Navigate to **_Provisioning_**, select **_Users_** and modify your supervisor account 
+- Navigate to **_Provisioning_**, select **_Users_** and modify your supervisor account.
 
-- Click on **_Provisioning_** and select **_Users_**
+- Click on **_Provisioning_** and select **_Users_**.
 
 - Infront of the current supervisor `supervisor1_<ID>@mailinator.com` click on `...` , to launch the **_Edit_** view for a particular User configuration.
 
@@ -141,7 +141,7 @@ In this lab, we will show you the existing dashboards which are available for su
 
 - Verify that there are no agents in the `Agent State Data – Realtime` dashboard with a new profile.
 
-- Go to the agent desktop and change the team settings. Switch the agent to the team1 `Team1_wxcclab_<ID>`
+- Go to the agent desktop and change the team settings. Switch the agent to the team1 `Team1_wxcclab_<ID>`.
 
 - In the agent dashboard click the **_Stop Refresh_** button and make sure the agent appears.
 
