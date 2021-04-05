@@ -72,8 +72,8 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 - Select the **Agent** user `agent1_<ID>@mailinator.com` created in the previus lab.
 
 - In the User settings, make sure that the following **_Services_** are listed:
-   -  **_Messaging_** as **Cisco Webex Teams** 
-   -  **_Calling_** as **Webex Calling Enterprise**
+   -  **_Messaging_** as **Cisco Webex Teams**.
+   -  **_Calling_** as **Webex Calling Enterprise**.
    -  **_Contact Center_**.
 
 - Scroll down to **_Calling Behaviour_** and select **_Webex Calling app_**. Click **_Save_**.
@@ -92,13 +92,9 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 - Click `Download` the Webex Calling Client **Desktop Software**.
 
-- Install the application on your PC or Mac.
+- Install the application on your PC/Mac.
 
-- Open Webex Calling and check the **_Sign-in with system browser_** option. 
-
-- Click **Sign In** and
-
-- Go to **_File >  Edit Server Address**_ and choose **North America**
+- Open Webex Calling and сlick **Sign In**. Specify the agent credentials for `agent1_<ID>@mailinator.com`.
 
 ### 3. Download and Login in the Webex Calling app for mobile 
 
@@ -113,8 +109,6 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 - Login in the app by selecting **_Region_** as **North America**.
 
 - Set **_Email address_** and **_Password_** as the supervisor account `supervisor1_<ID>@mailinator.com`.
-
-- Enter **_Phone Number_** as it was defined in the supervisor extension user field in the lab guide.
 
 > **Note:** Make sure that you give access to the phone's microphone for the calling app.
 
@@ -133,7 +127,7 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 > **Note:** Please use Webex Callin Extension for this lab. Optionally, if you have a US number, you can use it from the agent's desktop. This tenant does not allow numbers outside of the United States.
 
-- Select the `Team1_wxcclab_<ID>`, with default desktop layout
+- Select the `Team1_wxcclab_<ID>`, with default desktop layout.
 
 - Click **_Submit_**. Make sure that you are successfully logged in to the Agent Desktop. Now you can continue with the next section.
 
@@ -165,11 +159,12 @@ The Agent Desktop is divided in 6 sections. In the image above you can see a gen
 
 Finally, in order to make sure that you have understood the basic concepts, we ask you to **complete the following tasks**:
 
-- Verify that Agent can see reports by clicking on **Agent Performance Statistic**
+- Verify that Agent can see reports by clicking on **Agent Performance Statistic**.
 
-- Open the Agent Dekstop User Guide by clicking on **Help** button
+- Open the Agent Dekstop User Guide by clicking on **Help** button.
 
 [To top of this lab](#table-of-contents)
+
 
 ## Part 3: Configure the User Profile
 
@@ -181,39 +176,39 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 ### 1. Change Notifications setting and volume
 
-- Click on **_User Settings_** in the upper right conner
+- Click on **_User Settings_** in the upper right conner.
 
-- Scroll down to **_Notification Settings_**
+- Scroll down to **_Notification Settings_**.
 
-- **Toggle** any of the 3 options to **enable or disable** different notifications
+- **Toggle** any of the 3 options to **enable or disable** different notifications.
 
-- Move the **Sound Volume** toggle bar
+- Move the **Sound Volume** toggle bar.
 
 - You'll test this in the next lab.
 
-- Check this when you receive a notification
+- Check this when you receive a notification.
 		
 ### 2. Switch to Dark Mode
 
-- Go again under **_User Settings_**
+- Go again under **_User Settings_**.
 
-- Toggle the **_Switch to Dark Mode_** button to enable or disable it
+- Toggle the **_Switch to Dark Mode_** button to enable or disable it.
 		
 ### 3. See the list of the keyboard shortcuts
 
-- Scroll down to **_Help_**
+- Scroll down to **_Help_**.
 
-- Click on **_Keyboard Shortcuts_** or press **Ctrl+Alt+F**
+- Click on **_Keyboard Shortcuts_** or press **Ctrl+Alt+F**.
 
-- **See the list** of the keyboard shortcuts
+- **See the list** of the keyboard shortcuts.
 
-- Find and test the combination to make the Agent status **_'Available'_**
+- Find and test the combination to make the Agent status **_'Available'_**.
 		
 ### 4. Download Error Report
 
-- Use a **_Keyboard Shortcuts_** and press **Ctrl+Shift+2** or click on **_User Settings_** in the upper right conner and scroll down to **_Download Error Repor_**
+- Use a **_Keyboard Shortcuts_** and press **Ctrl+Shift+2** or click on **_User Settings_** in the upper right conner and scroll down to **_Download Error Repor_**.
 
-- Open the downloaded **error reports** file in your machine
+- Open the downloaded **error reports** file in your machine.
 
 [To top of this lab](#table-of-contents)
 
@@ -227,71 +222,71 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 ### 1. Download default desktop Layout
 
-- Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials​
+- Login to **[https://portal.wxcc-us1.cisco.com](https://portal.wxcc-us1.cisco.com){:target="_blank"}** with admin credentials.
 
-- Navigate to **_Provisioning_** –> **_Desktop Layout_**
+- Navigate to **_Provisioning_** –> **_Desktop Layout_**.
 
-- Click on ellipses `...` of Global Layout and select **_Edit_**
+- Click on ellipses `...` of Global Layout and select **_Edit_**.
 
-- Click on **_Download_** button to download the **Default Desktop Layout.json** file
+- Click on **_Download_** button to download the **Default Desktop Layout.json** file.
 
 ### 2. Customize default desktop layout with logo and title
 
-- Open the **Default Desktop Layout.json** file with any text editor (e.g. Notepad or Sublime text)
+- Open the **Default Desktop Layout.json** file with any text editor (e.g. Notepad or Sublime text).
 
-- Modify the **_appTitle_** key value with your company name in order to change Agent Desktop title
+- Modify the **_appTitle_** key value with your company name in order to change Agent Desktop title.
 
-- Modify the **_logo_** key value with your company logo URL or use this **[CiscoLive logo](https://raw.githubusercontent.com/wxcctechsummit/holcct2100/main/labslive/CiscoLiveLogo.jpg){:target="_blank"}**
+- Modify the **_logo_** key value with your company logo URL or use this **[CiscoLive logo](https://raw.githubusercontent.com/wxcctechsummit/holcct2100/main/labslive/CiscoLiveLogo.jpg){:target="_blank"}**.
 
-- **_Save As_** the JSON file with a distinguishable name
+- **_Save As_** the JSON file with a distinguishable name.
 
 ### 3. Upload the custom desktop layout and associate it to a team
 
-- Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
+- Go as admin to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**.
 
-- Click on **_New Layout_**
+- Click on **_New Layout_**.
 
-- Provide the preferable **name** `Desktop Layout <ID>`. Your \<ID\> is provided in the email in the **"Attendee ID"** line.
+- Provide the preferable **name** `Custom Desktop Layout <ID>`. Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
-- Select `Team2_wxcclab_<ID>` as Team
+- Select `Team2_wxcclab_<ID>` as Team.
 
-- Click **_Upload_** button to upload the modified JSON file	
+- Click **_Upload_** button to upload the modified JSON file.	
 
 - Click **_Save_** button to apply the layout.
 
 ### 4. Verify the new custom desktop layout
 
-- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
+- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**.
 
-- Open the **_User Profile_** and click on the arrow `>` under **_Team_**
+- Open the **_User Profile_** and click on the arrow `>` under **_Team_**.
 
-- Change the team of the agent to `Team2_wxcclab_<ID>`
+- Change the team of the agent to `Team2_wxcclab_<ID>`.
 
-- Click on **_Save Team Selection_**
+- Click on **_Save Team Selection_**.
 
-- **Confirm** the changes
+- Confirm the changes by clicking on **_Change Team_**.
 
-- **Wait** some seconds to see the result
+- Wait some seconds to see the results. Now you should get a new log icon in the left upper corner.
 
 ### 5. More advance example
 
-- Download the **[custom JSON file](https://cisco.box.com/s/4hmozg4h9gwaa1x9zhq1w6mehw8guvuy){:target="_blank"}**
+- Download the **[custom JSON file](https://cisco.box.com/s/4hmozg4h9gwaa1x9zhq1w6mehw8guvuy){:target="_blank"}**.
 
-- Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**
+- Go again to **_Desktop Layout_** module in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"}**.
 
-- Click on **_New Layout_**
+- Click on **_New Layout_**.
 
-- Provide any preferable **name and description** 
+- Provide any preferable **name and description**.
 
-- Select `Team1_wxcclab_<ID>` again as Team	
+- Select `Team1_wxcclab_<ID>` again as Team.
 
-- Click **_Upload_** button to upload the modified JSON file
+- Click **_Upload_** button to upload the modified JSON file.
 
 - Click **_Save_** button to apply the layout.
 
-- Login in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** with the team `Team1_wxcclab_<ID>`
+- Go back to the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** and change the team to `Team1_wxcclab_<ID>`.
 
-- **See** the new desktop layout
+- **See** the new desktop layout.
 
 [To top of this lab](#table-of-contents)
 
