@@ -298,36 +298,36 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 ### 1. Verify/create the Outdial Entry Point and Queue
 
-- Login in the **[Tenant Portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}** 
+- Login in the **[Management Portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**. 
 
-- Navigate to **_Provisioning > Outdial Entry Point / Outdial Queue_**
+- Navigate to **_Provisioning >  Entry Points/Queues > Outdial Entry Point_**.
 
-- **Create a new Outdial Entry Point** called `EP_Outdial_<ID>` and set any Service Level Threshold. It will be automatically associated to `Outdial Queue-1`
+- Create a new Outdial Entry Point. Click on `+ New Outdial Entry Point`, set the **_Name_** `EP_Outdial_<ID>`, set any **_Service Level Threshold_**. It will be automatically associated to `Outdial Queue-1`.
 
-- Go to **_Routing Strategy > Create new Routing Strategy** 
+- Go to **_Routing Strategy_** and select the created Outdial Entry Point from drop-down list.
 
-- Configure the outdial entry point routing strategy with the script **`Outdial_EP.js`**
+- Create a new Routing Strategy by clicking on `+ New Srategy`.
 
-- Ensure the strategy **time of day** setting is correctly **open 24x7** and marked as **_Default_**
+- Configure the outdial entry point routing strategy with the script **`Outdial_EP.js`**. Set **_OutdialQueue_** as `Outdial Queue-1`.
 
-- Navigate again to **_Provisioning > Outdial ANI > Create an Outdial ANI_** on the setup by mapping it to the existing toll free number
+- Ensure the strategy **time of day** setting is correctly **open 24x7** and marked as **_Default_**.
 
-- Go to  in **_Provisioning > Address Book_** and add **+18005536387** Cisco Public Tollfree number in a **_New Address Book_**
+- Go back to the Management Portal. Navigate to **_Provisioning > Outdial ANI > Create an Outdial ANI_** on the setup by mapping it to the existing toll free number.
 
-- Go to **_Provisioning > Agent Profiles_** and edit the one called **_Agent-Profile_**
+- Go to **_Provisioning > Agent Profiles_** and edit the one which is assigned with your agent. By default it is called `Agent-Profile`.
 
-- Go to the **_Dial Plan_** tab
+- Go to the **_Dial Plan_** tab.
 
-- Configure all the Outdial settings: Outdial Enabled, Outdial Entry Point as `EP_Outdial_<ID>`, Dial Plan Enabled (Any Format) and select the before created Outdial ANI
+- Configure all the Outdial settings: Outdial Enabled, Outdial Entry Point as `EP_Outdial_<ID>`, Dial Plan Enabled (Any Format) and select the before created Outdial ANI.
 
 
 ### 2. Test Outdial
 
-- Login/Relogin in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"}** for the new agent profile settings to take effect
+- Relogin in the **[Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"}** for the new agent profile settings to take effect.
 
-- You should now see the **Outdial button enabled**
+- You should now see the **Outdial button enabled** on the **_Horizontal Header_**.
 
-- **Select the Outdial ANI** and test making a call to your cellphone number or the provided Cisco Public Tollfree number (**+18005536387**)
+- **Select the Outdial ANI** and test making a call to your **US** cellphone number or to the provided Cisco Public Tollfree number (**+18005536387**).
 
 - You should **receive a call notification** in the Agent Desktop and your Webex Calling application ringing. If the call is established, you have successfully completed this lab.
 
