@@ -349,4 +349,23 @@ The content of the body element is displayed in your browser.
 
 - Test the Predefined Chat Response functionality and sending messages and attachments. `Complete` the chat when done.
 
-## Congratulations, you are now ready to start [Lab 5: New Supervisor functionality](lab5.md)
+### Congratulations, you are now ready to start [Lab 5](lab5.md)
+
+<script>
+function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab5.html";}
+</script>
+
+<div id="button-row">
+
+  <button onclick="nextLab()" style="
+  position: absolute;
+  right: 200px;
+  border-radius: 5px;
+  background-color: rgb(192,192,192);
+  padding: 10px;">Next Lab 5: New Supervisor functionality</button>
+</div>
+
+<br />
+<br />
+&nbsp;
+&nbsp;
