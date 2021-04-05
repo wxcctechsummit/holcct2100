@@ -333,7 +333,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 [To top of this lab](#table-of-contents)
 
-### Congratulations, you are now ready to start the [Lab 3](lab3.md)
+### Congratulations, you are now ready to start [Lab 3](lab3.md)
 
 <script>
 function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab3.html";}
