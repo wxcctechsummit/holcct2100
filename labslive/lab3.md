@@ -55,9 +55,9 @@ title: "Lab 3: IVR and Contact Routing"
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/u1GDs_-YYK4?rel=0" title="WxCC Lab #3 IVR & Call Routing1.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- On the Portal create an inbound voice entry point `EP_voice_<podId>` (Provisioning > Entry Point)
+- On the Portal create an inbound voice entry point `EP_voice_<podId>` (**_Provisioning > Entry Point_**)
 
-- Map the external number on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to `EP_voice_<podId>`. The DN is already added on Control Hub.
+- Map the external number on the Entry Point Mappings page (**_Proivisioning > Entry Point Mappings_**). Map the available DN to your `EP_voice_<podId>`, the DN is already added on Control Hub.
 
 ### 3. Configure the Entry Point Routing Strategy
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/3lrVvKLvvLc?rel=0" title="WxCC Lab #3 IVR & Call Routing1.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -194,3 +194,8 @@ function nextLab() {window.location.href = "https://wxcctechsummit.github.io/hol
   background-color: rgb(0,255,0);
   padding: 10px;">Next Lab 4: Email and Chat Configuration</button>
 </div>
+
+<br />
+<br />
+&nbsp;
+&nbsp;

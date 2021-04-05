@@ -59,33 +59,32 @@ In this part, we will be configuring Email Account settings to ensure WxCC can f
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/mIhvCn8EHgk?rel=0" title="WxCC Lab #4: Setup test email account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
+
 
 Follow the instructions below to set the necesary settings on the GMAIL account:
 
-- Open a new browser tab and login to the Gmail account with the provided credentials. You might have to use your mobile phone to authenticate
+- Open a new browser tab and login to the Gmail account with the provided credentials. You might have to use your mobile phone to authenticate.
 
-- Click on settings icon on top right corner -> Select `See all settings`
+- Click on settings icon on top right corner -> Select `See all settings`.
 
-- Click on `Forwarding and POP/IMAP` and enable  `POP Download` and `IMAP access`
+- Click on `Forwarding and POP/IMAP` and enable  `POP Download` and `IMAP access`.
 
-- Click on `Google Apps` icon on top right corner -> Select `Account`
+- Click on `Google Apps` icon on top right corner -> Select `Account`.
 
-- Select `Security` option and turn `ON` the `Less secure app access`
+- Select `Security` option and turn `ON` the `Less secure app access`.
 
-- Use this [link](https://accounts.google.com/b/0/DisplayUnlockCaptcha){:target="_blank"} to disable captcha for the account and click Continue
+- Use this [link](https://accounts.google.com/b/0/DisplayUnlockCaptcha){:target="_blank"} to disable captcha for the account and click Continue.
 
 ## 2. Email Entry Point, Queue and Routing Strategy
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/xMKN7f10h7Q?rel=0" title="WxCC Lab #4: EP Q RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
 ### 2.1 Email Entry point
 
-- Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and go to `Provisioning -> Entry Point/Queues -> Entry Point`
+- Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and go to `Provisioning -> Entry Point/Queues -> Entry Point`.
 
-- Click `New Entry Point` and enter the respective values and click save
+- Click `New Entry Point` and enter the respective values and click save.
 
 Configuration field | Value
 --- | ---
@@ -96,9 +95,9 @@ Time Zone | `Default`
 
 ### 2.2 Email Queue
 
-- Access the menu `Provisioning -> Entry Point/Queues -> Queue`
+- Access the menu `Provisioning -> Entry Point/Queues -> Queue`.
 
-- Click `New Queue` and enter the respective values
+- Click `New Queue` and enter the respective values.
 
 Configuration field | Value
 --- | ---
@@ -108,19 +107,19 @@ Service Level Threshold | `1 hours`
 Maximum time in Queue | `24 hours`
 Time Zone | `Default`
 
-- Click `Add Group` in **Email Distribution** and select `Team1_<ID>` as created earlier
+- Click `Add Group` in **Email Distribution** and select `Team1_wxcclab_<ID>` as created earlier.
 
 ### 2.3 Email Entry point routing strategy
 
 - Click `Routing Strategy` menu item which cross launches the routing strategy configuration webpage.
 
-- Select the `EP_queue_<ID>` created earlier click on `New Strategy` button 
+- Select the `EP_email_<ID>` created earlier click on `New Strategy` button.
 
-- Enter the Routing strategy name `RS-EP_email_<ID>`
+- Enter the Routing strategy name `RS-EP_email_<ID>`.
 
-- Proceed to configure the account connection setting by clicking `Add Email Account`
+- Proceed to configure the account connection setting by clicking `Add Email Account`.
 
-- Configure the assigned GMAIL email account settings as below and Save
+- Configure the assigned GMAIL email account settings as below and **_Save_**.
 
 Configuration field | Value
 --- | ---
@@ -139,7 +138,7 @@ Attachment Limit | `3`
 Mail Delay | `60 Seconds`
 Maximum Messages/Cycle | `10`
 
-- Click on `Add Routing Rule` and enter your routing rules and save. The content in the subject line helps in subject line-based routing. A combination of ‘And’ and ‘Or’ rules can be applied. However, both ‘And’ and ‘Or’ can’t be added to the same rule.
+- Click on `Add Routing Rule` and enter your routing rules and **_Save_**. The content in the subject line helps in subject line-based routing. A combination of ‘And’ and ‘Or’ rules can be applied. However, both ‘And’ and ‘Or’ can’t be added to the same rule.
 
 Configuration field | Value
 --- | ---
@@ -147,17 +146,17 @@ Routing Rule Name | `Sales Email Routing`
 IF Email Subject Contains | `Sales`
 THEN Queue To | `Q_email_<ID>`
 
-- Finally select the queue from the drop-down list for the default routing as `Q_email_<ID>` and click Save
+- Finally select the queue from the drop-down list for the default routing as `Q_email_<ID>` and click Save.
 
 ## 3. Email Template
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/JkFC433lPCA?rel=0" title="WxCC Lab #4: Predefined Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
+
 
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Emails`.
 
-- Click on the `New` button
+- Click on the `New` button.
 
 - Use the insert macro’s option to add the customer name and agent name and their defaults. Also add text as appropriate to the template and save. The template will now be available to all agents to use.
 
@@ -178,21 +177,21 @@ ${AgentName}
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/OWsDlV3_ZCk?rel=0" title="WxCC Lab #4: Test Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
-- Send test email from your personal or work email account to:`GMAIL account in lab topology guide` with Subject:`Sales` 
 
-- You can verify that email reaches GMAIL account by checking the previously open tab
+- Send test email from your personal or work email account to:`GMAIL account in lab topology guide` with Subject:`Sales`.
 
-- If you haven't done so, login to [WxCC agent desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} as Agent 1
+- You can verify that email reaches GMAIL account by checking the previously open tab.
+
+- If you haven't done so, login to [WxCC agent desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} as Agent 1.
 
 - Once the agent goes Available, the Email will be offered to the agent.
 
 - Click `Accept` to handle the email.
 
-- Click `Reply` or `Reply All` to reply to the email and enter the body of the email and hit send button
+- Click `Reply` or `Reply All` to reply to the email and enter the body of the email and hit send button.
 
-- Add wrap up code and close the task
+- Add wrap up code and close the task.
 
 # Part 2: Chat Configuration
 
@@ -207,9 +206,9 @@ Chat configuration is divided between to configuration interfaces:
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/1wt4CwOMjtg?rel=0" title="WxCC Lab #4: Chat EP Q Template and RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1.1 Chat Entry Point
-- Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and go to `Provisioning -> Entry Point/Queues -> Entry Point`
+- Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and go to `Provisioning -> Entry Point/Queues -> Entry Point`.
 
-- Click `New Entry Point` and enter the respective values and click save
+- Click `New Entry Point` and enter the respective values and click **_Save_**.
 
 Configuration field | Value
 --- | ---
@@ -221,9 +220,9 @@ Time Zone | `Default`
 
 ### 1.2 Chat Queue
 
-- Access the menu `Provisioning -> Entry Point/Queues -> Queue`
+- Access the menu `Provisioning` -> `Entry Point/Queues` -> `Queue`.
 
-- Click `New Queue` and enter the respective values
+- Click `New Queue` and enter the respective values.
 
 Configuration field | Value
 --- | ---
@@ -233,15 +232,15 @@ Service Level Threshold | `60 seconds`
 Maximum time in Queue | `1800 seconds`
 Time Zone | `Default`
 
-- Click `Add Group` in **Chat Distribution** and select `Team1_<ID>` as created earlier
+- Click `Add Group` in **Chat Distribution** and select `Team1_wxcclab_<ID>` as created earlier
 
 ### 1.3 Chat template
 
-- Switch web interface to [Webex Control Hub](https://admin.cisco.com){:target="_blank"}
+- Switch web interface to [Webex Control Hub](https://admin.cisco.com){:target="_blank"}.
 
-- From the left side menu click `Contact Center` and make sure the `Features` tab loads
+- From the left side menu click `Contact Center` and make sure the `Features` tab loads.
 
-- Click `New` -> `Chat Template` and enter the respective values
+- Click `New` -> `Chat Template` and enter the respective values.
 
 Configuration field | Value
 --- | ---
@@ -268,26 +267,26 @@ Add category Options | `Sales` (Press Enter key)
 
 - Click `Next` to show the **Branding and Identity** options and **Status Messages** which can be edited to meet the look and feel you are looking for in your template.
 
-- Click `Next` to move to the next screen where you can customise the text for your chat template Feedback form
+- Click `Next` to move to the next screen where you can customise the text for your chat template Feedback form.
 
 - Click `Next` and then `Finish` to complete the chat template creation.
 
-- Click `Download Embed Code` option to save the Chat_Code_Snippet text file. The code in that text file can be embedded into your website or used in any web based HTML+Javascript editor like the one found [here](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
+- Click `Download Embed Code` option to save the Chat_Code_Snippet text file. The code in that text file can be embedded into your website or used in any web based HTML+Javascript editor like the one found [here](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}.
 
 
 ### 1.4 Chat Entry point routing strategy creation
 
 - Go back to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and click `Routing Strategy` menu item which cross launches the routing strategy configuration webpage.
 
-- Select the `EP_chat_<ID>` created earlier click on `New Strategy` button 
+- Select the `EP_chat_<ID>` created earlier click on `New Strategy` button.
 
-- You will notice that Chat template field will be pre-populated with the chat template we configured and the Schedule we assigned
+- You will notice that Chat template field will be pre-populated with the chat template we configured and the Schedule we assigned.
 
-- Enter the Routing strategy name as `RS-EP_chat_<ID>`
+- Enter the Routing strategy name as `RS-EP_chat_<ID>`.
 
-- In **Chat Reason Mappings** select `Q_chat_<ID>` as the queue assined to the `Sales` category we created in previous step
+- In **Chat Reason Mappings** select `Q_chat_<ID>` as the queue assined to the `Sales` category we created in previous step.
 
-- Click **Apply** and then Click **Save**.
+- Click **Apply** and then Click **_Save_**.
 
 
 ## 2. Predefined Chat Responses
@@ -296,7 +295,7 @@ Add category Options | `Sales` (Press Enter key)
 
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Chat Responses`.
 
-- Click on the `New` button and enter the respective values and click **Save**
+- Click on the `New` button and enter the respective values and click **_Save_**.
 
 Configuration field | Value
 --- | ---
@@ -312,9 +311,9 @@ Content| `Hi, how can I help you today?`
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/8qRV3lL2Nx0?rel=0" title="WxCC Lab #4: Test Chat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- Navigate to an HTML+Javascript online editor like [this](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}
+- Navigate to an HTML+Javascript online editor like [this](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}.
 
-- Copy the code in Chat_Code_Snippet text file downloaded earlier and paste it after the `<body>` html tag. You should have the following on the left side of the editor (if using w3schools one)
+- Copy the code in Chat_Code_Snippet text file downloaded earlier and paste it after the `<body>` html tag. You should have the following on the left side of the editor (if using w3schools one).
   
 ```html
 <!DOCTYPE html>
@@ -342,16 +341,16 @@ The content of the body element is displayed in your browser.
 </body>
 </html>
 ```
-- Click on the **Run** button, a Chat bubble button should appear at the bottom left of the browser window
+- Click on the **Run** button, a Chat bubble button should appear at the bottom left of the browser window.
 
-- Fill in the Chat form
+- Fill in the Chat form.
 
-- If you haven't done so, login to [WxCC agent desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} as Agent 1
+- If you haven't done so, login to [WxCC agent desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} as Agent 1.
 
 - Once the agent goes Available, the Chat will be offered to the agent.
 
 - Click `Accept` to handle the email.
 
-- Test the Predefined Chat Response functionality and sending messages and attachments. `Complete` the chat when done
+- Test the Predefined Chat Response functionality and sending messages and attachments. `Complete` the chat when done.
 
 ## Congratulations, you are now ready to start [Lab 5: New Supervisor functionality](lab5.md)
