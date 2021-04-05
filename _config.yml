@@ -8,6 +8,8 @@ remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:
+    facebook: ciscoliveus
+    linkedin: 2639452
     twitter: Webex
 
 header_pages:
