@@ -209,13 +209,14 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 [To top of this lab](#table-of-contents)
 
-### Congratulations, you are now ready to start the next section.
+### Congratulations, you are now ready to start the next section!
 
 <script>
 function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab2.html";}
 </script>
 
 <div id="button-row">
+ 
   <button onclick="nextLab()" style="
   position: absolute;
   right: 200px;
