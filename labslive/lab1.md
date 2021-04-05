@@ -211,12 +211,18 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 ### Congratulations, you are now ready to start the next section!
 
+
 <script>
+function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/";}
 function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab2.html";}
 </script>
 
 <div id="button-row">
- 
+	<button onclick="mainPage()" style="
+  border-radius: 5px;
+  background-color: rgb(192,192,192);
+  padding: 10px;">Go back to Main Page</button>
+
   <button onclick="nextLab()" style="
   position: absolute;
   right: 200px;
