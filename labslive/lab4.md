@@ -57,9 +57,7 @@ In this part, we will be configuring Email Account settings to ensure WxCC can f
 
 > A GMAIL account is provided for this lab purpose please check the POD information that has been shared with you. Please reach out to your lab proctors if you have any issues.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/OC6XfAUSJo0?rel=0" title="WxCC Lab #4: Setup test email account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/OC6XfAUSJo0?rel=0" title="WxCC Lab #4: Setup test email account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
 Follow the instructions below to set the necesary settings on the GMAIL account:
 
@@ -150,9 +148,7 @@ THEN Queue To | `Q_email_<ID>`
 
 ## 3. Email Template
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/kvhVYFLcUSo?rel=0" title="WxCC Lab #4: Predefined Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/kvhVYFLcUSo?rel=0" title="WxCC Lab #4: Predefined Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Emails`.
 
@@ -175,7 +171,7 @@ ${AgentName}
 
 ## 4. Test Email customer and agent experience
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/521m4xpQRhg?rel=0" title="WxCC Lab #4: Test Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/521m4xpQRhg?rel=0" title="WxCC Lab #4: Test Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
 
 
@@ -291,7 +287,7 @@ Add category Options | `Sales` (Press Enter key)
 
 ## 2. Predefined Chat Responses
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/r4oloB1tvuc?rel=0" title="WxCC Lab #4: Predefined Chat Responses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/r4oloB1tvuc?rel=0" title="WxCC Lab #4: Predefined Chat Responses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Chat Responses`.
 
@@ -309,9 +305,9 @@ Content| `Hi, how can I help you today?`
 
 ## 3. Test Chat customer and agent experience
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/XQCTHjDSUi8?rel=0" title="WxCC Lab #4: Test Chat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/XQCTHjDSUi8?rel=0" title="WxCC Lab #4: Test Chat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
-- Navigate to an HTML+Javascript online editor like [this](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}.
+- Navigate to a HTML+Javascript online editor like [this](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic){:target="_blank"}.
 
 - Copy the code in Chat_Code_Snippet text file downloaded earlier and paste it after the `<body>` html tag. You should have the following on the left side of the editor (if using w3schools one).
   
