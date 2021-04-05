@@ -1,37 +1,74 @@
-<footer class="site-footer h-card">
+<!doctype html>
 
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
-  
-    <div class="wrapper">
-  
-      <div class="footer-col-wrapper">
-        <div class="footer-col">
-          <p class="feed-subscribe">
-            <a href="https://www.webex.com/contact-center.html">
-                <img src="https://wxcctechsummit.github.io/wxcclabguides/images/wxcclogo.png" style="width:25px;height:25px;">
-                <span>Webex Contact Center</span>
-            </a>
-          </p>
-        {%- if site.author %}
-          <ul class="contact-list">
-            {% if site.author.name -%}
-              <li class="p-name">{{ site.author.name | escape }}</li>
-            {% endif -%}
-            {% if site.author.email -%}
-              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-            {%- endif %}
-          </ul>
-        {%- endif %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- this is an example from the MDN Layout Cookbook -->
+    <title>CSS Cookbook: sticky footer</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+        html {
+            height:100%;
+            box-sizing: border-box;
+        }
+
+        body {
+            height:100%;
+            background-color: #fff;
+            color: #333;
+            font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: inherit;
+        }
+
+        section {
+            height: 100%
+        }
+
+        .wrapper {
+            min-height: 100%;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+        }
+
+        .page-header,
+        .page-footer {
+            background-color: rgb(75, 70, 74);
+            color: #fff;
+            padding: 20px;
+        }
+
+        .page-body {
+            padding: 20px;
+        }
+
+        .preview {
+            height: 400px;
+            overflow: auto;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <section>
+        <div class="wrapper">
+            <header class="page-header">This is the header</header>
+            <main class="page-body">
+                <p>Main page content here, add more if you want to see the footer push down.</p>
+            </main>
+            <footer class="page-footer">Sticky footer</footer>
         </div>
-        <div class="footer-col">
-          <p>{{ site.description | escape }}</p>
-        </div>
-      </div>
-  
-      <div class="social-links">
-        {%- include social.html -%}
-      </div>
-  
-    </div>
-  
-  </footer>
+    </section>
+</body>
+</html>
