@@ -221,7 +221,7 @@ function nextLab() {window.location.href = "https://wxcctechsummit.github.io/hol
   background-color: rgb(192,192,192);
   padding: 10px;">Go back to Main Page</button>
 
-  <button onclick="nextLab()" style="
+  <button onclick="nextLab()" style="float: right;"
   position: absolute;
   right: 200px;
   border-radius: 5px;
