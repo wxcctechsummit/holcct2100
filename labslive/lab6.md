@@ -168,7 +168,7 @@ End customer can initiate queries from provided facebook page to contact center 
 - Click **_Accept_** to handle the contact, after responding close the task.
 
 
-## Congratulations, you have completed the **bonus section**. Well done!!!
+### Congratulations, you have completed the **bonus section**. Well done!!!
 
 <script>
 function celeButton() {document.body.style.backgroundImage="url('https://media.giphy.com/media/PMV7yRpwGO5y9p3DBx/giphy.gif')";}
@@ -177,7 +177,7 @@ function celeButton() {document.body.style.backgroundImage="url('https://media.g
 <div id="button-row">
 	<button onclick="celeButton()" style="
   border-radius: 5px;
-  background-color: rgb(0,255,0);
+  background-color: rgb(99,136,220);
   padding: 10px;">Click To Finish</button>
 </div>
 
