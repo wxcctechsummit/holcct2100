@@ -75,7 +75,7 @@ Follow the instructions below to set the necesary settings on the GMAIL account:
 
 ## 2. Email Entry Point, Queue and Routing Strategy
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/ckGYzjRUbQY?rel=0" title="WxCC Lab #4: EP Q RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/ckGYzjRUbQY?rel=0" title="WxCC Lab #4: EP Q RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### 2.1 Email Entry point
@@ -150,8 +150,6 @@ THEN Queue To | `Q_email_<ID>`
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/kvhVYFLcUSo?rel=0" title="WxCC Lab #4: Predefined Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
-
-
 - Back in the Routing strategy list view, click the `Resources` menu at the top and then choose `Predefined Emails`.
 
 - Click on the `New` button.
@@ -201,7 +199,7 @@ Chat configuration is divided between to configuration interfaces:
 
 ## 1. Chat Entry Point, Queue, Template and Routing Strategy
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/y5NC5s2KfAU?rel=0" title="WxCC Lab #4: Chat EP Q Template and RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/y5NC5s2KfAU?rel=0" title="WxCC Lab #4: Chat EP Q Template and RS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1.1 Chat Entry Point
 - Login to [WxCC Portal](https://portal.wxcc-us1.cisco.com){:target="_blank"} and go to `Provisioning -> Entry Point/Queues -> Entry Point`.
