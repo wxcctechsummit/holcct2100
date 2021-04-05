@@ -189,7 +189,7 @@ function nextLab() {window.location.href = "https://wxcctechsummit.github.io/hol
 
   <button onclick="nextLab()" style="
   position: absolute;
-  right: 200px;
+  right: 100px;
   border-radius: 5px;
   background-color: rgb(0,255,0);
   padding: 10px;">Next Lab 4: Email and Chat Configuration</button>
