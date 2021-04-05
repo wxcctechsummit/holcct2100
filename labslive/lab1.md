@@ -218,7 +218,7 @@ function nextLab() {window.location.href = "https://wxcctechsummit.github.io/hol
 <div id="button-row">
   <button onclick="nextLab()" style="
   position: absolute;
-  center: 200px;
+  right: 200px;
   border-radius: 5px;
   background-color: rgb(192,192,192);
   padding: 10px;">Next Lab 2: Exploring the Agent Desktop</button>
