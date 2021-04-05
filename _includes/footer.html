@@ -1,37 +1,50 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="row">
 
-  <div class="wrapper">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
+    <div class="column">
+
+      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+      <div class="row collapse">
+        <div class="column medium-4">
+          <ul class="contact-list">
+            <li><a href="https://www.nsnam.org/wiki/" target="_blank">Wiki</a></li>
+            <li><a href="https://gitlab.com/nsnam/ns-3-dev/issues/" target="_blank">Issue tracker</a></li>
+            <li><a href="https://www.nsnam.org/bugzilla" target="_blank">Legacy issue tracker</a></li>
+            <!-- <li class="p-name">
+              {%- if site.author -%}
+                {{ site.author | escape }}
+              {%- else -%}
+                {{ site.title | escape }}
+              {%- endif -%}
+            </li> -->
+            {%- if site.email -%}
+              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+          </ul>
+        </div>
+
+        <div class="column medium-4">
+          {%- include social.html -%}
+        </div>
+
+        <div class="column medium-4">
+          <p>{{- site.description | escape -}}</p>
+        </div>
+
+        <div class="column">
+          <p class="text-center"><small>&copy; 2011 &mdash; {{ site.time | date: '%Y' }} {{ site.author }} &bull; <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> Unless otherwise noted, license for website content:  CC BY-SA 4.0</a></small></p>
+        </div>
+
       </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
+
     </div>
 
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
+    <script>
+      $(document).foundation();
+    </script>
 
   </div>
-
 </footer>
