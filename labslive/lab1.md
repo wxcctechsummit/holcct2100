@@ -210,3 +210,21 @@ In this Lab, we will go through the tasks that are required to complete the gene
 [To top of this lab](#table-of-contents)
 
 ## Congratulations, you are now ready to start the [Lab 2: Exploring the Agent Desktop](lab2.md)
+
+<script>
+function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab2.html";}
+</script>
+
+<div id="button-row">
+	<button onclick="celeButton()" style="
+  border-radius: 5px;
+  background-color: rgb(192,192,192);
+  padding: 10px;">Click To Finish</button>
+
+  <button onclick="nextLab()" style="
+  position: absolute;
+  right: 200px;
+  border-radius: 5px;
+  background-color: rgb(192,192,192);
+  padding: 10px;">Next Lab 2: Exploring the Agent Desktop</button>
+</div>
