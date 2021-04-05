@@ -63,7 +63,7 @@ End customer can initiate queries from provided facebook page to contact center 
 ## Part 2: Configure Facebook Connector in WxCC Control Hub
 >The following video outlines how to create a new Facebook Connector in the Control Hub.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed//cD_8tB2yJfM?rel=0" title="WxCC Lab #6 Part 2: Configure Facebook Connector in WxCC Control Hub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/m964zPV7gbU?rel=0" title="WxCC Lab #6 Part 2: Configure Facebook Connector in WxCC Control Hub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
