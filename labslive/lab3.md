@@ -43,7 +43,7 @@ title: "Lab 3: IVR and Contact Routing"
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/aCJTdOW4uaE?rel=0" title="WxCC Lab #3 IVR & Call Routing1.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- Create a new flow `MyFirstFlow_<PodId>` where PodId is your unique pod number.
+- Create a new flow `MyFirstFlow_<AttendeeId>` where AttendeeId is your unique pod number.
 
 - Add play message step and configure it with `0_welcome.wav` prompt. 
 
@@ -55,21 +55,21 @@ title: "Lab 3: IVR and Contact Routing"
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/u1GDs_-YYK4?rel=0" title="WxCC Lab #3 IVR & Call Routing1.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- On the Portal create an inbound voice entry point `EP_voice_<podId>` (**_Provisioning > Entry Point_**)
+- On the Portal create an inbound voice entry point `EP_voice_<AttendeeId>` (**_Provisioning > Entry Point_**)
 
-- Map the external number on the Entry Point Mappings page (**_Proivisioning > Entry Point Mappings_**). Map the available DN to your `EP_voice_<podId>`, the DN is already added on Control Hub.
+- Map the external number on the Entry Point Mappings page (**_Proivisioning > Entry Point Mappings_**). Map the available DN to your `EP_voice_<AttendeeId>`, the DN is already added on Control Hub.
 
 ### 3. Configure the Entry Point Routing Strategy
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/3lrVvKLvvLc?rel=0" title="WxCC Lab #3 IVR & Call Routing1.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies > `EP_voice_<podId>`.
+- Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies > `EP_voice_<AttendeeId>`.
 
-- Map the flow `MyFirstFlow_<podId>`.
+- Map the flow `MyFirstFlow_<AttendeeId>`.
 
 ### 4. Make a test call
 
-- Login to the agent desktop into `Team1_wxcclab_<ID>` and go to a ready state. Login agent WebEx Calling application.
+- Login to the agent desktop into `Team1_wxcclab_<AttendeeId>` and go to a ready state. Login agent WebEx Calling application.
 
 - Login to the supervisor WebEx Calling app on your mobile.
 
@@ -77,7 +77,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 **Good to Know!**: The call is not dropped, as we use EndFlow block which finishes the flow but does not disconnect the call.
 
-- Modify `MyFirstFlow_<podId>` and replace EndFlow with Disconnect node from CallHandling section. Publish the flow.
+- Modify `MyFirstFlow_<AttendeeId>` and replace EndFlow with Disconnect node from CallHandling section. Publish the flow.
 
 - Place a test call again. The call should be disconnected after the welcome prompt.
 
@@ -108,21 +108,21 @@ title: "Lab 3: IVR and Contact Routing"
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/PriGepc0XnU?rel=0" title="WxCC Lab #3 IVR & Call Routing2.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- Create a voice queue `Q_voice_<podId>`. (Provisioning > Entry Point / Queue > Queue). 
+- Create a voice queue `Q_voice_<AttendeeId>`. (Provisioning > Entry Point / Queue > Queue). 
 
-- In Queue Call Distribution assign agent team `Team1_wxcclab_<ID>` to the Queue. Your Agent will then login to that team to get the call.
+- In Queue Call Distribution assign agent team `Team1_wxcclab_<AttendeeId>` to the Queue. Your Agent will then login to that team to get the call.
 
 ### 3. Add Menu and Queue treatment to the flow
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/to58MHGUCq0?rel=0" title="WxCC Lab #3 IVR & Call Routing2.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- Modify `MyFirstFlow_<podId>`:
+- Modify `MyFirstFlow_<AttendeeId>`:
   
   - replace a welcome prompt to the new one `Welcome.wav`
   
   - add Menu step with prompt `2OptionMenu.wav` and configure two options
   
-  - add Queue Contact step and configure it with queue `Q_voice_<podId>`
+  - add Queue Contact step and configure it with queue `Q_voice_<AttendeeId>`
 
 - Configure the play music with `QueueMusic.wav`prompt,  Start Offset `0`, Music Duration `120` to play 2 minutes of music.
 
@@ -130,7 +130,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 ### 4. Make a test call
 
-- Login to the agent desktop into `Team1_wxcclab_<ID>` and go to a ready state.
+- Login to the agent desktop into `Team1_wxcclab_<AttendeeId>` and go to a ready state.
 
 - From supervisor's WebEx Calling app, dial the number. You should hear the new welcome prompt, press `1` get the call on the agent desktop.
 
@@ -152,7 +152,7 @@ title: "Lab 3: IVR and Contact Routing"
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/dYyM5GPxG9w?rel=0" title="WxCC Lab #3 IVR & Call Routing3.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- Configure the event flow inside `MyFirstFlow_<podId>`
+- Configure the event flow inside `MyFirstFlow_<AttendeeId>`
 
 - On AgentAnswered Event add Screen Pop block and configure it with:
    
@@ -164,7 +164,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 ### 2. Make a test call
 
-- Login to the agent desktop into `Team1_wxcclab_<ID>` and go to a ready state.
+- Login to the agent desktop into `Team1_wxcclab_<AttendeeId>` and go to a ready state.
 
 - From supervisor's WebEx Calling app, dial the number, press `1`  and get the call on the agent desktop.
 
