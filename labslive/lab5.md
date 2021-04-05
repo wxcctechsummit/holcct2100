@@ -54,7 +54,7 @@ In this lab, we will show you the existing dashboards which are available for su
 
 - Navigate to **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}** in a new browser tab
 
-- Enter the suprvisor’s **Username** which you created in the lab 1.
+- Enter the suprvisor’s **Username** which you created in the first lab.
 
 - Enter the **Password** for the appropriate Username.
 
@@ -100,8 +100,11 @@ In this lab, we will show you the existing dashboards which are available for su
 
 ### 2. Remote Agent Logout 
 
-- To log out an agent, click **Sign Out** button in the Action field. Make sure that you receive a notification that the agent has been successfully logged out.
-Note: You can log out agents who are in the Available, Idle, or Not Responding. If the agent is in a **Connected** state the Sign Out button will not be available.
+- To log out an agent, click **Sign Out** button in the **Action** column. 
+
+- Make sure that you receive a notification that the agent has been successfully logged out.
+
+> **Note:** You can log out agents who are in the Available, Idle, or Not Responding. If the agent is in a **Connected** state the Sign Out button will not be available.
 
 - Go to the Agent desktop and verify the agent status. He should receive the notification that the supervisor has signed him out.
 
@@ -110,9 +113,7 @@ Note: You can log out agents who are in the Available, Idle, or Not Responding. 
 | User Profiles        | Supervisor Profile \<ID\>   | 
 | Supervisor         | supervisor1_\<ID\>@mailinator.com | 
 
-**NOTE:**
-
-Your \<ID\> is provided in the email in the **"Attendee ID"** line.
+> **NOTE:** Your \<ID\> is provided in the email in the **"Attendee ID"** line.
 
 ### 3. Supervisor’s User Profile
 
