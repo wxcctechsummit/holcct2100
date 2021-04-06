@@ -138,7 +138,6 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/IwZhFw7NT5g?rel=0" title="WxCC Lab #2 Part 2: Agent Desktop Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
 ### 1. Introducing the Agent Desktop Interface
 
@@ -172,7 +171,6 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/qbP_q0RYwFE?rel=0" title="WxCC Lab #2 Part 3: Configure the User Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
 ### 1. Change Notifications setting and volume
 
@@ -218,7 +216,6 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/CRoZlFAS49I?rel=0" title="WxCC Lab #2 Part 4: Custom Desktop Layout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
 ### 1. Download default desktop Layout
 
