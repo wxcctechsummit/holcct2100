@@ -25,7 +25,7 @@ title: "Lab 4: Email and Chat Configuration"
     - [1.4 Chat Entry point routing strategy creation](#14-chat-entry-point-routing-strategy-creation)
   - [2. Predefined Chat Responses](#2-predefined-chat-responses)
   - [3. Test Chat customer and agent experience](#3-test-chat-customer-and-agent-experience)
-  - [Congratulations, you are now ready to start Lab 5: New Supervisor functionality](#congratulations-you-are-now-ready-to-start-lab-5-new-supervisor-functionality)
+
 
 # Introduction
 
