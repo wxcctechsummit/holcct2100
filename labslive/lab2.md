@@ -51,7 +51,7 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
-> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**
+> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**\
 > Webex Calling app **[https://settings.webex.com/](https://settings.webex.com/){:target="_blank"}**
 
 # Lab Section
@@ -333,20 +333,23 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 ### Congratulations, you are now ready to start [Lab 3](lab3.md)
 
 <script>
+function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/";}
 function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab3.html";}
 </script>
 
 <div id="button-row">
+	<button onclick="mainPage()" style="
+  border-radius: 5px;
+  background-color: rgb(116,191,75);
+  padding: 10px;">Go back to Main Page</button>
 
-  <button onclick="nextLab()" style="
+ <button onclick="nextLab()" style="
   position: absolute;
   right: 200px;
   border-radius: 5px;
   background-color: rgb(116,191,75);
-  padding: 10px;">Next Lab 3: IVR and Contact Routing</button>
+  padding: 10px;">Next Lab 2: Exploring the Agent Desktop</button>
+  
 </div>
 
-<br />
-<br />
-&nbsp;
-&nbsp;
+
