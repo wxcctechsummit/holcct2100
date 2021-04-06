@@ -148,20 +148,23 @@ In this lab, we will show you the existing dashboards which are available for su
 ### Congratulations, you have completed all mandatory labs. If you still have time, you can go through the [Bonus Lab 6](lab6.md)
 
 <script>
+function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/";}
 function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab6.html";}
 </script>
 
 <div id="button-row">
+	<button onclick="mainPage()" style="
+  border-radius: 5px;
+  background-color: rgb(116,191,75);
+  padding: 10px;">Go back to Main Page</button>
 
-  <button onclick="nextLab()" style="
+ <button onclick="nextLab()" style="
   position: absolute;
   right: 200px;
   border-radius: 5px;
   background-color: rgb(116,191,75);
-  padding: 10px;">Bonus Lab 6: Facebook Messenger Integration</button>
+  padding: 10px;">Next Bonus Lab 6: Facebook Messenger Integration</button>
+  
 </div>
 
-<br />
-<br />
-&nbsp;
-&nbsp;
+
