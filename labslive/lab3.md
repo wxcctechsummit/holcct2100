@@ -176,26 +176,25 @@ title: "Lab 3: IVR and Contact Routing"
 
 [To top of this lab](#table-of-contents)
 
+
 <script>
-//function celeButton() {document.body.style.backgroundImage="url('https://media.giphy.com/media/PMV7yRpwGO5y9p3DBx/giphy.gif')";}
+function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/";}
 function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab4.html";}
 </script>
 
 <div id="button-row">
-	<!-- <button onclick="celeButton()" style="
+	<button onclick="mainPage()" style="
   border-radius: 5px;
-  background-color: rgb(0,255,0);
-  padding: 10px;">Click To Finish</button> -->
+  background-color: rgb(116,191,75);
+  padding: 10px;">Go back to Main Page</button>
 
-  <button onclick="nextLab()" style="
+ <button onclick="nextLab()" style="
   position: absolute;
   right: 200px;
   border-radius: 5px;
   background-color: rgb(116,191,75);
   padding: 10px;">Next Lab 4: Email and Chat Configuration</button>
+  
 </div>
 
-<br />
-<br />
-&nbsp;
-&nbsp;
+
