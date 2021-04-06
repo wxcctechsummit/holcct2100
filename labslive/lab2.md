@@ -114,8 +114,9 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 
 ### 4. Agent Desktop Login
+> **Note**: To log in to the agent desktop, use either a separate web browser or a new incognito web page. This will prevent any browser caching issues with admin and agent credentials.
 
-- Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** in a new browser tab.
+- Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** in a new browser or in incognito mode.
 
 - Enter the agent’s **Username** `agent1_<ID>@mailinator.com` which you created in the previous lab.
 
