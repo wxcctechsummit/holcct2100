@@ -94,6 +94,8 @@ The objective of this lab is to **explore the New Agent Desktop**, in order to b
 
 - Open Webex Calling and сlick **Sign In**. Specify the agent credentials for `agent1_<ID>@mailinator.com`.
 
+- Navigate to **_File > Edit Server Address_** and make sure you have selected **North America** region
+
 ### 3. Download and Login in the Webex Calling app for mobile 
 
 > **Note:** You need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. In this lab, we will use the Webex Calling app for mobile for **supervisor** account.
