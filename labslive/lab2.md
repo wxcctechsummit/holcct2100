@@ -233,7 +233,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 
 - Modify the **_appTitle_** key value with your company name in order to change Agent Desktop title.
 
-- Modify the **_logo_** key value with your company logo URL or use this **[CiscoLive logo](https://raw.githubusercontent.com/wxcctechsummit/holcct2100/main/labslive/CiscoLiveLogo.jpg){:target="_blank"}**.
+- Modify the **_logo_** key value with your company logo URL or use this **https://raw.githubusercontent.com/wxcctechsummit/holcct2100/main/labslive/CiscoLiveLogo.jpg**.
 
 - **_Save As_** the JSON file with a distinguishable name.
 
