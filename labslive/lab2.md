@@ -287,7 +287,7 @@ Finally, in order to make sure that you have understood the basic concepts, we a
 [To top of this lab](#table-of-contents)
 
 
-### Congratulations, you are now ready to start [Lab 3](lab3.md)
+### Congratulations, you have completed the agent section. Now you can start configuring incoming and outgoing calls in [Lab 3](lab3.md)
 
 <script>
 function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/";}
