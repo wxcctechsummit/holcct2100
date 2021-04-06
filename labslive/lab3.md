@@ -43,7 +43,7 @@ title: "Lab 3: IVR and Contact Routing"
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/aCJTdOW4uaE?rel=0" title="WxCC Lab #3 IVR & Call Routing1.1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- Create a new flow `MyFirstFlow_<AttendeeId>` where AttendeeId is your unique pod number.
+- Create a new flow `MyFirstFlow_<AttendeeId>`.
 
 - Add play message step and configure it with `0_welcome.wav` prompt. 
 
@@ -191,7 +191,7 @@ function nextLab() {window.location.href = "https://wxcctechsummit.github.io/hol
   position: absolute;
   right: 200px;
   border-radius: 5px;
-  background-color: rgb(0,255,0);
+  background-color: rgb(116,191,75);
   padding: 10px;">Next Lab 4: Email and Chat Configuration</button>
 </div>
 
