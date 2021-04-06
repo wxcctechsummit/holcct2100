@@ -44,7 +44,6 @@ In this lab, we will show you the existing dashboards which are available for su
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/E5IQn55aFmM?rel=0" title="WxCC Lab #5 Part 1: Portal Dashboards" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
  
 ### 1. Management Portal with Supervisor account
 
@@ -86,7 +85,6 @@ In this lab, we will show you the existing dashboards which are available for su
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/nseNRPTL7Ag?rel=0" title="WxCC Lab #5 Part 2: Supervisor permissions and remote agent logout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
 ### 1. Agent State Data – Realtime dashboard 
 
@@ -147,6 +145,23 @@ In this lab, we will show you the existing dashboards which are available for su
 
 
 
-## Congratulations, you have completed all mandatory labs. If you still have time, you can go through the [Bonus Lab 6: Facebook Messenger Integration](lab6.md)
+### Congratulations, you have completed all mandatory labs. If you still have time, you can go through the [Bonus Lab 6](lab6.md)
 
+<script>
+function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab6.html";}
+</script>
 
+<div id="button-row">
+
+  <button onclick="nextLab()" style="
+  position: absolute;
+  right: 200px;
+  border-radius: 5px;
+  background-color: rgb(192,192,192);
+  padding: 10px;">Bonus Lab 6: Facebook Messenger Integration</button>
+</div>
+
+<br />
+<br />
+&nbsp;
+&nbsp;

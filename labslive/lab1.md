@@ -181,11 +181,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 - Enter the admin email id and the password.
 
-- Navigate to **_Contact Center_** Card.
+- Navigate to **_Contact Center_** card/
 
-- Click on **_Settings_**.
-
-- Click on `Synchronize Users`.
+- Click on **_Settings_** and then `Synchronize Users`.
 
 ### 2. Manage settings for existing user
 
@@ -223,10 +221,12 @@ function nextLab() {window.location.href = "https://wxcctechsummit.github.io/hol
   background-color: rgb(192,192,192);
   padding: 10px;">Go back to Main Page</button>
 
-  <button onclick="nextLab()" style="
+ <button onclick="nextLab()" style="
   position: absolute;
   right: 200px;
   border-radius: 5px;
   background-color: rgb(192,192,192);
   padding: 10px;">Next Lab 2: Exploring the Agent Desktop</button>
+  
 </div>
+

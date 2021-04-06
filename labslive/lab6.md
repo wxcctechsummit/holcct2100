@@ -42,7 +42,7 @@ End customer can initiate queries from provided facebook page to contact center 
 ## Part 1: Organization admin: set up Facebook account
 >The following video provides detailed steps of configuration from the Facebook side. It will show you how to create a new Facebook page and how to collect API data for Facebook integration.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/-i07ntBMQ20?rel=0" title="WxCC Lab #6 Part 1: Organization admin: set up Facebook account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/shA0PY6uJsE?rel=0" title="WxCC Lab #6 Part 1: Organization admin: set up Facebook account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Steps for creating a Facebook page
@@ -63,7 +63,7 @@ End customer can initiate queries from provided facebook page to contact center 
 ## Part 2: Configure Facebook Connector in WxCC Control Hub
 >The following video outlines how to create a new Facebook Connector in the Control Hub.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/nJI4LrL0sJo?rel=0" title="WxCC Lab #6 Part 2: Configure Facebook Connector in WxCC Control Hub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/m964zPV7gbU?rel=0" title="WxCC Lab #6 Part 2: Configure Facebook Connector in WxCC Control Hub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -89,7 +89,7 @@ End customer can initiate queries from provided facebook page to contact center 
 ## Part 3: Configure Facebook Connector in Management Portal
 >Here we go through the list of settings which are needed from the Management Portal perspective. 
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/gmi_kPIOixE?rel=0" title="WxCC Lab #6 Part 3: Configure Facebook Connector in Management Portal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/arpN3yrxAXM?rel=0" title="WxCC Lab #6 Part 3: Configure Facebook Connector in Management Portal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -153,7 +153,7 @@ End customer can initiate queries from provided facebook page to contact center 
 ## Part 4: Testing Facebook Chat to Agent Desktop
 >The following video will show how to test the configuration. It will demonstrate how to send a message from Facebook page and how it can be managed by agent.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/6Y-VNupYLns?rel=0" title="WxCC Lab #6 Part 4: Testing Facebook Chat to Agent Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/QcZUcf4e0yU?rel=0" title="WxCC Lab #6 Part 4: Testing Facebook Chat to Agent Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -168,4 +168,20 @@ End customer can initiate queries from provided facebook page to contact center 
 - Click **_Accept_** to handle the contact, after responding close the task.
 
 
-## Congratulations, you have completed the **bonus section**. Well done!!!
+### Congratulations, you have completed the **bonus section**. Well done!!!
+
+<script>
+function celeButton() {document.body.style.backgroundImage="url('https://media.giphy.com/media/PMV7yRpwGO5y9p3DBx/giphy.gif')";}
+</script>
+
+<div id="button-row">
+	<button onclick="celeButton()" style="
+  border-radius: 5px;
+  background-color: rgb(255,153,51);
+  padding: 10px;">Click To Finish</button>
+</div>
+
+<br />
+<br />
+&nbsp;
+&nbsp;
