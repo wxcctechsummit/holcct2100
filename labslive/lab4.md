@@ -361,7 +361,7 @@ function nextLab() {window.location.href = "https://wxcctechsummit.github.io/hol
   position: absolute;
   right: 200px;
   border-radius: 5px;
-  background-color: rgb(192,192,192);
+  background-color: rgb(116,191,75);
   padding: 10px;">Next Lab 5: New Supervisor functionality</button>
 </div>
 

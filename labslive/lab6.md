@@ -177,7 +177,7 @@ function celeButton() {document.body.style.backgroundImage="url('https://media.g
 <div id="button-row">
 	<button onclick="celeButton()" style="
   border-radius: 5px;
-  background-color: rgb(255,153,51);
+  background-color: rgb(116,191,75);
   padding: 10px;">Click To Finish</button>
 </div>
 
