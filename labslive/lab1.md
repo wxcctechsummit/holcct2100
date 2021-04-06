@@ -88,7 +88,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 - Select the supervisor user and modify his role to **_Supervisor_** by clicking the top **_Edit_** button in front of **_Services_**. Click **_Save_** to confirm the changes.
 
-- Validate the users by going to [https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}. 
+- Validate the users by going to [https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"} and putting agent/supervisor email in to **_Enter Public Mailinator Inbox_** 
+
+> **Note:** Any user may read any email without sign-up, passwords, or personal information. Mailinator does not store identifying information about user access.
 
 - Check the email inboxes and follow the **Cisco Webex** email instructions to activate the user accounts. For the user activation, you have to set the password twice for both users.
 
