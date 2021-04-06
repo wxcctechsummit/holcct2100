@@ -351,21 +351,25 @@ The content of the body element is displayed in your browser.
 
 ### Congratulations, you are now ready to start [Lab 5](lab5.md)
 
+
 <script>
+function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/";}
 function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2100/labslive/lab5.html";}
 </script>
 
 <div id="button-row">
+	<button onclick="mainPage()" style="
+  border-radius: 5px;
+  background-color: rgb(116,191,75);
+  padding: 10px;">Go back to Main Page</button>
 
-  <button onclick="nextLab()" style="
+ <button onclick="nextLab()" style="
   position: absolute;
   right: 200px;
   border-radius: 5px;
   background-color: rgb(116,191,75);
   padding: 10px;">Next Lab 5: New Supervisor functionality</button>
+  
 </div>
 
-<br />
-<br />
-&nbsp;
-&nbsp;
+
