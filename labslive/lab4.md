@@ -337,7 +337,7 @@ The content of the body element is displayed in your browser.
 </body>
 </html>
 ```
-- Click on the **Run** button, a Chat bubble button should appear at the bottom left of the browser window.
+- Click on the **Run** button, a Chat bubble button should appear at the bottom right of the browser window.
 
 - Fill in the Chat form.
 
