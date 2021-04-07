@@ -200,7 +200,7 @@ title: "Lab 3: IVR and Contact Routing"
 
 - Ensure the strategy **time of day** setting is correctly **open 24x7** and marked as **_Default_**.
 
-- Go back to the Management Portal. Navigate to **_Provisioning > Outdial ANI > Create an Outdial ANI_** on the setup by mapping it to the existing toll free number.
+- Go back to the Management Portal. Navigate to **_Provisioning > Outdial ANI_**, create an Outdial ANI `OutdialANI_<ID>` on the setup by mapping it to the existing toll free number.
 
 - Go to **_Provisioning > Agent Profiles_** and edit the one which is assigned with your agent. By default it is called `Agent-Profile`.
 
