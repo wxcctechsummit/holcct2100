@@ -61,7 +61,7 @@ In this part, we will be configuring Email Account settings to ensure WxCC can f
 
 Follow the instructions below to set the necesary settings on the GMAIL account:
 
-- Open a new browser tab and login to the Gmail account with the provided credentials. You might have to use your mobile phone to authenticate.
+- Open a new browser tab and login to the Gmail account with the provided credentials. If you are asked by Google to "Verify it's you" is you", you can use your mobile number or select option to  confirm reovery email address which is `techsummit@email.carehybrid.com`
 
 - Click on settings icon on top right corner -> Select `See all settings`.
 
