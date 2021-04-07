@@ -61,7 +61,7 @@ In this part, we will be configuring Email Account settings to ensure WxCC can f
 
 Follow the instructions below to set the necesary settings on the GMAIL account:
 
-- Open a new browser tab and login to the Gmail account with the provided credentials. If you are asked by Google to "Verify it's you" is you", use the following recovery email address `techsummit@email.carehybrid.com`. If that doensn't work, you can use your mobile number or ask a proctor for help.
+- Open a new browser tab and login to the Gmail account with the provided credentials. If you are asked by Google to "Verify it's you" is you", click "Confirm your recovery email address" and use the following recovery email address `techsummit@email.carehybrid.com`. If that doensn't work, you can use your mobile number or ask a proctor for help.
 
 - Click on settings icon on top right corner -> Select `See all settings`.
 
