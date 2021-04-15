@@ -27,6 +27,6 @@
 
 
 # We look forward to seeing you next year!
-<img src="CL2.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<img src="CL2.png" style="display: block; margin-left: auto; margin-right: auto;">
 
 
