@@ -1,7 +1,7 @@
 <script>
     document.getElementsByClassName("site-title").item(0).innerHTML = '<a class="site-title" rel="author" href="https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=Anytime21&search=Webex%20Contact%20Center#/">Cisco Live 2021</a>';
 </script>
-<img src="/holcct2100/images/wxcclogo.png">
+<img src="labslive/CL2.png" align="center">
 
 # Webex Contact Center Learning Map
 
