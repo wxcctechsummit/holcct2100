@@ -1,10 +1,9 @@
 <script>
-    document.getElementsByClassName("project-name").item(0).innerText = "Cisco Live 2021";
+    document.getElementsByClassName("site-title").item(0).innerText = "Cisco Live 2021";
 </script>
 
---- 
-title: "Webex Contact Center Learning Map 2021"
----
+# "Webex Contact Center Learning Map 2021"
+
 
 ## Breakout Sessions
 - [PSOCCT-1901 - The Future of Customer Experience with Cisco + IMImobile](https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=Anytime21&search=PSOCCT-1901#/session/1611153677982001Vf0z)
