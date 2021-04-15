@@ -1,4 +1,8 @@
----
+<script>
+    document.getElementsByClassName("project-name").item(0).innerText = "Cisco Live 2021";
+</script>
+
+--- 
 title: "Webex Contact Center Learning Map 2021"
 ---
 
