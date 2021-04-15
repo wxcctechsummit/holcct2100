@@ -1,8 +1,7 @@
 ---
-title: "Cisco Live 2021: Webex Contact Center Sessions Dashboard"
+title: "Cisco Live 2021" 
+title: "Webex Contact Center Learning Map"
 ---
-
-# Cisco Live 2021: Webex Contact Center Learning Map
 
 ## Breakout Sessions
 - [PSOCCT-1901 - The Future of Customer Experience with Cisco + IMImobile](https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=Anytime21&search=PSOCCT-1901#/session/1611153677982001Vf0z)
