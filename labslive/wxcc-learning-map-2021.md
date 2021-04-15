@@ -1,7 +1,7 @@
 <script>
     document.getElementsByClassName("site-title").item(0).innerHTML = '<a class="site-title" rel="author" href="https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=Anytime21&search=Webex%20Contact%20Center#/">Cisco Live 2021</a>';
 </script>
-<img src="holcct2100/labslive/CiscoLiveLogo.jpg " align="center">
+<img src="labslive/CL2.png" align="center">
 
 # Webex Contact Center Learning Map
 
@@ -14,9 +14,9 @@
 - [BRKCCT-2016 - The New Webex Contact Center Agent Desktop - Architecture and Feature Deep Dive](https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=Anytime21&search=BRKCCT-2016#/session/1611343128195001J1Mx)
 
 ## Lab Guides
-- [HOLCCT-2100 - Webex Contact Center (WxCC) Uplift](https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=connected-learning&search=HOLCCT-2100#/session/1610712847226001bhmV)     [Lab Guide](https://wxcctechsummit.github.io/holcct2100/)
-- [HOLCCT-2107 - New Webex Contact Center Flow Designer - Deep Dive](https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=connected-learning&search=HOLCCT-2107#/session/1610644416624001FaYp)     [Lab Guide](https://wxcctechsummit.github.io/holcct2108/)
-- [HOLCCT-2108 - New Webex Contact Center Analyzer - Data and Analytics Deep Dive](https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=connected-learning&search=HOLCCT-2108#/session/1610748846868001cTbF)      [Lab Guide](https://wxcctechsummit.github.io/holcct2108/) 
+- [HOLCCT-2100 - Webex Contact Center (WxCC) Uplift](https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=connected-learning&search=HOLCCT-2100#/session/1610712847226001bhmV)      - [Lab Guide](https://wxcctechsummit.github.io/holcct2100/)
+- [HOLCCT-2107 - New Webex Contact Center Flow Designer - Deep Dive](https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=connected-learning&search=HOLCCT-2107#/session/1610644416624001FaYp)     - [Lab Guide](https://wxcctechsummit.github.io/holcct2108/)
+- [HOLCCT-2108 - New Webex Contact Center Analyzer - Data and Analytics Deep Dive](https://www.ciscolive.com/2021/learn/session-catalog.html?tab.digitalbundle=connected-learning&search=HOLCCT-2108#/session/1610748846868001cTbF)      - [Lab Guide](https://wxcctechsummit.github.io/holcct2108/) 
 
 
 # We look forward to seeing you next year!
