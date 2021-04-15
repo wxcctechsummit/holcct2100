@@ -1,6 +1,5 @@
 ---
-title: "Cisco Live 2021" 
-title: "Webex Contact Center Learning Map"
+title: "Webex Contact Center Learning Map 2021"
 ---
 
 ## Breakout Sessions
