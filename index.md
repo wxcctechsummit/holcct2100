@@ -20,6 +20,5 @@ In the table below you can find the agenda of the lab and some referred links, w
 | 60 min  | [Lab 3: IVR and Contact Routing](labslive/lab3.md) |
 | 45 min  | [Lab 4: Email and Chat Configuration](labslive/lab4.md)|
 | 30 min  | [Lab 5: New Supervisor functionality](labslive/lab5.md) |
-| OPTIONAL | [Bonus Lab 6: Facebook Messenger Integration](labslive/lab6.md) |
 
 
