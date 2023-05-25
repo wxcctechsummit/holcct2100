@@ -1,3 +1,9 @@
+<script>
+
+window.onload=function(){window.location ="https://webexcc.github.io/"}
+
+</script>
+
 <img src="labslive/cisco.png" align="left" />
 <img src="labslive/CL2.png" align="right" />
 <br />
